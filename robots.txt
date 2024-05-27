@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+user-agent: *
+disallow: /downloads/
+
