@@ -23,6 +23,7 @@ body {
     padding-bottom: 50px !important;
 }
 
+
 ol,
 ul {
     list-style: none;
@@ -172,6 +173,12 @@ Banner
     /* background: url('../img/banner-1.jpg') no-repeat center top; */
     /* background-size: cover; */
     min-height: 580px;
+    position: relative;
+}
+.banner1 {
+    /* background: url('../img/banner-1.jpg') no-repeat center top; */
+    /* background-size: cover; */
+    min-height: 500px;
     position: relative;
 }
 
@@ -1021,7 +1028,7 @@ Responsive media queries
     .navbar-right {
         float: right !important;
         margin-right: -15px;
-        margin-top: -43px !important;
+        margin-top: -19px !important;
     }
 
     .cont {
@@ -1040,15 +1047,14 @@ Responsive media queries
     p {
         margin: 40px 0 25px;
     }
-    .quote .btn {
+    /* .quote .btn {
         background-color: #5fcf80;
         color: #fff;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
         /* margin-top: 64px; */
-        font-size: 14px;
-    }
+       
     .navbar-toggle {
         position: relative;
         float: right;
@@ -1090,7 +1096,7 @@ Responsive media queries
         text-align: center;
         margin-top: 39px;
     }
-    button {
+    .button1 {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
         letter-spacing: 1px;
         font-size: 15px;
@@ -1102,7 +1108,7 @@ Responsive media queries
         width: 195px;
         transition: .3s ease-in-out 0s;
         border: 2px solid lightgreen;
-        margin-top: -40px;
+         margin-top: -44px; 
         border-radius: 4px;
     }
     .bg {
@@ -1134,6 +1140,21 @@ Responsive media queries
     font-weight: 900 !important;
     text-align: center !important;
 }
+.lightbox-img {
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 6%;
+}
+
+.close {
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: 15%;
+    right: 35%;
+    cursor: pointer;
+}
+
 
 }
 
@@ -1150,8 +1171,27 @@ Responsive media queries
         border: 1px solid transparent;
         border-radius: 4px;
     }
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 30% !important;
+    }
+    
+    .close {
+        color: #fff;
+        font-size: 2em;
+        position: absolute;
+        top: 15%;
+        right: 5% !important;
+        cursor: pointer;
+    }
+    
+  
 .foot {
     /* margin-top:-15%; */
+}
+.front{
+    font-size: 16px;
 }
     .text-dec {
         font-size: 30px;
@@ -1255,11 +1295,11 @@ Responsive media queries
     }
 
 
-    button {
+    .button111 {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
         letter-spacing: 1px;
         font-size: 15px;
-        background-color: rgba(52, 159, 110, 1);
+        /* background-color: rgba(52, 159, 110, 1); */
         color: white;
         display: block;
         height: 45px;
@@ -1372,6 +1412,9 @@ Responsive media queries
     }
     .top4 {
         margin-top: -60px !important;
+    }
+    .but1{
+        width: 45%;
     }
 }
 
@@ -1510,11 +1553,11 @@ Responsive media queries
         margin-top: -90px;
     }
 
-    button {
+    .button111 {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
         letter-spacing: 1px;
         font-size: 15px;
-        background-color: rgba(52, 159, 110, 1);
+        /* background-color: rgba(52, 159, 110, 1); */
         color: white;
         display: block;
         height: 45px;
@@ -1602,6 +1645,9 @@ Responsive media queries
 }
 .top4 {
 margin-top: -10px !important;
+}
+.bu1{
+    width: 45%;
 }
 }
 
@@ -1730,11 +1776,11 @@ margin-top: -10px !important;
 
 
 
-    button {
+    .button111 {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
         letter-spacing: 1px;
         font-size: 15px;
-        background-color: rgba(52, 159, 110, 1);
+     
         color: white;
         display: block;
         height: 45px;
@@ -1823,6 +1869,28 @@ margin-top: -10px !important;
         margin-top: 25px;
         overflow: hidden;
     }
+      
+    .front{
+        font-size: 12px;
+    } 
+    .but1{
+        width: 60% !important;
+    }
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 50% !important;
+    }
+    
+    .close {
+        color: #fff;
+        font-size: 2em;
+        position: absolute;
+        top: 25% !important;
+        right: 4% !important;
+        cursor: pointer;
+    }
+    
 }
 
 @media (min-width: 451px) and (max-width: 768px) {
@@ -1852,14 +1920,11 @@ margin-top: -10px !important;
         font-size: 16px;
     }
 
-    .container-fluid>.navbar-collapse,
-    .container-fluid>.navbar-header,
-    .container>.navbar-collapse,
-    .container>.navbar-header {
-        margin-right: 0;
-        margin-left: -46px !important;
-        width: 108% !important;
-        font-size: 0px !important;
+    
+    
+      .container > .navbar-header {
+      
+      
     }
 
     .bg-color {
@@ -1867,49 +1932,52 @@ margin-top: -10px !important;
         margin-top: 6%;
     }
 
-    .proforma {
-        text-align: justify;
-        width: 99%;
-    }
-
-    .gym {
-        text-align: justify;
-        width: 107%;
-    }
-
+    .proforma,
+    .gym,
     .tech {
         text-align: justify;
-        width: 102%;
+        width: 100%; /* Adjusted width for consistency */
     }
-
 
     .what {
         margin-left: 53px !important;
     }
 
     .content_faq {
-        margin-left: 116px;
-        width: 75%;
+        margin-left: 0; /* Adjusted margin */
+        width: 100%; /* Adjusted width for consistency */
         text-align: justify;
     }
 
-
-
-
+    .front {
+        font-size: 14px;
+    }
+    .get-quote{
+        margin-bottom: 35px;
+    }
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 15% !important;
+    }
+    
+    .close {
+        color: #fff;
+        font-size: 2em;
+        position: absolute;
+        top: 20%!important;
+        right: 23% !important;
+        cursor: pointer;
+    }
 }
+
 
 @media (min-width: 769px) and (max-width: 980px) {
     .ser-text {
         font-size: 20px;
     }
 
-    .navbar-right {
-        float: right !important;
-        margin-right: -15px;
-        margin-top: 0px;
-
-    }
-
+  
     .service-box,
     .feature-info,
     .orga-stru {
@@ -1928,12 +1996,7 @@ margin-top: -10px !important;
         margin-left: 0px !important;
     }
 
-    .navbar-right {
-        float: right !important;
-        margin-right: -15px;
-        margin-top: -36px;
-        margin-left: -62px;
-    }
+   
 
     .free_inv_gen {
         background-color: #fffbfb;
@@ -1959,7 +2022,11 @@ margin-top: -10px !important;
 }
 
 @media (min-width: 981px) and (max-width: 1200px) {
-
+    .container11{
+        width: 120vh!important;
+       left: -25vh !important;
+        
+    }       
     .feature {
         /* margin-left: 35% !important; */
         color: #3b673b !important;
@@ -1975,7 +2042,7 @@ margin-top: -10px !important;
     .navbar-right {
         float: right !important;
         margin-right: -15px;
-        margin-top: -36px;
+        margin-top: -0px;
         margin-left: -62px;
     }
 
@@ -2006,11 +2073,20 @@ margin-top: -10px !important;
         margin: 0 0 40px;
         font-size: 24px;
     }
-
+ .front{
+    font-size: 13.5px;
+ }
+ body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 }
 
 @media (min-width: 1201px) and (max-width: 1450px) {
-
+    .container11{
+        width: 120vh!important;
+       left: -25vh !important;
+        
+    }       
     .free_inv_gen {
         background-color: #fffbfb;
         margin-left: 8px !important;
@@ -2031,6 +2107,9 @@ margin-top: -10px !important;
         margin-top: 10px !important;
         overflow: hidden;
     }
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
 
 }
 
@@ -2047,6 +2126,11 @@ margin-top: -10px !important;
     margin-left: 200px;
 }
 @media (min-width: 1451px) and (max-width: 1550px) {
+    .container11{
+        width: 120vh!important;
+       left: -25vh !important;
+        
+    }       
     .container-fluid {
         margin-top: 30px !important;
         overflow: hidden;
@@ -2057,6 +2141,12 @@ margin-top: -10px !important;
     .text {
         font-weight: 900 !important;
         text-align: center !important;
+    }
+    .front{
+        font-size: 17px ;
+    }
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
     }
 }
 
@@ -2085,4 +2175,15 @@ margin-top: -10px !important;
 .top2 {
     margin-top:-100px !important;
 }
+}
+@media (min-width: 2560px) and (max-width: 3550px) {
+    .container11{
+        width: 120vh!important;
+       left: -25vh !important;
+        
+    }
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    } 
+    
 }
