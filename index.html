@@ -443,7 +443,7 @@ border-radius: 4px;
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle button111" data-toggle="collapse" data-target="#myNavbar">
+            <button type="button" class="navbar-toggle button111" id="toggleNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -452,23 +452,10 @@ border-radius: 4px;
                 <img class="img1" src="img/axAsset 8 (1).svg" alt="nandalala-logo">
             </a>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <h4 style="margin-left: 20px;">All Features</h4>
-                        <li><a href="#">Proforma Invoice</a></li>
-                        <li><a href="#">Commercial Invoice</a></li>
-                        <li><a href="#">Sales Invoice</a></li>
-                        <li><a href="#">Blank Invoice</a></li>
-                        <li><a href="#">Medical Invoice</a></li>
-                        <li><a href="#">Supermarket Invoice</a></li>
-                        <li><a href="#">Textiles Invoice</a></li>
-                        <li><a href="#">Teaching Invoice</a></li>
-                    </ul>
-                </li>
+                <li><a href="index.html">Home</a></li>  
+               
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Invoice Templates <span class="caret"></span></a>
                     <ul class="dropdown-menu container11">
@@ -492,7 +479,7 @@ border-radius: 4px;
                             </div>
                             <div class="col-md-3 dropdown-column">
                                 <a href="Teaching_Invoice.html">Teaching Invoice</a>
-                                <a href="Consulting_Invoice .html">Consulting Invoice</a>
+                                <a href="Consulting_Invoice.html">Consulting Invoice</a>
                                 <a href="Photography_Invoice.html">Photography Invoice</a>
                                 <a href="Hourly_Rate_Invoice.html">Hourly Rate Invoice</a>
                                 <a href="Travel&Tourism_Invoice.html">Travel & Tourism Invoice</a>
@@ -510,19 +497,19 @@ border-radius: 4px;
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contactus">Contact Us</a></li>
                 <li><a href="#footer">About Us</a></li>
-                <li><a href="https://invoicefree.in/login" data-toggle="modal">Log In</a></li>
-                <li class="btn-trial"><a href="https://invoicefree.in/register" data-toggle="modal">Sign Up</a></li>
+                <li><a href="https://app.invoicefree.in/login" data-toggle="modal">Log In</a></li>
+                <li class="btn-trial"><a href="https://app.invoicefree.in/register" data-toggle="modal">Sign Up</a></li>
             </ul>
         </div>
     </div>
-  </nav>
+</nav>
 
   <!-- <div class="tp-bannertimer" style=""></div> -->
   <!--/ Navigation bar-->
 
   <!--    end of signup form-->
   <div class="row">
-    <div class="banner">
+    <div class="banner1">
       <div class="bg-color">
         <div class="container bg">
           <div class="row">
@@ -547,330 +534,412 @@ border-radius: 4px;
 
   <!--/ Banner-->
   <!--Feature-->
-    <section class="section-padding" id="feature">
-      <div class="container top featue">
-        <div class="row ">
-          <div class="header-section text-center">
-            <h2 class="fet">Features</h2>
-            <p class="feature_cnt content">Invoice a small Business Guide with just your smartphone.<br> Create GST
-              Invoice or Professional Invoice with Free Online Invoice Maker.
-              Unlimited GST Invoices.<br> You can Download, Print and Email Invoice.<br> You Can Share invoices whichever
-              way youlike - SMS, Email, Telegram, WhatsApp.</p>
-            <hr class="bottom-line">
-          </div>
-          <div class="row" style="width:100%">
-            <div class="feature-info">
-              <div class="fea">
-                <div class="col-md-6 col-sm-6  col-xl-6 panel">
-                  <div class="heading pull-right">
-                    <!-- <h2 class="feat">Features</h2> -->
-                    <h4>Proforma Invoice</h4>
-                    <p class="proforma" style="text-align: justify;">A proforma invoice is a preliminary bill of sale sent
-                      to a buyer in advance of a shipment or delivery of goods or services. It outlines the items or
-                      services to be provided, their prices, and other relevant details such as terms of sale, payment
-                      terms, and delivery schedule. This document serves as a quotation or an estimate and is not
-                      considered a legally binding document like a commercial invoice. Instead, it helps the buyer to
-                      understand the cost and terms of the transaction before making a purchase decision.</p>
-                  </div>
-                  <div class="fea-img pull-left">
-                    <svg className="mx-auto icon1" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                      viewBox="0 0 40 40" fill="none" aria-label="Proforma.icon">
-                      <path
-                        d="M35 4.0625C31.75 4.0625 28.1078 5.84531 24.1719 9.35938C21.3469 11.8844 18.9063 14.8281 17.2344 17.0312C15.8728 16.5785 14.4231 16.4556 13.0047 16.6725C11.5863 16.8895 10.2397 17.4402 9.07568 18.2792C7.91167 19.1183 6.96353 20.2218 6.3093 21.4988C5.65506 22.7759 5.31343 24.1901 5.3125 25.625C5.3125 30.6359 2.12032 32.8734 1.97657 32.9688C1.80836 33.0803 1.68065 33.2432 1.61243 33.4332C1.54421 33.6231 1.53913 33.8301 1.59793 34.0231C1.65674 34.2162 1.77629 34.3852 1.93882 34.5049C2.10134 34.6246 2.29816 34.6886 2.5 34.6875H14.375C15.8099 34.6866 17.2241 34.3449 18.5012 33.6907C19.7782 33.0365 20.8817 32.0883 21.7208 30.9243C22.5598 29.7603 23.1105 28.4137 23.3275 26.9953C23.5444 25.5769 23.4215 24.1272 22.9688 22.7656C25.1688 21.0984 28.1125 18.6531 30.6375 15.8281C34.1547 11.8922 35.9375 8.25 35.9375 5C35.9375 4.75136 35.8387 4.5129 35.6629 4.33709C35.4871 4.16127 35.2486 4.0625 35 4.0625ZM14.375 32.8125H4.78907C5.925 31.3828 7.1875 29.0281 7.1875 25.625C7.1875 24.2034 7.60904 22.8138 8.39882 21.6318C9.18859 20.4499 10.3111 19.5286 11.6245 18.9846C12.9378 18.4406 14.383 18.2983 15.7772 18.5756C17.1715 18.8529 18.4521 19.5375 19.4573 20.5427C20.4625 21.5479 21.1471 22.8286 21.4244 24.2228C21.7017 25.617 21.5594 27.0622 21.0154 28.3755C20.4714 29.6889 19.5501 30.8114 18.3682 31.6012C17.1862 32.391 15.7966 32.8125 14.375 32.8125ZM18.9828 17.8266C19.5453 17.0969 20.2141 16.2641 20.9688 15.375C22.4345 16.3189 23.6812 17.5655 24.625 19.0312C23.7391 19.7859 22.9063 20.4547 22.1734 21.0172C21.3939 19.7032 20.2968 18.6061 18.9828 17.8266ZM26.0453 17.7797C25.0291 16.2698 23.7302 14.9709 22.2203 13.9547C25.4766 10.3844 29.8438 6.5625 33.9938 6.00625C33.4375 10.1562 29.6156 14.5312 26.0453 17.7797Z"
-                        fill="#008065" />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <div class="fea">
-                <div class="col-md-6 col-sm-6  col-xl-6 panel">
-                  <div class="heading pull-right">
-                    <h4>Commercial Invoice</h4>
-                    <p style="text-align: justify;">A commercial invoice is a document that serves as a formal request for
-                      payment for goods sold or services rendered between a seller and a buyer in a commercial
-                      transaction. It provides a detailed breakdown of the transaction, including information about the
-                      goods or services, their quantity, unit prices, total costs, payment terms, and any applicable taxes
-                      or fees. In international trade, commercial invoices play a crucial role in customs clearance and
-                      compliance with import/export regulations.</p>
-                  </div>
-                  <div class="fea-img pull-left">
-                    <svg className="mx-auto icon1" xmlns="http://www.w3.org/2000/svg" width="35" height="30"
-                      viewBox="0 0 35 30" fill="none">
-                      <path
-                        d="M34.6667 10.6667H0C0.235005 6.97887 1.13859 3.36453 2.66667 0H32C33.5282 3.36449 34.4318 6.97885 34.6667 10.6667ZM5.33333 13.3333H29.3333V29.3333H26.6667V16H18.6667V29.3333H5.33333V13.3333ZM8 21.3333H16V16H8V21.3333Z"
-                        fill="#008065" aria-label="Commercial.icon" />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <div class="fea">
-                <div class="col-md-6 col-sm-6  col-xl-6 panel">
-                  <div class="heading pull-right">
-                    <h4>Sales Invoice</h4>
-                    <p style="text-align: justify;">A sales invoice is a document issued by a seller to a buyer to request
-                      payment for goods sold or services rendered. It serves as a formal record of the transaction and
-                      outlines the details of the sale, including the description of the goods or services, payment terms,
-                      and any applicable taxes or fees.
-                      Sales invoices are typically generated after the completion of a sale or the provision of services,
-                      and they serve as proof of the agreement between the buyer and seller.It serves as a formal record
-                      of the transaction </p>
-                  </div>
-                  <div class="fea-img pull-left">
-                    <svg className="mx-auto icon1" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                      viewBox="0 0 40 40" fill="none" aria-label="coin.icon">
-                      <path
-                        d="M31.6667 10.8334C28.9167 10.8334 26.6667 10.0834 26.6667 9.16675V10.8334C26.6667 11.7501 28.9167 12.5001 31.6667 12.5001C34.4167 12.5001 36.6667 11.7501 36.6667 10.8334V9.16675C36.6667 10.0834 34.4167 10.8334 31.6667 10.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 8.33341C28.9167 8.33341 26.6667 7.58341 26.6667 6.66675V8.33341C26.6667 9.25008 28.9167 10.0001 31.6667 10.0001C34.4167 10.0001 36.6667 9.25008 36.6667 8.33341V6.66675C36.6667 7.58341 34.4167 8.33341 31.6667 8.33341ZM31.6667 13.3334C28.9167 13.3334 26.6667 12.5834 26.6667 11.6667V13.3334C26.6667 14.2501 28.9167 15.0001 31.6667 15.0001C34.4167 15.0001 36.6667 14.2501 36.6667 13.3334V11.6667C36.6667 12.5834 34.4167 13.3334 31.6667 13.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 15.8334C28.9167 15.8334 26.6667 15.0834 26.6667 14.1667V15.8334C26.6667 16.7501 28.9167 17.5001 31.6667 17.5001C34.4167 17.5001 36.6667 16.7501 36.6667 15.8334V14.1667C36.6667 15.0834 34.4167 15.8334 31.6667 15.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 18.3334C28.9167 18.3334 26.6667 17.5834 26.6667 16.6667V18.3334C26.6667 19.2501 28.9167 20.0001 31.6667 20.0001C34.4167 20.0001 36.6667 19.2501 36.6667 18.3334V16.6667C36.6667 17.5834 34.4167 18.3334 31.6667 18.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 20.8334C28.9167 20.8334 26.6667 20.0834 26.6667 19.1667V20.8334C26.6667 21.7501 28.9167 22.5001 31.6667 22.5001C34.4167 22.5001 36.6667 21.7501 36.6667 20.8334V19.1667C36.6667 20.0834 34.4167 20.8334 31.6667 20.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 23.3334C28.9167 23.3334 26.6667 22.5834 26.6667 21.6667V23.3334C26.6667 24.2501 28.9167 25.0001 31.6667 25.0001C34.4167 25.0001 36.6667 24.2501 36.6667 23.3334V21.6667C36.6667 22.5834 34.4167 23.3334 31.6667 23.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 25.8334C28.9167 25.8334 26.6667 25.0834 26.6667 24.1667V25.8334C26.6667 26.7501 28.9167 27.5001 31.6667 27.5001C34.4167 27.5001 36.6667 26.7501 36.6667 25.8334V24.1667C36.6667 25.0834 34.4167 25.8334 31.6667 25.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 28.3334C28.9167 28.3334 26.6667 27.5834 26.6667 26.6667V28.3334C26.6667 29.2501 28.9167 30.0001 31.6667 30.0001C34.4167 30.0001 36.6667 29.2501 36.6667 28.3334V26.6667C36.6667 27.5834 34.4167 28.3334 31.6667 28.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 30.8334C28.9167 30.8334 26.6667 30.0834 26.6667 29.1667V30.8334C26.6667 31.7501 28.9167 32.5001 31.6667 32.5001C34.4167 32.5001 36.6667 31.7501 36.6667 30.8334V29.1667C36.6667 30.0834 34.4167 30.8334 31.6667 30.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 33.3334C28.9167 33.3334 26.6667 32.5834 26.6667 31.6667V33.3334C26.6667 34.2501 28.9167 35.0001 31.6667 35.0001C34.4167 35.0001 36.6667 34.2501 36.6667 33.3334V31.6667C36.6667 32.5834 34.4167 33.3334 31.6667 33.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 8.33333C34.4281 8.33333 36.6667 7.58714 36.6667 6.66667C36.6667 5.74619 34.4281 5 31.6667 5C28.9052 5 26.6667 5.74619 26.6667 6.66667C26.6667 7.58714 28.9052 8.33333 31.6667 8.33333Z"
-                        fill="#008065" />
-                      <path
-                        d="M31.6667 10C29.3333 10 27.4167 9.5 26.8333 8.75C26.75 8.91667 26.6667 9 26.6667 9.16667C26.6667 10.0833 28.9167 10.8333 31.6667 10.8333C34.4167 10.8333 36.6667 10.0833 36.6667 9.16667C36.6667 9 36.5833 8.91667 36.5 8.75C35.9167 9.5 34 10 31.6667 10ZM31.6667 12.5C29.3333 12.5 27.4167 12 26.8333 11.25C26.75 11.4167 26.6667 11.5 26.6667 11.6667C26.6667 12.5833 28.9167 13.3333 31.6667 13.3333C34.4167 13.3333 36.6667 12.5833 36.6667 11.6667C36.6667 11.5 36.5833 11.4167 36.5 11.25C35.9167 12 34 12.5 31.6667 12.5ZM31.6667 15C29.3333 15 27.4167 14.5 26.8333 13.75C26.75 13.9167 26.6667 14 26.6667 14.1667C26.6667 15.0833 28.9167 15.8333 31.6667 15.8333C34.4167 15.8333 36.6667 15.0833 36.6667 14.1667C36.6667 14 36.5833 13.9167 36.5 13.75C35.9167 14.5 34 15 31.6667 15ZM31.6667 17.5C29.3333 17.5 27.4167 17 26.8333 16.25C26.75 16.4167 26.6667 16.5 26.6667 16.6667C26.6667 17.5833 28.9167 18.3333 31.6667 18.3333C34.4167 18.3333 36.6667 17.5833 36.6667 16.6667C36.6667 16.5 36.5833 16.4167 36.5 16.25C35.9167 17 34 17.5 31.6667 17.5ZM31.6667 20C29.3333 20 27.4167 19.5 26.8333 18.75C26.75 18.9167 26.6667 19 26.6667 19.1667C26.6667 20.0833 28.9167 20.8333 31.6667 20.8333C34.4167 20.8333 36.6667 20.0833 36.6667 19.1667C36.6667 19 36.5833 18.9167 36.5 18.75C35.9167 19.5 34 20 31.6667 20ZM31.6667 22.5C29.3333 22.5 27.4167 22 26.8333 21.25C26.75 21.4167 26.6667 21.5 26.6667 21.6667C26.6667 22.5833 28.9167 23.3333 31.6667 23.3333C34.4167 23.3333 36.6667 22.5833 36.6667 21.6667C36.6667 21.5 36.5833 21.4167 36.5 21.25C35.9167 22 34 22.5 31.6667 22.5ZM31.6667 25C29.3333 25 27.4167 24.5 26.8333 23.75C26.75 23.9167 26.6667 24 26.6667 24.1667C26.6667 25.0833 28.9167 25.8333 31.6667 25.8333C34.4167 25.8333 36.6667 25.0833 36.6667 24.1667C36.6667 24 36.5833 23.9167 36.5 23.75C35.9167 24.5 34 25 31.6667 25ZM31.6667 27.5C29.3333 27.5 27.4167 27 26.8333 26.25C26.75 26.4167 26.6667 26.5 26.6667 26.6667C26.6667 27.5833 28.9167 28.3333 31.6667 28.3333C34.4167 28.3333 36.6667 27.5833 36.6667 26.6667C36.6667 26.5 36.5833 26.4167 36.5 26.25C35.9167 27 34 27.5 31.6667 27.5ZM31.6667 30C29.3333 30 27.4167 29.5 26.8333 28.75C26.75 28.9167 26.6667 29 26.6667 29.1667C26.6667 30.0833 28.9167 30.8333 31.6667 30.8333C34.4167 30.8333 36.6667 30.0833 36.6667 29.1667C36.6667 29 36.5833 28.9167 36.5 28.75C35.9167 29.5 34 30 31.6667 30ZM31.6667 32.5C29.3333 32.5 27.4167 32 26.8333 31.25C26.75 31.4167 26.6667 31.5 26.6667 31.6667C26.6667 32.5833 28.9167 33.3333 31.6667 33.3333C34.4167 33.3333 36.6667 32.5833 36.6667 31.6667C36.6667 31.5 36.5833 31.4167 36.5 31.25C35.9167 32 34 32.5 31.6667 32.5Z"
-                        fill="#008065" />
-                      <path
-                        d="M8.33333 15.8334C5.58333 15.8334 3.33333 15.0834 3.33333 14.1667V15.8334C3.33333 16.7501 5.58333 17.5001 8.33333 17.5001C11.0833 17.5001 13.3333 16.7501 13.3333 15.8334V14.1667C13.3333 15.0834 11.0833 15.8334 8.33333 15.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M8.33333 13.3334C5.58333 13.3334 3.33333 12.5834 3.33333 11.6667V13.3334C3.33333 14.2501 5.58333 15.0001 8.33333 15.0001C11.0833 15.0001 13.3333 14.2501 13.3333 13.3334V11.6667C13.3333 12.5834 11.0833 13.3334 8.33333 13.3334ZM8.33333 18.3334C5.58333 18.3334 3.33333 17.5834 3.33333 16.6667V18.3334C3.33333 19.2501 5.58333 20.0001 8.33333 20.0001C11.0833 20.0001 13.3333 19.2501 13.3333 18.3334V16.6667C13.3333 17.5834 11.0833 18.3334 8.33333 18.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M8.33333 20.8334C5.58333 20.8334 3.33333 20.0834 3.33333 19.1667V20.8334C3.33333 21.7501 5.58333 22.5001 8.33333 22.5001C11.0833 22.5001 13.3333 21.7501 13.3333 20.8334V19.1667C13.3333 20.0834 11.0833 20.8334 8.33333 20.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M8.33333 23.3334C5.58333 23.3334 3.33333 22.5834 3.33333 21.6667V23.3334C3.33333 24.2501 5.58333 25.0001 8.33333 25.0001C11.0833 25.0001 13.3333 24.2501 13.3333 23.3334V21.6667C13.3333 22.5834 11.0833 23.3334 8.33333 23.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M8.33333 25.8334C5.58333 25.8334 3.33333 25.0834 3.33333 24.1667V25.8334C3.33333 26.7501 5.58333 27.5001 8.33333 27.5001C11.0833 27.5001 13.3333 26.7501 13.3333 25.8334V24.1667C13.3333 25.0834 11.0833 25.8334 8.33333 25.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M8.33333 28.3334C5.58333 28.3334 3.33333 27.5834 3.33333 26.6667V28.3334C3.33333 29.2501 5.58333 30.0001 8.33333 30.0001C11.0833 30.0001 13.3333 29.2501 13.3333 28.3334V26.6667C13.3333 27.5834 11.0833 28.3334 8.33333 28.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M8.33333 30.8334C5.58333 30.8334 3.33333 30.0834 3.33333 29.1667V30.8334C3.33333 31.7501 5.58333 32.5001 8.33333 32.5001C11.0833 32.5001 13.3333 31.7501 13.3333 30.8334V29.1667C13.3333 30.0834 11.0833 30.8334 8.33333 30.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M8.33333 33.3334C5.58333 33.3334 3.33333 32.5834 3.33333 31.6667V33.3334C3.33333 34.2501 5.58333 35.0001 8.33333 35.0001C11.0833 35.0001 13.3333 34.2501 13.3333 33.3334V31.6667C13.3333 32.5834 11.0833 33.3334 8.33333 33.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M8.33333 13.3333C11.0948 13.3333 13.3333 12.5871 13.3333 11.6667C13.3333 10.7462 11.0948 10 8.33333 10C5.5719 10 3.33333 10.7462 3.33333 11.6667C3.33333 12.5871 5.5719 13.3333 8.33333 13.3333Z"
-                        fill="#008065" />
-                      <path
-                        d="M8.33333 15C5.99999 15 4.08333 14.5 3.49999 13.75C3.41666 13.9167 3.33333 14 3.33333 14.1667C3.33333 15.0833 5.58333 15.8333 8.33333 15.8333C11.0833 15.8333 13.3333 15.0833 13.3333 14.1667C13.3333 14 13.25 13.9167 13.1667 13.75C12.5833 14.5 10.6667 15 8.33333 15ZM8.33333 17.5C5.99999 17.5 4.08333 17 3.49999 16.25C3.41666 16.4167 3.33333 16.5 3.33333 16.6667C3.33333 17.5833 5.58333 18.3333 8.33333 18.3333C11.0833 18.3333 13.3333 17.5833 13.3333 16.6667C13.3333 16.5 13.25 16.4167 13.1667 16.25C12.5833 17 10.6667 17.5 8.33333 17.5ZM8.33333 20C5.99999 20 4.08333 19.5 3.49999 18.75C3.41666 18.9167 3.33333 19 3.33333 19.1667C3.33333 20.0833 5.58333 20.8333 8.33333 20.8333C11.0833 20.8333 13.3333 20.0833 13.3333 19.1667C13.3333 19 13.25 18.9167 13.1667 18.75C12.5833 19.5 10.6667 20 8.33333 20ZM8.33333 22.5C5.99999 22.5 4.08333 22 3.49999 21.25C3.41666 21.4167 3.33333 21.5 3.33333 21.6667C3.33333 22.5833 5.58333 23.3333 8.33333 23.3333C11.0833 23.3333 13.3333 22.5833 13.3333 21.6667C13.3333 21.5 13.25 21.4167 13.1667 21.25C12.5833 22 10.6667 22.5 8.33333 22.5ZM8.33333 25C5.99999 25 4.08333 24.5 3.49999 23.75C3.41666 23.9167 3.33333 24 3.33333 24.1667C3.33333 25.0833 5.58333 25.8333 8.33333 25.8333C11.0833 25.8333 13.3333 25.0833 13.3333 24.1667C13.3333 24 13.25 23.9167 13.1667 23.75C12.5833 24.5 10.6667 25 8.33333 25ZM8.33333 27.5C5.99999 27.5 4.08333 27 3.49999 26.25C3.41666 26.4167 3.33333 26.5 3.33333 26.6667C3.33333 27.5833 5.58333 28.3333 8.33333 28.3333C11.0833 28.3333 13.3333 27.5833 13.3333 26.6667C13.3333 26.5 13.25 26.4167 13.1667 26.25C12.5833 27 10.6667 27.5 8.33333 27.5ZM8.33333 30C5.99999 30 4.08333 29.5 3.49999 28.75C3.41666 28.9167 3.33333 29 3.33333 29.1667C3.33333 30.0833 5.58333 30.8333 8.33333 30.8333C11.0833 30.8333 13.3333 30.0833 13.3333 29.1667C13.3333 29 13.25 28.9167 13.1667 28.75C12.5833 29.5 10.6667 30 8.33333 30ZM8.33333 32.5C5.99999 32.5 4.08333 32 3.49999 31.25C3.41666 31.4167 3.33333 31.5 3.33333 31.6667C3.33333 32.5833 5.58333 33.3333 8.33333 33.3333C11.0833 33.3333 13.3333 32.5833 13.3333 31.6667C13.3333 31.5 13.25 31.4167 13.1667 31.25C12.5833 32 10.6667 32.5 8.33333 32.5Z"
-                        fill="#008065" />
-                      <path
-                        d="M20 23.3334C17.25 23.3334 15 22.5834 15 21.6667V23.3334C15 24.2501 17.25 25.0001 20 25.0001C22.75 25.0001 25 24.2501 25 23.3334V21.6667C25 22.5834 22.75 23.3334 20 23.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M20 20.8334C17.25 20.8334 15 20.0834 15 19.1667V20.8334C15 21.7501 17.25 22.5001 20 22.5001C22.75 22.5001 25 21.7501 25 20.8334V19.1667C25 20.0834 22.75 20.8334 20 20.8334ZM20 25.8334C17.25 25.8334 15 25.0834 15 24.1667V25.8334C15 26.7501 17.25 27.5001 20 27.5001C22.75 27.5001 25 26.7501 25 25.8334V24.1667C25 25.0834 22.75 25.8334 20 25.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M20 28.3334C17.25 28.3334 15 27.5834 15 26.6667V28.3334C15 29.2501 17.25 30.0001 20 30.0001C22.75 30.0001 25 29.2501 25 28.3334V26.6667C25 27.5834 22.75 28.3334 20 28.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M20 30.8334C17.25 30.8334 15 30.0834 15 29.1667V30.8334C15 31.7501 17.25 32.5001 20 32.5001C22.75 32.5001 25 31.7501 25 30.8334V29.1667C25 30.0834 22.75 30.8334 20 30.8334Z"
-                        fill="#008065" />
-                      <path
-                        d="M20 33.3334C17.25 33.3334 15 32.5834 15 31.6667V33.3334C15 34.2501 17.25 35.0001 20 35.0001C22.75 35.0001 25 34.2501 25 33.3334V31.6667C25 32.5834 22.75 33.3334 20 33.3334Z"
-                        fill="#008065" />
-                      <path
-                        d="M20 20.8333C22.7614 20.8333 25 20.0871 25 19.1667C25 18.2462 22.7614 17.5 20 17.5C17.2386 17.5 15 18.2462 15 19.1667C15 20.0871 17.2386 20.8333 20 20.8333Z"
-                        fill="#008065" />
-                      <path
-                        d="M20 22.5C17.6667 22.5 15.75 22 15.1667 21.25C15.0833 21.4167 15 21.5 15 21.6667C15 22.5833 17.25 23.3333 20 23.3333C22.75 23.3333 25 22.5833 25 21.6667C25 21.5 24.9167 21.4167 24.8333 21.25C24.25 22 22.3333 22.5 20 22.5ZM20 25C17.6667 25 15.75 24.5 15.1667 23.75C15.0833 23.9167 15 24 15 24.1667C15 25.0833 17.25 25.8333 20 25.8333C22.75 25.8333 25 25.0833 25 24.1667C25 24 24.9167 23.9167 24.8333 23.75C24.25 24.5 22.3333 25 20 25ZM20 27.5C17.6667 27.5 15.75 27 15.1667 26.25C15.0833 26.4167 15 26.5 15 26.6667C15 27.5833 17.25 28.3333 20 28.3333C22.75 28.3333 25 27.5833 25 26.6667C25 26.5 24.9167 26.4167 24.8333 26.25C24.25 27 22.3333 27.5 20 27.5ZM20 30C17.6667 30 15.75 29.5 15.1667 28.75C15.0833 28.9167 15 29 15 29.1667C15 30.0833 17.25 30.8333 20 30.8333C22.75 30.8333 25 30.0833 25 29.1667C25 29 24.9167 28.9167 24.8333 28.75C24.25 29.5 22.3333 30 20 30ZM20 32.5C17.6667 32.5 15.75 32 15.1667 31.25C15.0833 31.4167 15 31.5 15 31.6667C15 32.5833 17.25 33.3333 20 33.3333C22.75 33.3333 25 32.5833 25 31.6667C25 31.5 24.9167 31.4167 24.8333 31.25C24.25 32 22.3333 32.5 20 32.5Z"
-                        fill="#008065" />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="row" style="
-      
-      margin-left: -29px;">
-          <div class="feature-info">
-            <div class="fea">
-              <div class="col-md-6 col-sm-4 col-xl-6 panel">
-                <div class="heading pull-right">
-                  <h4>Blank Invoice</h4>
-                  <p style="text-align: justify;">A blank invoice is a customizable document used by businesses to bill
-                    clients for goods or services provided businesses. It typically includes fields such as the seller's
-                    contact information, client details, a description of the products or services rendered, quantities,
-                    prices, total amounts due, and payment terms. Blank invoices allow for flexibility in tailoring the
-                    billing information to specific transactions and can be used across various industries and business
-                    models.</p>
-                </div>
-                <div class="fea-img pull-left">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"
-                    className="mx-auto icon1" aria-label="Blank.icon">
-                    <path
-                      d="M26.62 35H14.6667C11.5233 35 9.95333 35 8.97667 34.0233C8 33.0467 8 31.4767 8 28.3333V11.6667C8 8.52333 8 6.95333 8.97667 5.97667C9.95333 5 11.5233 5 14.6667 5H31.3333C34.4767 5 36.0467 5 37.0233 5.97667C38 6.95333 38 8.52333 38 11.6667V23.62C38 24.3 38 24.6417 37.8733 24.9483C37.7467 25.2533 37.5067 25.495 37.0233 25.9767L28.9767 34.0233C28.4933 34.5067 28.2533 34.7467 27.9483 34.8733C27.6417 35 27.3 35 26.62 35Z"
-                      stroke="#008065" strokeWidth="1.66667" />
-                    <path
-                      d="M26.3333 34.9999V27.2216C26.3333 25.3883 26.3333 24.4716 26.9033 23.9033C27.4717 23.3333 28.3883 23.3333 30.2217 23.3333H38"
-                      stroke="#008065" strokeWidth="1.66667" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div class="fea">
-              <div class="col-md-6 col-sm-4  col-xl-6 panel">
-                <div class="heading pull-right">
-                  <h4>Medical Invoice</h4>
-                  <p style="text-align: justify;">A medical invoice is a document provided by healthcare providers to
-                    patients or their insurance companies detailing the costs associated with medical services rendered.
-                    It serves as a formal request for payment and includes information such as the date of service,
-                    descriptions of medical procedures or treatments performed, the fees charged for each service, any
-                    applicable taxes, and the total amount owed.They serve as a record of medical expenses. </p>
-                </div>
-                <div class="fea-img pull-left">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"
-                    className="mx-auto icon1" fill="none" aria-label="Medical Invoice.icons">
-                    <g clipPath="url(#clip0_403_329)">
-                      <path
-                        d="M33.75 12.5C34.6094 12.5 35.4167 12.6628 36.1719 12.9883C36.9271 13.3138 37.5846 13.763 38.1445 14.3359C38.7044 14.9089 39.1536 15.5729 39.4922 16.3281C39.8307 17.0833 40 17.8906 40 18.75C40 19.4922 39.8763 20.2018 39.6289 20.8789C39.3815 21.556 39.0365 22.1615 38.5938 22.6953C38.151 23.2292 37.6237 23.6914 37.0117 24.082C36.3997 24.4727 35.7292 24.7396 35 24.8828V26.875C35 28.0339 34.8568 29.1602 34.5703 30.2539C34.2839 31.3477 33.8802 32.3893 33.3594 33.3789C32.8385 34.3685 32.2005 35.2604 31.4453 36.0547C30.6901 36.849 29.8503 37.5456 28.9258 38.1445C28.0013 38.7435 26.9922 39.1992 25.8984 39.5117C24.8047 39.8242 23.6719 39.987 22.5 40C21.3151 40 20.1823 39.8372 19.1016 39.5117C18.0208 39.1862 17.0182 38.7305 16.0938 38.1445C15.1693 37.5586 14.3294 36.862 13.5742 36.0547C12.819 35.2474 12.181 34.3555 11.6602 33.3789C11.1393 32.4023 10.7292 31.3672 10.4297 30.2734C10.1302 29.1797 9.98698 28.0469 10 26.875V22.4023C8.39844 22.2591 6.97917 21.875 5.74219 21.25C4.50521 20.625 3.45703 19.8047 2.59766 18.7891C1.73828 17.7734 1.09375 16.5951 0.664062 15.2539C0.234375 13.9128 0.0130208 12.4609 0 10.8984V0H6.25C6.58854 0 6.88151 0.123698 7.12891 0.371094C7.3763 0.61849 7.5 0.911458 7.5 1.25C7.5 1.58854 7.3763 1.88151 7.12891 2.12891C6.88151 2.3763 6.58854 2.5 6.25 2.5H2.5V10.8984C2.5 12.2786 2.6888 13.5286 3.06641 14.6484C3.44401 15.7682 4.01042 16.7253 4.76562 17.5195C5.52083 18.3138 6.43229 18.9258 7.5 19.3555C8.56771 19.7852 9.81771 20 11.25 20C12.5651 20 13.763 19.7982 14.8438 19.3945C15.9245 18.9909 16.8424 18.4115 17.5977 17.6562C18.3529 16.901 18.9453 15.9896 19.375 14.9219C19.8047 13.8542 20.013 12.6497 20 11.3086V2.5H16.25C15.9115 2.5 15.6185 2.3763 15.3711 2.12891C15.1237 1.88151 15 1.58854 15 1.25C15 0.911458 15.1237 0.61849 15.3711 0.371094C15.6185 0.123698 15.9115 0 16.25 0H22.5V10.8984C22.5 12.4609 22.2786 13.9128 21.8359 15.2539C21.3932 16.5951 20.7487 17.7734 19.9023 18.7891C19.056 19.8047 18.0143 20.625 16.7773 21.25C15.5404 21.875 14.1146 22.2591 12.5 22.4023V26.875C12.5 28.2682 12.7474 29.6029 13.2422 30.8789C13.737 32.1549 14.4336 33.2878 15.332 34.2773C16.2305 35.2669 17.2852 36.0482 18.4961 36.6211C19.707 37.194 21.0417 37.487 22.5 37.5C23.9453 37.5 25.2734 37.207 26.4844 36.6211C27.6953 36.0352 28.75 35.2539 29.6484 34.2773C30.5469 33.3008 31.2435 32.1745 31.7383 30.8984C32.2331 29.6224 32.487 28.2812 32.5 26.875V24.8828C31.7708 24.7266 31.1003 24.4596 30.4883 24.082C29.8763 23.7044 29.349 23.2487 28.9062 22.7148C28.4635 22.181 28.1185 21.569 27.8711 20.8789C27.6237 20.1888 27.5 19.4792 27.5 18.75C27.5 17.8906 27.6628 17.0833 27.9883 16.3281C28.3138 15.5729 28.7565 14.9154 29.3164 14.3555C29.8763 13.7956 30.5404 13.3464 31.3086 13.0078C32.0768 12.6693 32.8906 12.5 33.75 12.5ZM33.75 22.5C34.2708 22.5 34.7591 22.4023 35.2148 22.207C35.6706 22.0117 36.0677 21.7448 36.4062 21.4062C36.7448 21.0677 37.0117 20.6706 37.207 20.2148C37.4023 19.7591 37.5 19.2708 37.5 18.75C37.5 18.2292 37.4023 17.7409 37.207 17.2852C37.0117 16.8294 36.7448 16.4323 36.4062 16.0938C36.0677 15.7552 35.6706 15.4883 35.2148 15.293C34.7591 15.0977 34.2708 15 33.75 15C33.2292 15 32.7409 15.0977 32.2852 15.293C31.8294 15.4883 31.4323 15.7552 31.0938 16.0938C30.7552 16.4323 30.4883 16.8294 30.293 17.2852C30.0977 17.7409 30 18.2292 30 18.75C30 19.2708 30.0977 19.7591 30.293 20.2148C30.4883 20.6706 30.7552 21.0677 31.0938 21.4062C31.4323 21.7448 31.8294 22.0117 32.2852 22.207C32.7409 22.4023 33.2292 22.5 33.75 22.5Z"
-                        fill="#008065" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_403_329">
-                        <rect width="40" height="40" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div class="fea">
-              <div class="col-md-6 col-sm-4  col-xl-6 panel">
-                <div class="heading pull-right">
-                  <h4>Gym & Fitness Invoice</h4>
-                  <p class="gym" style="text-align: justify;">Jim & Fitness Invoice" is a billing document issued by a
-                    fitness center or personal trainer named Jim & Fitness to their clients. It includes details of
-                    services provided, such as fitness training sessions, gym memberships, or other related services. The
-                    invoice typically itemizes the fees for each service, any applicable taxes, and payment terms. It
-                    serves as a record of the financial transaction between Jim & Fitness and its clients. it's serve as a
-                    record of the services and products.</p>
-                </div>
-                <div class="fea-img pull-left">
-                  <svg className="mx-auto icon1" xmlns="http://www.w3.org/2000/svg" width="42" height="42"
-                    viewBox="0 0 42 42" fill="none" aria-label="Gym & Fitness.icons">
-                    <path
-                      d="M14.9164 41L20.9136 28.0972M20.9136 28.0972L26.9107 41M20.9136 28.0972V19.9346M20.9136 19.9346L31.9025 9.18066M20.9136 19.9346L9.9246 9.18187M6.6283 6.87218H35.2731M37.1902 1V12.7456M4.80727 1V12.7456M39.0957 1V12.7456M41 3.63015V10.1142M2.90299 1V12.7456M1 3.63015V10.1142"
-                      stroke="#008065" strokeWidth="0.833333" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row" style="
-      width: 102.5%;
-      margin-left: -29px;">
-          <div class="feature-info">
-            <div class="fea">
-              <div class="col-md-6 col-sm-4  col-xl-6 panel">
-                <div class="heading pull-right">
-                  <h4>Supermarket Inovice</h4>
-                  <p style="text-align: justify;">A supermarket invoice is a document issued by a supermarket to a
-                    customer detailing the products purchased, quantities, prices, and total amount owed. It typically
-                    includes information such as the date of purchase, store details, and payment terms. The invoice
-                    serves as a record of the transaction for both the supermarket and the customer and is often used for
-                    accounting and reconciliation purposes.</p>
-                </div>
-                <div class="fea-img pull-left">
-                  <svg className="mx-auto icon1" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                    viewBox="0 0 40 40" fill="none" aria-label="Supermarket .icons">
-                    <path
-                      d="M11.6667 29.9999C9.83334 29.9999 8.35001 31.4999 8.35001 33.3333C8.35001 35.1666 9.83334 36.6666 11.6667 36.6666C13.5 36.6666 15 35.1666 15 33.3333C15 31.4999 13.5 29.9999 11.6667 29.9999ZM28.3333 29.9999C26.5 29.9999 25.0167 31.4999 25.0167 33.3333C25.0167 35.1666 26.5 36.6666 28.3333 36.6666C30.1667 36.6666 31.6667 35.1666 31.6667 33.3333C31.6667 31.4999 30.1667 29.9999 28.3333 29.9999ZM25.9167 21.6666C27.1667 21.6666 28.2667 20.9833 28.8333 19.9499L34.8 9.13325C34.9405 8.88063 35.0125 8.5957 35.0091 8.30668C35.0056 8.01765 34.9267 7.73454 34.7802 7.48535C34.6338 7.23617 34.4248 7.02955 34.1739 6.88595C33.9231 6.74234 33.6391 6.66673 33.35 6.66659H8.68334L7.11667 3.33325H1.66667V6.66659H5.00001L11 19.3166L8.75 23.3833C7.53334 25.6166 9.13334 28.3333 11.6667 28.3333H31.6667V24.9999H11.6667L13.5 21.6666H25.9167ZM10.2667 9.99992H30.5167L25.9167 18.3333H14.2167L10.2667 9.99992Z"
-                      fill="#008065" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div class="fea">
-              <div class="col-md-6 col-sm-4 col-xl-6 panel">
-                <div class="heading pull-right">
-                  <h4>Textiles Invoice</h4>
-                  <p style="text-align: justify;">A textiles invoice is a document provided by a textile manufacturer,
-                    retailer to a customer who purchases textile products. It includes details such as the description of
-                    the textiles, quantities purchased, unit prices, total cost, and any applicable taxes or discounts.
-                    The invoice serves as a formal request for payment and provides a record of the transaction for both
-                    parties.Textiles invoices serve as a formal record of the transaction.</p>
-                </div>
-                <div class="fea-img pull-left">
-                  <svg className="mx-auto icon1" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                    viewBox="0 0 40 40" fill="none" aria-label="Textiles.icons">
-                    <mask id="mask0_403_316" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
-                      <path d="M0 0H40V40H0V0Z" fill="#D9D9D9" />
-                    </mask>
-                    <g mask="url(#mask0_403_316)">
-                      <path
-                        d="M12.4722 23.25L10.8056 24.1667C10.4167 24.3889 10 24.4444 9.55556 24.3333C9.11111 24.2222 8.77778 23.9722 8.55556 23.5833L5.22222 17.75C5 17.3611 4.94444 16.9444 5.05556 16.5C5.16667 16.0556 5.41667 15.7222 5.80556 15.5L15.3889 10H18.3056C18.5556 10 18.7569 10.0764 18.9097 10.2292C19.0625 10.3819 19.1389 10.5833 19.1389 10.8333V11.6667C19.1389 12.5833 19.4653 13.3681 20.1181 14.0208C20.7708 14.6736 21.5556 15 22.4722 15C23.3889 15 24.1736 14.6736 24.8264 14.0208C25.4792 13.3681 25.8056 12.5833 25.8056 11.6667V10.8333C25.8056 10.5833 25.8819 10.3819 26.0347 10.2292C26.1875 10.0764 26.3889 10 26.6389 10H29.5556L39.1389 15.5C39.5278 15.7222 39.7778 16.0556 39.8889 16.5C40 16.9444 39.9444 17.3611 39.7222 17.75L36.3889 23.5833C36.1667 23.9722 35.8403 24.2153 35.4097 24.3125C34.9792 24.4097 34.5556 24.3472 34.1389 24.125L32.4722 23.2917V38.3333C32.4722 38.8056 32.3125 39.2014 31.9931 39.5208C31.6736 39.8403 31.2778 40 30.8056 40H14.1389C13.6667 40 13.2708 39.8403 12.9514 39.5208C12.6319 39.2014 12.4722 38.8056 12.4722 38.3333V23.25ZM15.8056 17.6667V36.6667H29.1389V17.6667L34.3056 20.5L36.0556 17.5833L28.8889 13.4167C28.4722 14.8333 27.6875 16.0069 26.5347 16.9375C25.3819 17.8681 24.0278 18.3333 22.4722 18.3333C20.9167 18.3333 19.5625 17.8681 18.4097 16.9375C17.2569 16.0069 16.4722 14.8333 16.0556 13.4167L8.88889 17.5833L10.6389 20.5L15.8056 17.6667Z"
-                        fill="#008065" />
-                    </g>
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div class="fea">
-              <div class="col-md-6 col-sm-4  col-xl-6 panel">
-                <div class="heading pull-right">
-                  <h4>Teaching Invoice</h4>
-                  <p class="tech" style="text-align: justify;">A teaching invoice is a document issued by a teacher or
-                    educational institution to a student or their guardian,
-                    detailing the services provided, such as tutoring sessions, classes, or educational materials,
-                    along with the associated fees and payment terms. It serves as a formal record of the transaction
-                    and helps to ensure timely payment for educational services rendered.They are essential for
-                    maintaining accurate records. </p>
-                </div>
-                <div class="fea-img pull-left">
-                  <svg className="mx-auto icon1" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                    viewBox="0 0 40 40" fill="none" aria-label="Teaching.icons">
-                    <path
-                      d="M20.2725 20.1718V12.6643L29.2283 24.246L29.335 10.8652L33.9158 10.836L33.9833 32.6185L30.0842 32.7643L20.2725 20.1718ZM20.6517 10.301L19.4267 8.44433L22.5475 4.5835L12.9017 7.74433L6.01666 15.7468L11.015 13.7727L12.25 15.5143C14.5742 12.8977 17.6667 11.361 20.6517 10.3018V10.301Z"
-                      stroke="#008065" strokeWidth="0.833333" strokeLinecap="round" strokeLinejoin="round" />
-                    <path
-                      d="M11.2583 13.9084L10.7333 12.6834C13.0667 10.0676 16.7133 8.31756 18.6875 7.68506L19.5817 8.77423M14.6617 13.4034V27.9317M16.7033 12.1876V27.6392M18.5217 11.2834L18.5317 27.8442M15.8283 33.6684L14.3208 29.5067C14.6125 29.5359 14.9142 29.5751 15.1675 29.4776C15.43 29.3801 15.6433 29.1567 15.8575 28.9234C16.295 29.2826 17.0342 29.2826 17.5592 28.9626C17.88 29.5067 18.425 29.7401 19.0958 29.6626L17.355 33.6684M15.8283 33.6684C16.4117 33.3317 16.92 33.3317 17.355 33.6684M15.8283 33.6684L16.5917 35.4167L17.355 33.6684M10.3917 10.2426C9.245 9.65923 8.0975 9.07589 8.04916 10.2426C8 11.4092 9.05 14.3267 10.11 17.2442M8.87 20.7017L10.1108 17.2442L11.005 20.7634L8.87 20.7017Z"
-                      stroke="#008065" strokeWidth="0.833333" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      </div>
-    </section>
+    
   <!--/ feature-->
+  <section class="container">
+    <div class="row m-3 p-3">
+      <div class="col-md-6 col-xs-12">
+        <img src="img/depositphotos_131881574-stock-photo-medical-invoice-document-form-patient.jpg"
+          class="img-thumbnail" alt="Image">
+      </div>
+      <br><br>
+
+      <div class="col-md-6 col-xs-12 text-center">
+        <h2 style="font-size: x-larger;" class="ele"> Medical invoice </h2>
+        <p>A medical invoice is a document provided by healthcare providers to patients or their insurance companies
+          detailing the costs associated with medical services rendered. It serves as a formal request for payment and
+          includes information such as the date of service, descriptions of medical procedures or treatments performed,
+          the fees charged for each service, any applicable taxes, and the total amount owed.They serve as a record of
+          medical expenses. </p>
+         <button> <a href="https://invoicefree.in/medical-invoice.html" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
+
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+
+      <div class="col-md-6 col-xs-12 text-center1">
+        <h2 style="font-size:x-larger;" class="ele">Consulting Invoice</h2>
+        <p> the consulting services provided and associated charges, invoices promote transparency and ensure that both
+          parties are in agreement regarding payment expectations.
+          Consulting invoices streamline the payment process by providing clients with a clear breakdown of charges and
+          payment instructions. This helps consultants maintain steady cash flow and financial stability.
+          Consulting invoices serve as legal documentation of the consulting services rendered and charges incurred.
+        </p>
+        <button> <a href="https://invoicefree.in/consulting-invoice.html" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
+
+      </div>
+
+<br><br>
+      <div class="col-md-6 col-xs-12">
+        <img src="img/Consulting-Consultant-Invoice-Templates.webp" class="img-thumbnail" alt="Image">
+      </div>
+    </div>
+    <br><br>
+
+    <div class="row m-3 p-3">
+      <div class="col-md-6 col-xs-12">
+        <img src="img/freelancer invoicec.jpg" class="img-thumbnail" alt="Image">
+      </div>
+
+      <div class="col-md-6 col-xs-12 text-center">
+        <h2 style="font-size: x-larger;" class="ele"> Freelancer Invoice </h2>
+        <p> Freelancers should establish clear payment terms with clients upfront, including due dates, accepted payment
+          methods, and late payment penalties if applicable.
+          If payment is not received by the due date, freelancers should follow up with clients politely to remind them
+          of the outstanding invoice. Clear and timely communication is key to resolving payment issues and maintaining
+          positive client relationships.
+        </p>
+        <button> <a href="https://invoicefree.in/freelancer-invoice.html" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
+
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+
+      <div class="col-md-6 col-xs-12 text-center1">
+        <h2 style="font-size:x-larger;" class="ele">Proforma Invoice</h2>
+        <p> A proforma invoice is a preliminary bill of sale issued by a seller to a buyer before the completion of
+          a transaction. It outlines the details of the goods or services to be provided, including descriptions,
+          quantities, prices, and terms of sale. Unlike a commercial invoice, a proforma invoice is not a legally
+          binding document but serves as a quotation or an estimate of costs. It allows the buyer to review and
+          confirm the details of the transaction before finalizing the purchase.
+        </p>
+        <button> <a href="https://invoicefree.in/proforma-invoice.html" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
+
+      </div>
+
+
+      <div class="col-md-6 col-xs-12">
+        <img src="img/Proforma-Invoice.web_.jpg" class="img-thumbnail" alt="Image">
+      </div>
+    </div>
+<br><br>
+    <div class="row m-3 p-3">
+      <div class="col-md-6 col-xs-12">
+        <img src="img/Graphic-Design-Invoice-Templates.webp" class="img-thumbnail" alt="Image">
+      </div>
+
+      <div class="col-md-6 col-xs-12 text-center">
+        <h2 style="font-size: x-larger;" class="ele"> Graphic Design Invoice </h2>
+        <p> the graphic design services provided and associated charges, invoices promote transparency and ensure that both parties are in agreement regarding payment expectations.
+          Graphic design invoices serve as legal documentation of the design services rendered and charges incurred. They may be required for tax reporting, accounting purposes, or in the event of disputes. 
+          Graphic design invoices streamline the payment process by providing clients with a clear breakdown of charges and payment instructions.
+
+        </p>
+        <button> <a href="https://invoicefree.in/graphicdesign-invoice.html" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
+
+      </div>
+    </div>
+<br><br>
+<div class="row">
+
+  <div class="col-md-6 col-xs-12 text-center">
+    <h2 style="font-size: x-larger;" class="ele">Teaching Invoice </h2>
+              <p>A teaching invoice is a document issued by a teacher or educational institution to a student or their guardian, detailing the services provided, such as tutoring sessions, classes, or educational materials, along with the associated fees and payment terms. It serves as a formal record of the transaction and helps to ensure timely payment for educational services rendered.They are essential for maintaining accurate records.
+
+
+              </p>
+              <button> <a href="https://invoicefree.in/teaching-invoice.html"
+                      style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+  </div>
+
+
+  <div class="col-md-6 col-xs-12">
+    <img src="img/teaching invoice.jpg" class="img-thumbnail" alt="Image">
+  </div>
+</div>
+<br><br>
+<div class="container">
+  <div class="row m-3 p-3">
+      <div class="col-md-6 col-xs-12">
+          <img src="img/plaininvooice.webp" class="img-thumbnail" alt="commercial_invoice1">
+      </div>
+
+      <div class="col-md-6 col-xs-12 text-center">
+          <h2 style="font-size: x-larger;" class="ele">Commerical Invoice </h2>
+          <p> Commercial invoices are detailed documents issued in international trade, detailing goods sold and
+              aiding customs clearance. They're crucial for ensuring compliance and are used by sellers, buyers,
+              and customs authorities globally.
+          </p>
+          <button> <a href="https://invoicefree.in/commercial-invoice.html"
+                  style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+
+      </div>
+  </div>
+</div>
+<br><br>
+<div class="row">
+
+  <div class="col-md-6 col-xs-12 text-center">
+    <h2 style="font-size: x-larger;" class="ele">Gym&Fitness Invoice </h2>
+    <p>Jim & Fitness Invoice" is a billing document issued by a fitness center or personal trainer named Jim & Fitness to their clients. It includes details of services provided, such as fitness training sessions, gym memberships, or other related services. The invoice typically itemizes the fees for each service, any applicable taxes, and payment terms. It serves as a record of the financial transaction between Jim & Fitness and its clients. it's serve as a record of the services and products
+    </p>
+    <button> <a href="https://invoicefree.in/jim-invoice.html"
+            style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+  </div>
+
+
+  <div class="col-md-6 col-xs-12">
+    <img src="img/gym.avif" class="img-thumbnail" alt="gym">
+  </div>
+</div>
+<br><br>
+<div class="container">
+  <div class="row m-3 p-3">
+      <div class="col-md-6 col-xs-12">
+          <img src="img/photoimages.jpg" class="img-thumbnail" alt="Image">
+      </div>
+      <div class="col-md-6 col-xs-12 text-center">
+          <h2 style="font-size: x-larger;" class="ele">Photography Invoice </h2>
+          <p> Photography invoices streamline the payment process by providing clients with a clear breakdown of charges and payment instructions. This helps photographers maintain steady cash flow and financial stability. By detailing the services provided and associated charges, Photography invoices serve as legal documentation of the photography services rendered and charges incurred. They may be required for tax reporting, accounting purposes, or in the event of disputes or legal proceedings.
+          </p>
+          <button> <a href="https://invoicefree.in/photography-invoice.html"
+                  style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+      </div>
+  </div>
+</div>
+<br><br>
+<div class="container">
+<div class="row">
+
+  <div class="col-md-6 col-xs-12 text-center">
+    <h2 style="font-size: x-larger;" class="ele">Auto Services Invoice </h2>
+          <p>A free auto service invoice is a customizable billing document used by automotive service providers to request payment for services rendered on vehicles. This invoice typically includes essential details such as the auto service provider's information, customer details, a description of the services performed parts used, labor charges, and the total amount due.
+
+
+          </p>
+          <button> <a href="https://invoicefree.in/auto-invoice.html"
+                  style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+
+  </div>
+
+
+  <div class="col-md-6 col-xs-12">
+    <img src="img/autoimages.jpg" class="img-thumbnail" alt="Image">
+  </div>
+</div>
+</div>
+<br><br>
+
+
+<div class="container">
+  <div class="row m-3 p-3">
+      <div class="col-md-6 col-xs-12">
+          <img src="img/travel&tourism.jpg" class="img-thumbnail" alt="Image">
+      </div>
+
+      <div class="col-md-6 col-xs-12 text-center">
+          <h2 style="font-size: x-larger;" class="ele">Travel&Tourism Invoice</h2>
+          <p>A travel and tourism invoice is a document provided by travel agencies, tour operators, or travel service providers to customers for the services related to travel arrangements and tourism experiences. These invoices detail the costs associated with various aspects of the trip, including transportation, accommodation, activities, and other related services. The invoice typically includes information such as the traveler's name, contact details, and booking reference number, as well as the travel company's name, address, and contact information.
+          </p>
+          <button> <a href="https://invoicefree.in/travel-invoice.html"
+                  style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+
+      </div>
+  </div>
+</div>
+
+<br><br><br>
+<div class="container">
+  <div class="row">
+  
+    <div class="col-md-6 col-xs-12 text-center">
+      <h2 style="font-size: x-larger;" class="ele">Supermarket Invoice </h2>
+      <p> A document issued by a supermarket to customers, itemizing purchased goods and their prices. It includes details like the date of purchase, item descriptions, quantities, prices, any applicable taxes, and the total amount due. This invoice serves as a record of the transaction and provides customers with a breakdown of their purchases for payment reference.
+      </p>
+      <button> <a href="https://invoicefree.in/super-invoice.html"
+              style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+  
+    </div>
+  
+  
+    <div class="col-md-6 col-xs-12">
+      <img src="img/market.jpg" class="img-thumbnail" alt="Image">
+    </div>
+  </div>
+  </div>
+  <br><br>
+  <div class="container">
+    <div class="row m-3 p-3">
+        <div class="col-md-6 col-xs-12">
+            <img src="img/textImages.jpg" class="img-thumbnail" alt="textImages1">
+        </div>
+
+        <div class="col-md-6 col-xs-12 text-center">
+            <h2 style="font-size: x-larger;" class="ele">Textiles Invoice </h2>
+            <p>A textiles invoice is a specialized document used in the textile industry to record transactions involving the sale of textile products, such as fabrics, garments, or home textiles. This type of invoice contains detailed information relevant to the textile trade, including specifics about the products being sold. It typically includes descriptions of the textile items, such as fabric type, color, pattern, and dimensions, as well as the quantity sold and unit prices. Additionally, a textiles invoice may feature details about any customization or finishing services provided.
+            </p>
+            <button> <a href="https://invoicefree.in/textiles-invoice.html"
+                    style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+
+        </div>
+    </div>
+</div>
+<br><br><br>
+<div class="container">
+  <div class="row">
+  
+    <div class="col-md-6 col-xs-12 text-center">
+      <h2 style="font-size: x-larger;" class="ele">Sales Invoice </h2>
+          <p> A sales invoice is a document issued by a seller to a buyer, requesting payment for goods or services provided. It includes details such as the description of items sold, quantities, prices, payment terms, and total amount due. Sales invoices serve as formal records of transactions and are essential for accounting, tax purposes, and tracking sales revenue. They provide both parties with documentation of the agreement and facilitate smooth financial transactions.
+          </p>
+          <button> <a href="https://invoicefree.in/sales-invoice.html"
+                  style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+    </div>
+  
+  
+    <div class="col-md-6 col-xs-12">
+      <img src="img/simm.jpg" class="img-thumbnail" alt="simm">
+    </div>
+  </div>
+  </div>
+  <br><br><br>
+  <div class="container">
+    <div class="row m-3 p-3">
+        <div class="col-md-6 col-xs-12">
+            <img src="img/simpleimages.webp" class="img-thumbnail" alt="Image">
+        </div>
+
+        <div class="col-md-6 col-xs-12 text-center">
+            <h2 style="font-size: x-larger;" class="ele">Simple Invoice </h2>
+            <p>A simple invoice is a fundamental tool in the business-to-customer transaction process, providing a clear and structured summary of sales transactions. By including essential details such as item descriptions, prices, and payment terms, invoices facilitate efficient payment processing and contribute to transparent and accountable business practices.
+            </p>
+            <button> <a href="https://invoicefree.in/simple-invoice.html"
+                    style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+
+        </div>
+    </div>
+</div>
+<br><br><br>
+  
+<div class="container">
+  <div class="row">
+  
+    <div class="col-md-6 col-xs-12 text-center">
+      <h2 style="font-size: x-larger;" class="ele">Sole Trade Invoice </h2>
+          <p>A sole trader invoice is a document issued by an individual business owner operating as a sole proprietorship to bill a customer for goods sold or services rendered. Unlike larger entities, sole traders typically manage all aspects of their business independently, including invoicing. The sole trader invoice typically includes essential details such as the seller's name, business address, contact information, and business registration details, if applicable. It also outlines the products sold or services provided, including descriptions, quantities, rates, and total amounts due
+          </p>
+          <button> <a href="https://invoicefree.in/sole-invoice.html"
+                  style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+
+    </div>
+  
+  
+    <div class="col-md-6 col-xs-12">
+     <img src="img/soletrade.jpeg" class="img-thumbnail" alt="Image">
+      </div>
+  </div>
+  </div>
+  <br><br><br>
+  <div class="container">
+    <div class="row m-3 p-3">
+        <div class="col-md-6 col-xs-12">
+            <img src="img/contractImages.png" class="img-thumbnail" alt="contractImages1">
+        </div>
+
+        <div class="col-md-6 col-xs-12 text-center">
+            <h2 style="font-size: x-larger;" class="ele">Contractor Invoice</h2>
+            <p>A free restaurant invoice is a customizable billing document used by restaurants and food establishments to request payment for goods and services provided to customers. This invoice typically includes key information such as the restaurant's details, customer information, a breakdown of food and beverage items ordered, quantities, unit prices, and the total amount due.
+
+
+            </p>
+            <button> <a href="https://invoicefree.in/contractor-invoice.html"
+                    style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+
+        </div>
+    </div>
+</div>
+
+<br><br><br>
+<div class="container">
+  <div class="row">
+  
+    <div class="col-md-6 col-xs-12 text-center">
+      <h2 style="font-size: x-larger;" class="ele">Blank Invoice </h2>
+      <p>A blank invoice is a pre-designed template or form used by businesses to create invoices for goods or services provided to customers. Unlike a completed invoice that contains specific transaction details, a blank invoice is devoid of such information, allowing businesses to fill in the necessary details for each transaction. It typically includes fields for essential information such as the seller's name, address, and contact details, the buyer's information, a unique invoice number, the invoice date, and payment terms. Blank invoices may also feature sections for itemized lists of goods or services.
+      </p>
+      <button> <a href="https://invoicefree.in/blank-invoice.html"
+              style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+
+    </div>
+  
+  
+    <div class="col-md-6 col-xs-12">
+      <img src="img/blankImages.webp" class="img-thumbnail" alt="blank_invoice">
+      </div>
+  </div>
+  </div>
+  <br><br><br>
+  <div class="container">
+    <div class="row m-3 p-3">
+        <div class="col-md-6 col-xs-12">
+            <img src="img/hourlyImages.webp" class="img-thumbnail" alt="Graphic-Design-Invoice">
+        </div>
+
+        <div class="col-md-6 col-xs-12 text-center">
+            <h2 style="font-size: x-larger;" class="ele">Hourly Rate Invoice </h2>
+            <p>Hourly rate invoices ensure accurate billing by documenting the actual hours worked on a project or task. Hourly rate invoices offer flexibility for both freelancers and clients, By detailing the hours worked and the corresponding charges, hourly rate invoices promote transparency and accountability in client invoicing. It streamline the payment process by providing clients with a clear breakdown of charges and payment instructions.
+            </p>
+            <button> <a href="https://invoicefree.in/hourlyrate-invoice.html"
+                    style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+
+        </div>
+    </div>
+</div>
+
+
+ <br><br>
+<div class="container">
+  <div class="row">
+  
+    <div class="col-md-6 col-xs-12 text-center">
+          <h2 style="font-size: x-larger;" class="ele">QUOTATION INVOICE</h2>
+      <p>A Quotation invoice, often simply called a quotation or a pro forma invoice, is a document provided by a seller to a potential buyer detailing the estimated costs of goods or services before a sale is finalized. This document includes a unique quotation number, the date of issuance, and valid until the date. It lists the supplier's and recipient's information, such as names, addresses, and contact details. The quotation specifies the items or services being offered, including detailed descriptions, quantities, unit prices, and total estimated costs. It may also outline terms and conditions, delivery schedules, payment terms, and any applicable taxes. </p>
+       <button> <a href="https://invoicefree.in/quotation-invoice.html" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
+
+    </div>
+  
+  
+    <div class="col-md-6 col-xs-12">
+      <img src="img/quotates.jpg"
+      class="img-thumbnail" alt="Image">
+      </div>
+  </div>
+  </div>
+  <br><br><br>
+  <div class="container">
+    <div class="row m-3 p-3">
+        <div class="col-md-6 col-xs-12">
+            <img src="img/Image-GST-invoice-1024x512.png" class="img-thumbnail" alt="GST-invoice_1">
+        </div>
+
+        <div class="col-md-6 col-xs-12 text-center">
+            <h2 style="font-size: x-larger;" class="ele">Gst Invoice </h2>
+            <p>A GST invoice is a document issued by a seller to a buyer that includes essential details such as the unique invoice number, date of issuance, supplier and recipient information (name, address, and GSTIN), and a detailed description of the goods or services provided. This description includes quantities, unit prices, total value, and applicable HSN or SAC codes. The invoice specifies the taxable value, the applicable GST rates (CGST, SGST/UTGST, IGST), and the total tax amount. It also shows the total invoice value, including GST.
+            </p>
+            <button> <a href="https://invoicefree.in/gst-invoice.html"
+                    style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+
+        </div>
+    </div>
+</div><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-xs-12 text-center">
+      <h2 style="font-size: x-larger;" class="ele">Tax Invoice </h2>
+      <p>A tax invoice is a document issued by a seller to a buyer, detailing the sale of goods or services and including the applicable taxes. It typically includes information such as the seller's and buyer's names, addresses, invoice number, date, descriptions of the goods or services provided, quantities, prices, and the total amount due including taxes. Tax invoices are crucial for accounting and tax compliance purposes, providing evidence of taxable transactions and enabling the claiming of input tax credits or deductions. They serve as legal records of transactions and are required by tax authorities for audit purposes.
+      </p>
+      <button> <a href="https://invoicefree.in/"
+              style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>
+    </div>
+    <div class="col-md-6 col-xs-12">
+      <img src="https://www.billingsoftware.in/images/concept/hero-image.png" class="img-thumbnail" alt="Image">
+      </div>
+  </div>
+  </div>
+
+  </section>
 
   <section>
     <div class="container-fluid container1-fluid-inv-gen">
@@ -1065,7 +1134,7 @@ border-radius: 4px;
                 used in international trade to facilitate negotiations, customs clearance, and secure financing or
                 letters of credit.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45% ;"
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/proforma-invoice.html'" class="but1">Create Invoice</button>
             </figcaption>
 
           </figure>
@@ -1082,7 +1151,7 @@ border-radius: 4px;
                 accounting, tax purposes, and tracking sales revenue. They provide both parties with documentation of
                 the agreement and facilitate smooth financial transactions.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45% ;"
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/sales-invoice.html'" class="but1">Create Invoice</button>
             </figcaption>
           </figure>
         </div>
@@ -1118,7 +1187,7 @@ border-radius: 4px;
                 requests for payment and facilitate transparent financial transactions between educators and students.
               </p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;"
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/teaching-invoice.html'" class="but1">Create Invoice</button>
 
             </figcaption>
           </figure>
@@ -1135,7 +1204,7 @@ border-radius: 4px;
                 formal request for payment and aids in managing client accounts and financial transactions for
                 fitness-related services.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45%  ;"
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/jim-invoice.html'" class="but1">Create Invoice</button>
             </figcaption>
           </figure>
         </div>
@@ -1150,7 +1219,7 @@ border-radius: 4px;
                 and the total amount due. This invoice serves as a record of the transaction and provides customers with
                 a breakdown of their purchases for payment reference.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45%;"
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/super-invoice.html'" class="but1">Create Invoice</button>
 
             </figcaption>
           </figure>
@@ -1165,7 +1234,7 @@ border-radius: 4px;
                 item descriptions, prices, and payment terms, invoices facilitate efficient payment processing and
                 contribute to transparent and accountable business practices.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45% "
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/simple-invoice.html'" class="but1">Create Invoice</button>
 
             </figcaption>
 
@@ -1182,7 +1251,7 @@ border-radius: 4px;
                 documentation, ensuring transparency and financial integrity in patient care.</p>
 
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45% "
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/medical-invoice.html'" class="but1">Create Invoice</button>
             </figcaption>
           </figure>
         </div>
@@ -1199,7 +1268,7 @@ border-radius: 4px;
                 them of the outstanding invoice. Clear and timely communication is key to resolving payment issues and
                 maintaining positive client relationships.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45% "
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/freelancer-invoice.html'" class="but1">Create Invoice</button>
 
             </figcaption>
           </figure>
@@ -1217,7 +1286,7 @@ border-radius: 4px;
                 It streamline the payment process by providing clients with a clear breakdown of charges and payment
                 instructions.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45% ;"
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/hourlyrate-invoice.html'" class="but1">Create Invoice</button>
 
             </figcaption>
           </figure>
@@ -1235,7 +1304,7 @@ border-radius: 4px;
                 incurred. They may be required for tax reporting, accounting purposes, or in the event of disputes or
                 legal proceedings.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45% ;"
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/photography-invoice.html'" class="but1">Create Invoice</button>
 
             </figcaption>
           </figure>
@@ -1257,7 +1326,7 @@ border-radius: 4px;
                 incurred. They may be required for tax reporting, accounting purposes, or in the event of disputes or
                 legal proceedings.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45% ;"
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/consulting-invoice.html'" class="but1">Create Invoice</button>
 
             </figcaption>
           </figure>
@@ -1274,7 +1343,7 @@ border-radius: 4px;
                 Graphic design invoices streamline the payment process by providing clients with a clear breakdown of
                 charges and payment instructions.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45%  "
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/graphicdesign-invoice.html'" class="but1">Create Invoice</button>
 
             </figcaption>
           </figure>
@@ -1292,7 +1361,7 @@ border-radius: 4px;
                 invoice specifies the taxable value, the applicable GST rates (CGST, SGST/UTGST, IGST), and the total
                 tax amount. It also shows the total invoice value, including GST. </p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45% ;"
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/gst-invoice.html'" class="but1">Create Invoice</button>
 
             </figcaption>
           </figure>
@@ -1301,7 +1370,7 @@ border-radius: 4px;
           <figure class="imghvr-fold-up">
             <img src="img/inv-saffron.jpg" class="img-responsive" alt="Supermarket4">
             <figcaption>
-              <h3>Quotation INvoice</h3>
+              <h3>Quotation Invoice</h3>
               <p class="front">A quotation invoice, often simply called a quotation or a pro
                 forma invoice, is a document provided by a seller to a potential buyer detailing the estimated costs of
                 goods or services before a sale is finalized. This document includes a unique quotation number, the date
@@ -1310,7 +1379,7 @@ border-radius: 4px;
                 including detailed descriptions, quantities, unit prices, and total estimated costs. It may also outline
                 terms and conditions, delivery schedules, payment terms, and any applicable taxes.</p>
               <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45% !important;"
-                onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+                onclick="window.location.href='https://invoicefree.in/quotation-invoice.html'" class="but1">Create Invoice</button>
 
             </figcaption>
           </figure>
@@ -1330,7 +1399,7 @@ border-radius: 4px;
               invoice number, the invoice date, and payment terms. Blank invoices may also feature sections for itemized
               lists of goods or services.</p>
             <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45%"
-              onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+              onclick="window.location.href='https://invoicefree.in/blank-invoice.html'" class="but1">Create Invoice</button>
 
           </figcaption>
         </figure>
@@ -1347,7 +1416,7 @@ border-radius: 4px;
               fabric type, color, pattern, and dimensions, as well as the quantity sold and unit prices. Additionally, a
               textiles invoice may feature details about any customization or finishing services provided. </p>
             <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45%"
-              onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+              onclick="window.location.href='https://invoicefree.in/textiles-invoice.html'" class="but1">Create Invoice</button>
 
           </figcaption>
         </figure>
@@ -1366,7 +1435,7 @@ border-radius: 4px;
               outlines the products sold or services provided, including descriptions, quantities, rates, and total
               amounts due.  </p>
             <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45%"
-              onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+              onclick="window.location.href='https://invoicefree.in/sole-invoice.html'" class="but1">Create Invoice</button>
 
           </figcaption>
         </figure>
@@ -1384,7 +1453,7 @@ border-radius: 4px;
               performed, the duration or quantity of the service, the hourly or project-based rate, and the total amount
               owed.   </p>
             <button style="text-decoration: none; color: aliceblue;  border-radius: 10px ;width: 45%"
-              onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+              onclick="window.location.href='https://invoicefree.in/contractor-invoice.html'" class="but1">Create Invoice</button>
 
           </figcaption>
         </figure>
@@ -1401,7 +1470,7 @@ border-radius: 4px;
               vehicle owner's name, contact details, and vehicle identification number (VIN), as well as the service
               center's name, address, and contact information. </p>
             <button style="text-decoration: none; color: aliceblue; border-radius: 10px ;width: 45%"
-              onclick="window.location.href='https://invoicefree.in/'" class="but1">Create Invoice</button>
+              onclick="window.location.href='https://invoicefree.in/auto-invoice.html'" class="but1">Create Invoice</button>
           </figcaption>
 
         </figure>
@@ -1418,7 +1487,7 @@ border-radius: 4px;
               typically includes information such as the traveler's name, contact details, and booking reference number,
               as well as the travel company's name, address, and contact information.  </p>
             <button style="text-decoration: none; color: aliceblue; border-radius: 10px ;width: 45%"
-              onclick="window.location.href='https://invoicefree.in/'  "class="but1">Create Invoice</button>
+              onclick="window.location.href='https://invoicefree.in/travel-invoice.html'  "class="but1">Create Invoice</button>
           </figcaption>
 
         </figure>
@@ -1437,7 +1506,7 @@ border-radius: 4px;
               and seller .</p>
 
             <button style="text-decoration: none; color: aliceblue;border-radius: 10px ;width: 45%"
-              onclick="window.location.href='https://invoicefree.in/'"  class="but1">Create Invoice</button>
+              onclick="window.location.href='https://invoicefree.in/commercial-invoice.html'"  class="but1">Create Invoice</button>
           </figcaption>
 
         </figure>
@@ -1456,7 +1525,7 @@ border-radius: 4px;
               and seller .</p>
 
             <button style="text-decoration: none; color: aliceblue;border-radius: 10px ;width: 45%"
-              onclick="window.location.href='https://invoicefree.in/'"  class="but1">Create Invoice</button>
+              onclick="window.location.href='https://invoicefree.in/commercial-invoice.html'"    class="but1">Create Invoice</button>
           </figcaption>
 
         </figure>
@@ -1475,7 +1544,7 @@ border-radius: 4px;
               and seller .</p>
 
             <button style="text-decoration: none; color: aliceblue;border-radius: 10px ;width: 45%"
-              onclick="window.location.href='https://invoicefree.in/'"  class="but1">Create Invoice</button>
+              onclick="window.location.href='https://invoicefree.in/commercial-invoice.html'"    class="but1">Create Invoice</button>
           </figcaption>
 
         </figure>
@@ -1483,102 +1552,8 @@ border-radius: 4px;
     </div>
   </section>
 
-  <section class="container">
-    <div class="row m-3 p-3">
-      <div class="col-md-6 col-xs-12">
-        <img src="img/depositphotos_131881574-stock-photo-medical-invoice-document-form-patient.jpg"
-          class="img-thumbnail" alt="Image">
-      </div>
-
-      <div class="col-md-6 col-xs-12 text-center">
-        <h2 style="font-size: x-larger;" class="ele"> Medical invoice </h2>
-        <p>A medical invoice is a document provided by healthcare providers to patients or their insurance companies
-          detailing the costs associated with medical services rendered. It serves as a formal request for payment and
-          includes information such as the date of service, descriptions of medical procedures or treatments performed,
-          the fees charged for each service, any applicable taxes, and the total amount owed.They serve as a record of
-          medical expenses. </p>
-         <button> <a href="https://invoicefree.in/" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
-
-      </div>
-    </div>
-    <br><br>
-    <div class="row">
-
-      <div class="col-md-6 col-xs-12 text-center1">
-        <h2 style="font-size:x-larger;" class="ele">Consulting Invoice</h2>
-        <p> the consulting services provided and associated charges, invoices promote transparency and ensure that both
-          parties are in agreement regarding payment expectations.
-          Consulting invoices streamline the payment process by providing clients with a clear breakdown of charges and
-          payment instructions. This helps consultants maintain steady cash flow and financial stability.
-          Consulting invoices serve as legal documentation of the consulting services rendered and charges incurred.
-        </p>
-        <button> <a href="https://invoicefree.in/" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
-
-      </div>
-
-
-      <div class="col-md-6 col-xs-12">
-        <img src="img/Consulting-Consultant-Invoice-Templates.webp" class="img-thumbnail" alt="Image">
-      </div>
-    </div>
-    <br><br>
-
-    <div class="row m-3 p-3">
-      <div class="col-md-6 col-xs-12">
-        <img src="img/freelancer invoicec.jpg" class="img-thumbnail" alt="Image">
-      </div>
-
-      <div class="col-md-6 col-xs-12 text-center">
-        <h2 style="font-size: x-larger;" class="ele"> Freelancer Invoice </h2>
-        <p> Freelancers should establish clear payment terms with clients upfront, including due dates, accepted payment
-          methods, and late payment penalties if applicable.
-          If payment is not received by the due date, freelancers should follow up with clients politely to remind them
-          of the outstanding invoice. Clear and timely communication is key to resolving payment issues and maintaining
-          positive client relationships.
-        </p>
-        <button> <a href="https://invoicefree.in/" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
-
-      </div>
-    </div>
-    <br><br>
-    <div class="row">
-
-      <div class="col-md-6 col-xs-12 text-center1">
-        <h2 style="font-size:x-larger;" class="ele">Proforma Invoice</h2>
-        <p> A proforma invoice is a preliminary bill of sale issued by a seller to a buyer before the completion of
-          a transaction. It outlines the details of the goods or services to be provided, including descriptions,
-          quantities, prices, and terms of sale. Unlike a commercial invoice, a proforma invoice is not a legally
-          binding document but serves as a quotation or an estimate of costs. It allows the buyer to review and
-          confirm the details of the transaction before finalizing the purchase.
-        </p>
-        <button> <a href="https://invoicefree.in/" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
-
-      </div>
-
-
-      <div class="col-md-6 col-xs-12">
-        <img src="img/Proforma-Invoice.web_.jpg" class="img-thumbnail" alt="Image">
-      </div>
-    </div>
-<br><br>
-    <div class="row m-3 p-3">
-      <div class="col-md-6 col-xs-12">
-        <img src="img/plaininvooice.webp" class="img-thumbnail" alt="Image">
-      </div>
-
-      <div class="col-md-6 col-xs-12 text-center">
-        <h2 style="font-size: x-larger;" class="ele"> Graphic Design Invoice </h2>
-        <p> the graphic design services provided and associated charges, invoices promote transparency and ensure that both parties are in agreement regarding payment expectations.
-          Graphic design invoices serve as legal documentation of the design services rendered and charges incurred. They may be required for tax reporting, accounting purposes, or in the event of disputes. 
-          Graphic design invoices streamline the payment process by providing clients with a clear breakdown of charges and payment instructions.
-
-        </p>
-        <button> <a href="https://invoicefree.in/" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
-
-      </div>
-    </div>
-  </section>
-  <br><br>
+ 
+  
   <section id="faq">
     <div class="container-fluid  ">
       <div class="container container1-fluid-faq">

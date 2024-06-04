@@ -1969,6 +1969,9 @@ margin-top: -10px !important;
         right: 23% !important;
         cursor: pointer;
     }
+    .img-thumbnail{
+        width: 100% !important;
+    }
 }
 
 
