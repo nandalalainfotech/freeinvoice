@@ -1068,13 +1068,9 @@ Responsive media queries
         width: 50px;
     }
 
-    .imgas1 {
-        width: 109px;
-        height: 100px !important;
-        margin-top: -35px;
-        margin-bottom: -22px;
-        margin-left: 44%;
-    }
+   .img11{
+    width: 100px !important;
+   }
 
     .text-dec {
         font-size: 30px;
