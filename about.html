@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Invoice</title>
+    <link rel="icon" type="image/svg+xml" href="img/axAsset 8.png">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta property="og:image" content="img/axAsset 8 (1).svg">
+    <meta property="og:url" content="https://invoicefree.in">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Travel&Tourism Invoice">
+    <meta name="twitter:image" content="https://invoicefree.in/img/axAsset 8 (1).svg">
+    
+</head>
+<style>
+  @media (max-width: 768px) {
+    .dropdown-menu { overflow-y: auto; max-height: 200px;
+    }
+    .navbar-header {
+      float: none;
+    }
+    .navbar-toggle {
+      display: block;
+    }
+    .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+      display: none!important;
+    }
+    .navbar-nav {
+      float: none!important;
+      margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+      float: none;
+    }
+    .navbar-nav>li>a {
+      padding-top: 9px !important;
+      padding-bottom: 5px !important;
+    }
+    .navbar-collapse.collapse.in {
+      display: block!important;
+    }
+    .collapsing {
+      overflow: hidden!important;
+    }
+    .container11 {
+      width: 50% !important;
+      text-align: right;
+    }
+    .dropdown-menu .dropdown-title {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .dropdown-column {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .dropdown-column a {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+      text-decoration: none;
+    }
+    .banner-text {
+        height: 30vh; /* 30% of the viewport height for screens <= 768px */
+    }
+
+  }
+  body.lightbox-open {
+      overflow: hidden;
+  }
+  .gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  text-align: center;
+}
+.lightbox-img {
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 6%;
+}
+.close {
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: 15%;
+    right: 35%;
+    cursor: pointer;
+}
+.dropdown-title {
+text-align: center;
+margin: 20px 0;
+}
+.dropdown-column {
+text-decoration: none;
+padding: 10px;
+}
+.dropdown-column a {
+display: block;
+text-decoration: none !important;
+margin: 10px 0;
+padding: 10px;
+color: #000; /* Change to your preferred color */
+border-radius: 4px;
+}
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+    height: 50vh; /* Adjust as needed */
+}
+.custom-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-item {
+  margin: 10px;
+  text-align: center;
+  width: calc(100% / 3 - 20px); /* Set width for three items in a row with margins */
+}
+
+.custom-item img {
+  width: 100%; /* Set image width to 100% to occupy full width */
+  height: auto;
+  max-width: 100%; /* Set max-width to ensure image doesn't exceed container width */
+}
+
+.custom-content {
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Apply styles for tablets */
+  .custom-item {
+    width: 100%; /* Set width to 100% to occupy full width on tablets */
+  }
+}
+
+  .funclr{
+    color: #000;
+  }
+  /* .carousel-inner .item img {
+        width: 400px; 
+        height: auto; 
+        display: block; 
+        margin: 0 auto; 
+    } */
+    .marquee-container {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.marquee-inner {
+    display: flex;
+    animation: marquee 10s linear infinite;
+}
+
+.marquee-slide {
+    flex: 0 0 auto;
+    width: 25%; /* Adjust slide width for larger screens */
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+    height: 300px
+  }
+  .marquee-slide img {
+    height: 350px; /* Set the desired height */
+    width: auto; /* Maintain aspect ratio */
+}
+.banner1{
+  min-height: 410px;
+    position: relative;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .marquee-slide {
+        width: 100%; /* Adjust slide width for smaller screens */
+    }
+}
+
+/* Animation keyframes */
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+</style>
+
+   
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle button111" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img class="img1" src="img/axAsset 8 (1).svg" alt="nandalala-logo">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Invoice Templates <span class="caret"></span></a>
+                    <ul class="dropdown-menu container11">
+                        <div class="row">
+                            <h2 class="dropdown-title">Invoice Template</h2>
+                            <div class="col-md-3 dropdown-column">
+                                <a href="Proforma_Invoice.html">Proforma Invoice</a>
+                                <a href="Commercial_Invoice.html">Commercial Invoice</a>
+                                <a href="sale_invoice.html">Sales Invoice</a>
+                                <a href="Blank_Invoice.html">Blank Invoice</a>
+                                <a href="Textiles_Invoice.html">Textiles Invoice</a>
+                                <a href="Auto_Service_invoice.html">Auto Service Invoice</a>
+                            </div>
+                            <div class="col-md-3 dropdown-column">
+                                <a href="medical_invoice.html">Medical Invoice</a>
+                                <a href="Gym&Fitness_Invoice.html">Gym & Fitness Invoice</a>
+                                <a href="Supermarket_Invoice.html">Supermarket Invoice</a>
+                                <a href="Tax_invoice.html">Tax Invoice</a>
+                                <a href="Sole_invoice.html">Sole Trader</a>
+                                <a href="contator_invoice.html">Contractor Invoice</a>
+                            </div>
+                            <div class="col-md-3 dropdown-column">
+                                <a href="Teaching_Invoice.html">Teaching Invoice</a>
+                                <a href="Consulting_Invoice .html">Consulting Invoice</a>
+                                <a href="Photography_Invoice.html">Photography Invoice</a>
+                                <a href="Hourly_Rate_Invoice.html">Hourly Rate Invoice</a>
+                                <a href="Travel&Tourism_Invoice.html">Travel & Tourism Invoice</a>
+                            </div>
+                            <div class="col-md-3 dropdown-column">
+                                <a href="Freelancer_Invoice.html">Freelancer Invoice</a>
+                                <a href="Graphic_Design_Invoice.html">Graphic Design Invoice</a>
+                                <a href="gst_invoice.html">GST Invoice</a>
+                                <a href="Quotation_Invoice.html">Quotation Invoice</a>
+                                <a href="Simple_Invoice.html">Simple Invoice</a>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+                <li><a href="#footer">About Us</a></li>
+                <li><a href="https://app.invoicefree.in/login" data-toggle="modal">Log In</a></li>
+                <li class="btn-trial"><a href="https://app.invoicefree.in/register" data-toggle="modal">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+      <div class="row">
+        <div class="banner1">
+          <div class="bg-color">
+            <div class="container bg">
+              <div class="row">
+                <div class="banner-text text-center">
+                  <div class="text-border">
+                    <h1 class="text-dec">ABOUT US </h1>
+                    <!-- <p class="small-text">Create GST Invoice or Professional Invoice with Free Online Invoice Maker. </p> -->
+                     <p class="small-text">Invoices are vital for financial tracking, ensuring accuracy in accounting and facilitating  </p>
+                  </div>
+                  <div class="intro-para text-center quote">
+                    <!-- <p class="big-text"><span><img src="img/bill.png" alt="" width="5%"></span>  -->
+                    
+                    <!-- <a href="https://invoicefree.in/" class="btn get-quote">Create Your Free Invoice</a> -->
+                  </div>
+    
+    
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container">
+            <div class="row">
+    
+              <div class="col-md-6 col-xs-12 text-center" style="display: flex; justify-content: center; align-items: center; height: 50vh;">
+                <div style="text-align: center;">
+                    <h2 style="font-size: x-larger;" class="ele">Effortless Invoicing: Ignite Growth! </h2>
+                    <p> To provide innovative solutions that make invoicing easy and efficient. Backed by a team of experts, we're committed to delivering top-notch services and support to our clients.
+                    </p>
+                    <!-- <button> <a href="https://invoicefree.in/sales-invoice.html"
+                                          style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button> -->
+                </div>
+            </div>
+            
+              
+              
+                <div class="col-md-6 col-xs-12">
+                  <img src="img/about-us img-1.jpg" class="img-thumbnail" alt="simm">
+                </div>
+              </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2 style="margin-top: 50px; text-align: center;">INVOICES</h2>
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#evolution">Evolution</a></li>
+            <li><a data-toggle="tab" href="#functions">Functions</a></li>
+            <li><a data-toggle="tab" href="#types">Types</a></li>
+            <!-- <li><a data-toggle="tab" href="#elements">Elements</a></li>
+            <li><a data-toggle="tab" href="#tips">Tips</a></li> -->
+          </ul>
+          <div class="tab-content">
+            <div id="evolution" class="tab-pane fade in active">
+              <h3>Evolution of invoices</h3>
+              <p>Invoices, evolving from ancient clay tablets to digital formats.</p>
+              <img src="img/about-us img-2.jpg" alt="about-us">
+            </div>
+            <div id="functions" class="tab-pane fade">
+              <h3 class="">Functions of invoices</h3>
+              <p>Enabling smooth and efficient payment processes.the agreed-upon transaction detailsfor financial and legal purposes.Protecting the rights and interests of both parties involvedand Holding parties accountable for their financial commitments.Streamlining billing and payment procedures.</p>
+              <div>
+                <h4 class="funclr"> Billing Documents</h4>
+              <p>
+               
+                Billing documents contain crucial information such as invoice numbers, transaction dates, and detailed descriptions of goods/services. They also outline payment terms, total amount due, and instructions for payment, ensuring accurate record-keeping and smooth financial transactions between parties.</p>
+              </div><br>
+              <div>
+                <h4 class="funclr">Financial Recordkeeping</h4>
+                <p>Invoices serve as crucial documents for recording sales transactions, providing detailed information about the goods or services sold, quantities, prices, and dates.</p>
+              </div><br>
+              <div>
+                <h4 class="funclr">Payment Request</h4>
+                <p>Invoices include payment instructions, such as due dates and accepted payment methods, prompting customers to make timely payments.</p>
+              </div><div><br>
+                <h4 class="funclr">Cash Flow Management</h4>
+                <p>Invoices play a crucial role in credit control by helping businesses monitor accounts receivable and track outstanding payments, enabling them to manage credit risks and follow up on overdue invoices.</p>
+              </div><div><br>
+                <h4 class="funclr">Audit Trail </h4>
+                <p>Invoices provide a trail of financial transactions that can be audited by internal or external parties to verify the accuracy and completeness of financial records.</p>
+              </div>
+            </div>
+            <div id="types" class="tab-pane fade">
+              <h3 style="text-align: center;">There are several different types of invoices</h3>
+              <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img1.jpg" alt="Slide 1">
+                        <div class="carousel-caption">
+                            <h3>Slide 1</h3>
+                            <p>Description for slide 1</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img2.jpg" alt="Slide 2">
+                        <div class="carousel-caption">
+                            <h3>Slide 2</h3>
+                            <p>Description for slide 2</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img3.jpg" alt="Slide 3">
+                        <div class="carousel-caption">
+                            <h3>Slide 3</h3>
+                            <p>Description for slide 3</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> -->
+            <div class="marquee-container">
+              <div class="marquee-inner">
+                  <div class="marquee-slide"><img src="img/simpleinvoice1.jpg" alt="Image 1"></div>
+                  <div class="marquee-slide"><img src="img/profa5.jpg" alt="Image 2"></div>
+                  <div class="marquee-slide"><img src="img/medical invoice.jpg" alt="Image 3"></div>
+                  <div class="marquee-slide"><img src="img/invoice_dsdsd_2024-05-31_page-0001.jpg" alt="Image 4"></div>
+                  <div class="marquee-slide"><img src="img/invoice_saba_2024-05-31_page-0001.jpg" alt="Image 5"></div>
+                  <div class="marquee-slide"><img src="img/invoice_AAAAAAA_2024-05-31 (6)_page-0001.jpg" alt="Image 6"></div>
+                  <div class="marquee-slide"><img src="img/gym fitness.jpg" alt="Image 7"></div>
+                  <div class="marquee-slide"><img src="img/consting.jpg" alt="Image 8"></div>
+                  <div class="marquee-slide"><img src="img/graphic inovice.jpg" alt="Image 9"></div>
+                  <div class="marquee-slide"><img src="img/sales&&.jpg" alt="Image 10"></div>
+                  <div class="marquee-slide"><img src="img/supermarket7.jpg" alt="Image 11"></div>
+                  <div class="marquee-slide"><img src="img/phography6.jpg" alt="Image 12"></div>
+                  <div class="marquee-slide"><img src="img/gst2.jpg" alt="Image 13"></div>
+                  <div class="marquee-slide"><img src="img/blank1.jpg" alt="Image 14"></div>
+                  <div class="marquee-slide"><img src="img/tax1.jpg" alt="Image 15"></div>
+                  <div class="marquee-slide"><img src="img/holy5.jpg" alt="Image 16"></div>
+                  <div class="marquee-slide"><img src="img/qt5.jpg" alt="Image 17"></div>
+                  <div class="marquee-slide"><img src="img/text1.jpg" alt="Image 18"></div>
+                  <div class="marquee-slide"><img src="img/solr6.jpg" alt="Image 19"></div>
+                  <div class="marquee-slide"><img src="img/travel3.jpg" alt="Image 20"></div>
+                  <div class="marquee-slide"><img src="img/auto6.jpg" alt="Image 21"></div>
+                  <div class="marquee-slide"><img src="img/contract6.jpg" alt="Image 22"></div>
+              </div>
+          </div>
+          
+        </div>
+      </section><br>
+
+      <section>
+        <div class="container">
+          <div class="custom-container">
+            <div class="custom-item">
+              <img src="img/about.webp" alt="invoice">
+              <div class="custom-content">
+                <p>An invoice serves as a legally binding document that records the details of a commercial transaction. It outlines the terms and conditions of the sale, including payment terms, due dates, and any applicable taxes or fees.</p>
+              </div>
+            </div>
+            <div class="custom-item">
+              <img src="img/about-2.jpg" alt="invoice">
+              <div class="custom-content">
+                <p>Invoices serve as a formal request for payment from the buyer to the seller. They specify the total amount due, any discounts or credits applied, and instructions for payment methods and terms.</p>
+              </div>
+            </div>
+            <div class="custom-item">
+              <img src="img/invoice-img(3,1).jpeg" alt="invoice">
+              <div class="custom-content">
+                <p> Invoices provide valuable data for business planning and decision-making. Analysis of invoicing data can help businesses identify sales trends, customer preferences, and areas for improvement in pricing, product offerings, and marketing strategies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+       <div class="container">
+        <div>
+          <h2>1. What is an invoice?</h2>
+          <p>
+            An invoice is a document sent by a seller to a buyer, requesting payment for goods or services provided. It typically includes details such as the quantity and description of the items, prices, and payment terms.
+          </p>
+        </div>
+        <div>
+          <h2>2. Why is an invoice important?</h2>
+          <p>
+            An invoice serves as a formal request for payment, documenting the transaction between the buyer and the seller. It helps maintain a record of sales and provides a basis for financial reporting and taxation.
+          </p>
+        </div>
+        <div>
+          <h2>3. What information should be included in an invoice?</h2>
+          <p>An invoice should include details such as the seller's and buyer's contact information, invoice number, date, a description of the products or services, quantities, prices, payment terms, and any applicable taxes or discounts.</p>
+        </div>
+        <div>
+          <h2>4. What is the difference between an invoice and a receipt?</h2>
+          <p>An invoice is issued before payment is received, serving as a request for payment. A receipt, on the other hand, is issued after payment has been made, confirming that the payment has been received.</p>
+        </div>
+        <div>
+          <h2>5. What are the common payment terms on an invoice?</h2>
+          <p>Payment terms specify when the payment is due. Common terms include "Net 30" (payment is due 30 days after the invoice date), "Due on Receipt" (payment is due immediately), and others depending on the agreement between the buyer and seller.</p>
+        </div>
+        <div>
+          <h2>6. Can I customize the invoice template?</h2>
+          <p>Yes, many businesses customize their invoice templates to include their logo, branding elements, and specific information relevant to their industry. This helps create a professional and consistent look for all invoices.</p>
+        </div>
+        <div>
+          <h2>7. How can I track payments on my invoices?</h2>
+          <p>You can track payments by recording them in your accounting system or using specialized invoicing software. Many software tools also allow you to set up automatic reminders for overdue payments.</p>
+        </div>
+        <div>
+          <h2>8. Are electronic invoices (e-invoices) legal and accepted?</h2>
+          <p>Yes, electronic invoices are legally accepted in many jurisdictions. They are often more efficient and environmentally friendly than traditional paper invoices. However, it's essential to comply with relevant regulations and ensure the recipient accepts electronic invoices.</p>
+        </div>
+        <div>
+          <h2>9. What should I do if a customer doesn't pay on time?</h2>
+          <p>If a customer doesn't pay on time, you can send payment reminders, assess late fees (if specified in your terms), or contact the customer to discuss the issue. In some cases, legal action may be necessary.</p>
+        </div>
+       </div>
+      </section>
+        
+    
+  <footer id="footer" class=" foot footer">
+    <div class="container top1 text-center">
+
+      <h3 class="text">Send Your First Free Invoice</h3>
+
+      <form class="mc-trial row" action="#" method="get">
+        <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
+          <div class=" controls">
+            <input name="username" placeholder="Enter Your FullName" class="form-control" type="text">
+          </div>
+        </div>
+        <!-- End email input -->
+        <div class="form-group col-md-3 col-sm-4">
+          <div class=" controls">
+            <input name="comment" placeholder="Enter Your Email" class="form-control" type="text">
+          </div>
+        </div>
+        <!-- End email input -->
+        <div class="col-md-2 col-sm-4">
+          <p>
+            <button class="button1" name="submit" type="submit" class="btn btn-block btn-submit"><a
+                href="https://invoicefree.in/register" data-toggle="modal">
+                Get Started!</a></i></button>
+          </p>
+        </div>
+      </form>
+      <!-- End newsletter-form -->
+      <ul class="social-links">
+        <!-- <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li> -->
+        <li><a href="https://www.facebook.com/profile.php?id=61555301096609609" target="_blank"
+            aria-label="Visit our Facebook Profile"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a>
+        </li>
+        <!-- <li><a href=""><i class="fa fa-google-plus fa-fw"></i></a></li> -->
+        <li><a href="https://www.youtube.com/watch?v=l3bmI7NdPfE" target="_blank"
+            aria-label="Watch our YouTube Video"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/invoicefree-nandalala-91ab122a7/" target="_blank"
+            aria-label="Connect with us on LinkedIn"><i class="fa fa-linkedin fa-fw"></i></a></li>
+      </ul>
+      <div style="color: black;">
+        <p class="all_rights"> &copy;2024 NandalalaInfotech All rights reserved </p>
+        <div class="credits">
+          <p class="powered">Powered by <a href="https://nandalalainfotech.com/" target="_blank"><img
+                style="width: 15%;" src="img/nandalala.green.svg" alt="nandalala-logo"></a></p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    // JavaScript initialization for the carousel
+    $(document).ready(function(){
+        $('.carousel').carousel();
+    });
+</script>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      const images = document.querySelectorAll(".images img");
+      const lightbox = document.querySelector(".lightbox");
+      const lightboxImg = document.querySelector(".lightbox-img");
+      const closeBtn = document.querySelector(".close");
+      images.forEach(function(image) {
+          image.addEventListener("click", function() {
+              lightboxImg.src = this.src;
+              lightbox.style.display = "block";
+              document.body.classList.add("lightbox-open"); // Disable scrolling
+          });
+      });
+      closeBtn.addEventListener("click", function() {
+          lightbox.style.display = "none";
+          document.body.classList.remove("lightbox-open"); // Enable scrolling
+      });
+  });
+</script>
+</html>
