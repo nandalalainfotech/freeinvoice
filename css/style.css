@@ -1416,6 +1416,12 @@ Responsive media queries
     .cont{
         margin-top: 8% !important;
     }
+    .mobOnly{
+        width: 100%;
+       }
+       .small-text {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 326px) and (max-width: 420px) {
@@ -1655,6 +1661,9 @@ margin-top: -10px !important;
 .cont{
     margin-top: 8% !important;
 }
+.mobOnly{
+    width: 100%;
+   }
 }
 
 
@@ -1905,6 +1914,9 @@ margin-top: -10px !important;
     margin-top: 20% !important;
 
    }
+   .mobOnly{
+    width: 100%;
+   }
     
 }
 
@@ -1991,6 +2003,7 @@ margin-top: -10px !important;
         margin-top: 5% !important;
     
        }
+       
 }
 
 
