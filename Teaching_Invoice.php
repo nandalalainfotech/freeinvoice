@@ -153,7 +153,7 @@ border-radius: 4px;
       <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/teaching invoice.webp" class="img-thumbnail" alt="Image">
+                <img src="img/teaching_invoice.webp" class="img-thumbnail" alt="teaching_invoice">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">
@@ -175,26 +175,26 @@ border-radius: 4px;
               <!-- First Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/invoice_dsdsd_2024-05-31_page-0001.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
+                      <img src="img/Teaching_Invoice_template_1.webp" alt="Teaching_Invoice_template_1" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/invoice_sp_2024-05-31 (1)_page-0001 (1).webp" alt="Image 2" class="img-thumbnail" loading="lazy">
+                      <img src="img/Teaching_Invoice_template_2.webp" alt="Teaching_Invoice_template_2" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/invoice_ram_2024-05-31_page-0001.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
+                      <img src="img/Teaching_Invoice_template_3.webp" alt="Teaching_Invoice_template_3" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
               <br>
               <!-- Second Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/invoice_lala_2024-05-31_page-0001.webp" alt="Image 4" class="img-thumbnail" loading="lazy">
+                      <img src="img/Teaching_Invoice_template_4.webp" alt="Teaching_Invoice_template_4" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/invoice_prakash_2024-05-31_page-0001.webp" alt="Image 5" class="img-thumbnail" loading="lazy">
+                      <img src="img/Teaching_Invoice_template_5.webp" alt="Teaching_Invoice_template_5" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/invoice_praveen_2024-05-31 (1)_page-0001.webp" alt="Image 6" class="img-thumbnail" loading="lazy">
+                      <img src="img/Teaching_Invoice_template_6.webp" alt="Teaching_Invoice_template_6" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
           </div>
@@ -210,24 +210,24 @@ border-radius: 4px;
       <br>
       <div class="row">
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="accept" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+          <p><img src="img/accept.webp" alt="accept_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="accept" width="20"> Include a section for outlining any terms and conditions .
+          <p><img src="img/accept.webp" alt="accept_2" width="20"> Include a section for outlining any terms and conditions .
   
           </p>
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="accept" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+          <p><img src="img/accept.webp" alt="accept_3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
         </div>
       </div>
       <br>  
       <div class="row">
         <div class=" col-md-6" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="accept" width="20"> Invoice Number automatic generation of the Teaching invoice</p>
+          <p><img src="img/accept.webp" alt="accept_4" width="20"> Invoice Number automatic generation of the Teaching invoice</p>
         </div>
         <div class="col-md-6" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="accept" width="20"> Create templates with a professional.</p>
+          <p><img src="img/accept.webp" alt="accept_5" width="20"> Create templates with a professional.</p>
         </div>
       </div>
     </section>

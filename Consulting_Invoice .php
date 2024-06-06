@@ -124,7 +124,7 @@
     <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/Consulting-Consultant-Invoice-Templates.webp" class="img-thumbnail" alt="Image">
+                <img src="img/Consulting-Consultant-Invoice-Templates.webp" class="img-thumbnail" alt="Consulting-Consultant-Invoice-Templates">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">
@@ -144,26 +144,26 @@
                 <!-- First Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/consulting invoice.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
+                        <img src="img/Consulting_Invoice_template_1.webp" alt="Consulting_Invoice_template_1" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/consting.webp" alt="Image 2" class="img-thumbnail" loading="lazy">
+                        <img src="img/Consulting_Invoice_template_2.webp" alt="Consulting_Invoice_template_2" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/consting1.webp" alt="Image 3" class="img-thumbnail" loading="lazy">
+                        <img src="img/Consulting_Invoice_template_3.webp" alt="Consulting_Invoice_template_3" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
                 <br>
                 <!-- Second Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/consting 4.webp" alt="Image 4" class="img-thumbnail" loading="lazy">
+                        <img src="img/Consulting_Invoice_template_4.webp" alt="Consulting_Invoice_template_4" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/web.webp" alt="Image 5" class="img-thumbnail" loading="lazy">
+                        <img src="img/Consulting_Invoice_template_5.webp" alt="Consulting_Invoice_template_5" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/new constring.webp" alt="Image 6" class="img-thumbnail" loading="lazy">
+                        <img src="img/Consulting_Invoice_template_6.webp" alt="Consulting_Invoice_template_6" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
             </div>

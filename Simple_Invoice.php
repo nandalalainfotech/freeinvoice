@@ -174,13 +174,13 @@ border-radius: 4px;
         <div class="images">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/simpleinvoice1.webp" alt="simpleinvoice1" class="img-thumbnail" loading="lazy">
+                    <img src="img/simpleinvoice_template_1.webp" alt="simpleinvoice_template_1" class="img-thumbnail" loading="lazy">
                 </div>
                 <div class="col-md-4">
-                    <img src="img/simpleinvoice2.webp" alt="simpleinvoice2" class="img-thumbnail" loading="lazy">
+                    <img src="img/simpleinvoice_template_2.webp" alt="simpleinvoice_template_2" class="img-thumbnail" loading="lazy">
                 </div>
                 <div class="col-md-4">
-                    <img src="img/simple3.webp" alt="simple3" class="img-thumbnail" loading="lazy">
+                    <img src="img/simpleinvoice_template_3.webp" alt="simpleinvoice_template_3" class="img-thumbnail" loading="lazy">
                 </div>
                 
                 <!-- Add more columns as needed -->

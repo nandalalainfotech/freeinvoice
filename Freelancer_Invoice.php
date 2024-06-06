@@ -155,7 +155,7 @@ border-radius: 4px;
       <div class="container">
       <div class="row m-3 p-3">
         <div class="col-md-6 col-xs-12">
-          <img src="img/freelancer invoicec.webp" class="img-thumbnail" alt="freelancer1">
+          <img src="img/freelancer_invoicec.webp" class="img-thumbnail" alt="freelancer">
         </div>
      
         <div class="col-md-6 col-xs-12 text-center">
@@ -178,26 +178,26 @@ border-radius: 4px;
               <!-- First Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/invoice_saba_2024-05-31_page-0001.webp" alt="freelancer2" class="img-thumbnail" loading="lazy">
+                      <img src="img/Freelancer_Invoice_templaes_1.webp" alt="Freelancer_Invoice_templaes_1" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/invoice_sabari_2024-05-31 (1)_page-0001.webp" alt="freelancer3" class="img-thumbnail" loading="lazy">
+                      <img src="img/Freelancer_Invoice_templaes_2.webp" alt="Freelancer_Invoice_templaes_2" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/invoice_saran_2024-05-31_page-0001.webp" alt="freelancer4" class="img-thumbnail" loading="lazy">
+                      <img src="img/Freelancer_Invoice_templaes_3.webp" alt="Freelancer_Invoice_templaes_3" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
               <br>
               <!-- Second Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/invoice_sarankumar_2024-05-31_page-0001.webp" alt="freelancer5" class="img-thumbnail" loading="lazy">
+                      <img src="img/Freelancer_Invoice_templaes_4.webp" alt="Freelancer_Invoice_templaes_4" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/invoice_yyyyyyyy_2024-05-31 (1)_page-0001.webp" alt="freelance6" class="img-thumbnail" loading="lazy">
+                      <img src="img/Freelancer_Invoice_templaes_5.webp" alt="Freelancer_Invoice_templaes_5" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/invoice_yyy_2024-05-31_page-0001.webp" alt="freelancer7" class="img-thumbnail" loading="lazy">
+                      <img src="img/Freelancer_Invoice_templaes_6.webp" alt="Freelancer_Invoice_templaes_6" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
           </div>
@@ -213,24 +213,24 @@ border-radius: 4px;
       <br>
       <div class="row">
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right_symbol_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+          <p><img src="img/accept.webp" alt="accept_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right_symbol_2" width="20"> Include a section for outlining any terms and conditions .
+          <p><img src="img/accept.webp" alt="accept_2" width="20"> Include a section for outlining any terms and conditions .
   
           </p>
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right_symbol_3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+          <p><img src="img/accept.webp" alt="accept_3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
         </div>
       </div>
       <br>  
       <div class="row">
         <div class=" col-md-6" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right_symbol_4" width="20"> Invoice Number automatic generation of the Freelancer invoice</p>
+          <p><img src="img/accept.webp" alt="accept_4" width="20"> Invoice Number automatic generation of the Freelancer invoice</p>
         </div>
         <div class="col-md-6" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right_symbol_5" width="20"> Create templates with a professional.</p>
+          <p><img src="img/accept.webp" alt="accept_5" width="20"> Create templates with a professional.</p>
         </div>
       </div>
     </section>

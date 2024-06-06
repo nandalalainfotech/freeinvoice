@@ -159,7 +159,7 @@ border-radius: 4px;
     <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/plaininvooice.webp" class="img-thumbnail" alt="commercial_invoice1">
+                <img src="img/commercial_invoice.webp" class="img-thumbnail" alt="commercial_invoice">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">
@@ -182,26 +182,26 @@ border-radius: 4px;
                 <!-- First Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/invoice_yyyyy_2024-05-31_page-0001.webp" alt="commercial_invoice2" class="img-thumbnail" loading="lazy">
+                        <img src="img/Commerical_Invoice_template_1.webp" alt="commercial_invoice_template_1" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/invoice_AAAAAAA_2024-05-31_page-0001.webp" alt="commercial_invoice13" class="img-thumbnail" loading="lazy">
+                        <img src="img/Commerical_Invoice_template_2.webp" alt="commercial_invoice_template_2" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/invoice.com.webp" alt="commercial_invoice4" class="img-thumbnail" loading="lazy">
+                        <img src="img/Commerical_Invoice_template_3.webp" alt="commercial_invoice_template_3" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
                 <br>
                 <!-- Second Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/commmercial invoice.webp" alt="commercial_invoice5" class="img-thumbnail" loading="lazy">
+                        <img src="img/Commerical_Invoice_template_4.webp" alt="commercial_invoice_template_4" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/commercial new.webp" alt="commercial_invoice6" class="img-thumbnail" loading="lazy">
+                        <img src="img/Commerical_Invoice_template_5.webp" alt="commercial_invoice_template_5" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/commmercial new one.webp" alt="commercial_invoice7" class="img-thumbnail" loading="lazy">
+                        <img src="img/Commerical_Invoice_template_6.webp" alt="commercial_invoice_template_6" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -217,26 +217,26 @@ border-radius: 4px;
         <br>
         <div class="row">
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+            <p><img src="img/accept.webp" alt="accept-1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-2" width="20"> Include a section for outlining any terms and conditions .
+            <p><img src="img/accept.webp" alt="accept-2" width="20"> Include a section for outlining any terms and conditions .
     
             </p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+            <p><img src="img/accept.webp" alt="accept-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
           </div>
         </div>
         <br>  
         <div class="row">
           <div class=" col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-4" width="20"> Invoice Number automatic generation of the Commercial
+            <p><img src="img/accept.webp" alt="accept-4" width="20"> Invoice Number automatic generation of the Commercial
               
               invoice</p>
           </div>
           <div class="col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-5" width="20"> Create templates with a professional.</p>
+            <p><img src="img/accept.webp" alt="accept-5" width="20"> Create templates with a professional.</p>
           </div>
         </div>
       </section>

@@ -295,7 +295,7 @@ border-radius: 4px;
   
     <div class="row ">
       <div class="col-md-6 col-xs-12">
-        <img src="img/simpleimages.webp" class="img-thumbnail" alt="Image">
+        <img src="img/simpleimages.webp" class="img-thumbnail" alt="simpleimages">
       </div>
       <br><br>
 
@@ -325,14 +325,14 @@ border-radius: 4px;
 
 <br><br><br><br>
       <div class="col-md-6 col-xs-12">
-        <img src="img/Consulting-Consultant-Invoice-Templates.webp" class="img-thumbnail" alt="Image">
+        <img src="img/Consulting-Consultant-Invoice-Templates.webp" class="img-thumbnail" alt="Consulting-Consultant">
       </div>
     </div>
     <br><br>
 
     <div class="row mt-3 p-3 simple">
       <div class="col-md-6 col-xs-12">
-        <img src="img/freelancer invoicec.webp" class="img-thumbnail" alt="Image">
+        <img src="img/freelancer_invoicec.webp" class="img-thumbnail" alt="freelancer_invoicec">
       </div>
 
       <div class="col-md-6 col-xs-12 text-center">
@@ -364,7 +364,7 @@ border-radius: 4px;
 
 
       <div class="col-md-6 col-xs-12">
-        <img src="img/Proforma-Invoice.web_.jpg" class="img-thumbnail" alt="Image">
+        <img src="img/Proforma-Invoice.web_.jpg" class="img-thumbnail" alt="Proforma-Invoice">
       </div>
     </div>
 <br><br>
@@ -400,14 +400,14 @@ border-radius: 4px;
 
 
   <div class="col-md-6 col-xs-12">
-    <img src="img/teaching invoice.webp" class="img-thumbnail" alt="Image">
+    <img src="img/teaching_invoice.webp" class="img-thumbnail" alt="teaching_invoice">
   </div>
 </div>
 <br><br>
 <div class="container">
   <div class="row m-3 p-3">
       <div class="col-md-6 col-xs-12">
-          <img src="img/plaininvooice.webp" class="img-thumbnail" alt="commercial_invoice1">
+          <img src="img/commercial_invoice.webp" class="img-thumbnail" alt="commercial_invoice">
       </div>
 
       <div class="col-md-6 col-xs-12 text-center">
@@ -443,7 +443,7 @@ border-radius: 4px;
 <div class="container">
   <div class="row m-3 p-3">
       <div class="col-md-6 col-xs-12">
-          <img src="img/photoimages.webp" class="img-thumbnail" alt="Image">
+          <img src="img/photoimages.webp" class="img-thumbnail" alt="photoimages">
       </div>
       <div class="col-md-6 col-xs-12 text-center">
           <h2 style="font-size: x-larger;" class="ele">Photography Invoice </h2>
@@ -471,7 +471,7 @@ border-radius: 4px;
 
 
   <div class="col-md-6 col-xs-12">
-    <img src="img/autoimages.webp" class="img-thumbnail" alt="Image">
+    <img src="img/autoimages.webp" class="img-thumbnail" alt="autoimages">
   </div>
 </div>
 </div>
@@ -510,7 +510,7 @@ border-radius: 4px;
   
   
     <div class="col-md-6 col-xs-12">
-      <img src="img/market.webp" class="img-thumbnail" alt="Image">
+      <img src="img/market.webp" class="img-thumbnail" alt="market">
     </div>
   </div>
   </div>
@@ -518,7 +518,7 @@ border-radius: 4px;
   <div class="container">
     <div class="row m-3 p-3">
         <div class="col-md-6 col-xs-12">
-            <img src="img/textImages.webp" class="img-thumbnail" alt="textImages1">
+            <img src="img/textImages.webp" class="img-thumbnail" alt="textImages">
         </div>
 
         <div class="col-md-6 col-xs-12 text-center">
@@ -546,7 +546,7 @@ border-radius: 4px;
   
   
     <div class="col-md-6 col-xs-12">
-      <img src="img/simm.webp" class="img-thumbnail" alt="simm">
+      <img src="img/Sales_invoice.webp" class="img-thumbnail" alt="Sales_invoice">
     </div>
   </div>
   </div>
@@ -635,7 +635,7 @@ border-radius: 4px;
   <div class="container">
     <div class="row m-3 p-3">
         <div class="col-md-6 col-xs-12">
-            <img src="img/Image-GST-invoice-1024x512.webp" class="img-thumbnail" alt="GST-invoice_1">
+            <img src="img/Image-GST-invoice-1024x512.webp" class="img-thumbnail" alt="GST-invoice">
         </div>
 
         <div class="col-md-6 col-xs-12 text-center">
@@ -667,7 +667,7 @@ border-radius: 4px;
 <br><br>
 <div class="row m-3 p-3">
   <div class="col-md-6 col-xs-12">
-    <img src="img/depositphotos_131881574-stock-photo-medical-invoice-document-form-patient.webp"
+    <img src="img/medical-invoice.webp"
       class="img-thumbnail" alt="Image">
   </div>
   <br><br>
@@ -886,7 +886,7 @@ border-radius: 4px;
       <div class="row">
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-violet.webp" class="img-responsive" alt="Proforma template">
+            <img src="img/inv-violet.webp" class="img-responsive" alt="inv-violet">
             <figcaption>
               <h3>Proforma Invoice</h3>
               <p class="front">A proforma invoice is a preliminary bill of sale issued by a seller to a buyer before the
@@ -905,7 +905,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-skyblue.webp" class="img-responsive" alt="Sales template">
+            <img src="img/inv-skyblue.webp" class="img-responsive" alt="inv-skyblue">
             <figcaption>
               <h3>Sales Invoice</h3>
               <p class="front">A sales invoice is a document issued by a seller to a buyer, requesting payment for goods
@@ -921,7 +921,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-brown.webp" class="img-responsive" alt="tax template">
+            <img src="img/inv-brown.webp" class="img-responsive" alt="inv-brown">
             <figcaption>
               <h3>Tax Invoice</h3>
               <p class="front">A tax invoice is a document issued by a seller to a buyer, detailing the sale of goods or
@@ -939,7 +939,7 @@ border-radius: 4px;
         </div><br><br><br>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-goldBlue.webp" class="img-responsive" alt="supermarket">
+            <img src="img/inv-goldBlue.webp" class="img-responsive" alt="sinv-goldBlue">
             <figcaption>
               <h3>Teaching Invoice</h3>
               <p class="front">A Teaching invoice is a document issued by an educator or teaching professional to a
@@ -958,7 +958,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-green.webp" class="img-responsive" alt="Gym & Fitness">
+            <img src="img/inv-green.webp" class="img-responsive" alt="inv-green">
             <figcaption>
               <h3>Gym & Fitness Invoice</h3>
               <p class="front">A document issued by Jim & Fitness to clients, detailing services provided such as
@@ -974,7 +974,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-grey.webp" class="img-responsive" alt="Supermarke1">
+            <img src="img/inv-grey.webp" class="img-responsive" alt="inv-grey">
             <figcaption>
               <h3>Supermarket Invoice</h3>
               <p class="front">A document issued by a supermarket to customers, itemizing purchased goods and their
@@ -990,7 +990,7 @@ border-radius: 4px;
         </div><br><br><br>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-nav.webp" class="img-responsive" alt="Supermarket2">
+            <img src="img/inv-nav.webp" class="img-responsive" alt="inv-nav">
             <figcaption>
               <h3>Simple Invoice</h3>
               <p class="front">A simple invoice is a fundamental tool in the business-to-customer transaction process,
@@ -1007,7 +1007,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-orange.webp" class="img-responsive" alt="Supermarket3">
+            <img src="img/inv-orange.webp" class="img-responsive" alt="inv-orange">
             <figcaption>
               <h3>Medical Invoice</h3>
               <p class="front">It is essential documents in healthcare, providing clear summaries of services and
@@ -1021,7 +1021,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-pink.webp" class="img-responsive" alt="Supermarket4">
+            <img src="img/inv-pink.webp" class="img-responsive" alt="inv-pink">
             <figcaption>
               <h3>Freelancer Invoice</h3>
               <p class="front"> Freelancers can use invoice templates or accounting software to create
@@ -1039,7 +1039,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-pink.webp" class="img-responsive" alt="Supermarket4">
+            <img src="img/inv-pink.webp" class="img-responsive" alt="inv-pink">
             <figcaption>
               <h3>Hourly rate invoice</h3>
               <p class="front">Hourly rate invoices ensure accurate billing by documenting the actual hours worked on a
@@ -1057,7 +1057,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-red.webp" class="img-responsive" alt="Supermarket4">
+            <img src="img/inv-red.webp" class="img-responsive" alt="inv-red">
             <figcaption>
               <h3>Photography invoice</h3>
               <p class="front">Photography invoices streamline the payment process by providing clients with a clear
@@ -1075,7 +1075,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-silver.webp" class="img-responsive" alt="Supermarket4">
+            <img src="img/inv-silver.webp" class="img-responsive" alt="inv-silver">
             <figcaption>
               <h3>Consulting Invoice</h3>
               <p class="front">
@@ -1097,7 +1097,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-goldBlue.webp" class="img-responsive" alt="Supermarket4">
+            <img src="img/inv-goldBlue.webp" class="img-responsive" alt="inv-goldBlue">
             <figcaption>
               <h3>Graphic Design Invoice</h3>
               <p class="front"> the graphic design services provided and associated charges, invoices promote
@@ -1114,7 +1114,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/gold-inv.webp" class="img-responsive" alt="Supermarket4">
+            <img src="img/gold-inv.webp" class="img-responsive" alt="gold-inv">
             <figcaption>
               <h3> GST Invoice</h3>
 
@@ -1132,7 +1132,7 @@ border-radius: 4px;
         </div>
         <div class="col-md-4 col-sm-6 padleft-right">
           <figure class="imghvr-fold-up">
-            <img src="img/inv-saffron.webp" class="img-responsive" alt="Supermarket4">
+            <img src="img/inv-saffron.webp" class="img-responsive" alt="inv-saffron">
             <figcaption>
               <h3>Quotation Invoice</h3>
               <p class="front">A quotation invoice, often simply called a quotation or a pro
@@ -1152,7 +1152,7 @@ border-radius: 4px;
       </div>
       <div class="col-md-4 col-sm-6 padleft-right">
         <figure class="imghvr-fold-up">
-          <img src="img/inv-styleblue.webp" class="img-responsive" alt="Supermarket4">
+          <img src="img/inv-styleblue.webp" class="img-responsive" alt="inv-styleblue">
           <figcaption>
             <h3>Blank Invoive</h3>
             <p class="front">A blank invoice is a pre-designed template or form used by
@@ -1170,7 +1170,7 @@ border-radius: 4px;
       </div>
       <div class="col-md-4 col-sm-6 padleft-right">
         <figure class="imghvr-fold-up">
-          <img src="img/inv-pinkblue1.webp" class="img-responsive" alt="Supermarket4">
+          <img src="img/inv-pinkblue1.webp" class="img-responsive" alt="inv-pinkblue1">
           <figcaption>
             <h3>Textiles Invoice</h3>
             <p class="front" >A textiles invoice is a specialized document used in the textile
@@ -1188,7 +1188,7 @@ border-radius: 4px;
 
       <div class="col-md-4 col-sm-6 padleft-right">
         <figure class="imghvr-fold-up">
-          <img src="img/inv-mirrorblue.webp" class="img-responsive" alt="Supermarket4">
+          <img src="img/inv-mirrorblue.webp" class="img-responsive" alt="inv-mirrorblue">
           <figcaption>
             <h3>Sole Trader</h3>
             <p class="front">A sole trader invoice is a document issued by an individual
@@ -1206,7 +1206,7 @@ border-radius: 4px;
       </div>
       <div class="col-md-4 col-sm-6 padleft-right">
         <figure class="imghvr-fold-up">
-          <img src="img/inv-pinkblue.webp" class="img-responsive" alt="Supermarket4">
+          <img src="img/inv-pinkblue.webp" class="img-responsive" alt="inv-pinkblue">
           <figcaption>
             <h3>Contractor Invoice</h3>
             <p class="front">A contractor invoice is a document used by independent contractors
@@ -1224,7 +1224,7 @@ border-radius: 4px;
       </div>
       <div class="col-md-4 col-sm-6 padleft-right">
         <figure class="imghvr-fold-up">
-          <img src="img/inv-stripe.webp" class="img-responsive" alt="Supermarket4">
+          <img src="img/inv-stripe.webp" class="img-responsive" alt="inv-stripe">
           <figcaption>
             <h3>Auto Service</h3>
             <p class="front">An auto service invoice is a document provided by automotive
@@ -1241,7 +1241,7 @@ border-radius: 4px;
       </div>
       <div class="col-md-4 col-sm-6 padleft-right">
         <figure class="imghvr-fold-up">
-          <img src="img/inv-Mirror.webp" class="img-responsive" alt="Supermarket4">
+          <img src="img/inv-Mirror.webp" class="img-responsive" alt="inv-Mirror">
           <figcaption>
             <h3>Travel & Tourism Invoice</h3>
             <p class="front">A travel and tourism invoice is a document provided by travel
@@ -1258,7 +1258,7 @@ border-radius: 4px;
       </div>
       <div class="col-md-4 col-sm-6 padleft-right">
         <figure class="imghvr-fold-up">
-          <img src="img/inv-paleSand.webp" class="img-responsive" alt="Supermarket4">
+          <img src="img/inv-paleSand.webp" class="img-responsive" alt="inv-paleSand">
           <figcaption>
             <h3>Commercial Invoice </h3>
             <p class="front">A commercial invoice is a crucial document used in international
@@ -1277,7 +1277,7 @@ border-radius: 4px;
       </div>
       <div class="col-md-4 col-sm-6 padleft-right">
         <figure class="imghvr-fold-up">
-          <img src="img/inv-Aliceblue.webp" class="img-responsive" alt="Supermarket4">
+          <img src="img/inv-Aliceblue.webp" class="img-responsive" alt="inv-Aliceblue">
           <figcaption>
             <h3>Commercial Invoice </h3>
             <p class="front">A commercial invoice is a crucial document used in international
@@ -1296,7 +1296,7 @@ border-radius: 4px;
       </div>
       <div class="col-md-4 col-sm-6 padleft-right">
         <figure class="imghvr-fold-up">
-          <img src="img/inv-balnkGreen.webp" class="img-responsive" alt="Supermarket4">
+          <img src="img/inv-balnkGreen.webp" class="img-responsive" alt="inv-balnkGreen">
           <figcaption>
             <h3>Commercial Invoice </h3>
             <p class="front">A commercial invoice is a crucial document used in international

@@ -174,26 +174,26 @@ border-radius: 4px;
               <!-- First Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/auto6.webp" alt="auto_invoice" class="img-thumbnail" loading="lazy">
+                      <img src="img/Auto_Services_Invoice_1.webp" alt="Auto_Services_Invoice_1" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/auto1.webp" alt="auto_invoice1" class="img-thumbnail" loading="lazy">
+                      <img src="img/Auto_Services_Invoice_2.webp" alt="Auto_Services_Invoice_2" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/auto2.webp" alt="auto_invoice2" class="img-thumbnail" loading="lazy">
+                      <img src="img/Auto_Services_Invoice_3.webp" alt="Auto_Services_Invoice_3" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
               <br>
               <!-- Second Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/auto3.webp" alt="auto_invoice3" class="img-thumbnail" loading="lazy">
+                      <img src="img/Auto_Services_Invoice_4.webp" alt="Auto_Services_Invoice_4" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/auto4.webp" alt="auto_invoice4" class="img-thumbnail" loading="lazy">
+                      <img src="img/Auto_Services_Invoice_5.webp" alt="Auto_Services_Invoice_5" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/auto5.webp" alt="auto_invoice5" class="img-thumbnail" loading="lazy">
+                      <img src="img/Auto_Services_Invoice_6.webp" alt="Auto_Services_Invoice_6" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
           </div>

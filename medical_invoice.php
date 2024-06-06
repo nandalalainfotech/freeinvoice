@@ -171,8 +171,8 @@ border-radius: 4px;
   <section class="container">
   <div class="row mt-3 p-3">
     <div class="col-md-6 col-xs-12">
-      <img src="img/depositphotos_131881574-stock-photo-medical-invoice-document-form-patient.webp"
-        class="img-thumbnail" alt="Image">
+      <img src="img/medical-invoice.webp"
+        class="img-thumbnail" alt="medical-invoice">
     </div>
 
     <div class="col-md-6 col-xs-12 text-center">
@@ -194,27 +194,28 @@ border-radius: 4px;
       <div class="images">
           <!-- First Row -->
           <div class="row">
+              
               <div class="col-md-4">
-                  <img src="img/medical invoice.webp" alt="medical_invoice_1" class="img-thumbnail" loading="lazy">
+                  <img src="img/medical_invoice_template_1.webp" alt="medical_invoice_template_1" class="img-thumbnail" loading="lazy">
               </div>
               <div class="col-md-4">
-                  <img src="img/medical ivoice1.webp" alt="medical_invoice_2" class="img-thumbnail" loading="lazy">
+                  <img src="img/medical_invoice_template_2.webp" alt="medical_invoice_template_2" class="img-thumbnail" loading="lazy">
               </div>
               <div class="col-md-4">
-                  <img src="img/medical invoice 2.webp" alt="medical_invoice_3" class="img-thumbnail" loading="lazy">
+                  <img src="img/medical_invoice_template_3.webp" alt="medical_invoice_template_3" class="img-thumbnail" loading="lazy">
               </div>
           </div>
           <br>
           <!-- Second Row -->
           <div class="row">
               <div class="col-md-4">
-                  <img src="img/mt1.webp" alt="medical_invoice_4" class="img-thumbnail" loading="lazy">
+                  <img src="img/medical_invoice_template_4.webp" alt="medical_invoice_template_4" class="img-thumbnail" loading="lazy">
               </div>
               <div class="col-md-4">
-                  <img src="img/mt2.webp" alt="medical_invoice_5" class="img-thumbnail" loading="lazy">
+                  <img src="img/medical_invoice_temlate_5.webp" alt="medical_invoice_template_5" class="img-thumbnail" loading="lazy">
               </div>
               <div class="col-md-4">
-                  <img src="img/mt3.webp" alt="medical_invoice_6" class="img-thumbnail" loading="lazy">
+                  <img src="img/medical_invoice_template_ 6.webp" alt="medical_invoice_template_6" class="img-thumbnail" loading="lazy">
               </div>
           </div>
       </div>
@@ -233,24 +234,24 @@ border-radius: 4px;
   <br>
   <div class="row">
     <div class="col-md-4" style="text-align: center;">
-      <p><img src="img/accept.webp" alt="right_symbol_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+      <p><img src="img/accept.webp" alt="accept_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
     </div>
     <div class="col-md-4" style="text-align: center;">
-      <p><img src="img/accept.webp" alt="right_symbol_2" width="20"> Include a section for outlining any terms and conditions .
+      <p><img src="img/accept.webp" alt="accept_2" width="20"> Include a section for outlining any terms and conditions .
 
       </p>
     </div>
     <div class="col-md-4" style="text-align: center;">
-      <p><img src="img/accept.webp" alt="right_symbol_3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+      <p><img src="img/accept.webp" alt="accept_3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
     </div>
   </div>
   <br>  
   <div class="row">
     <div class=" col-md-6" style="text-align: center;">
-      <p><img src="img/accept.webp" alt="right_symbol_4" width="20"> Invoice Number automatic generation of the Medical invoice</p>
+      <p><img src="img/accept.webp" alt="accept_4" width="20"> Invoice Number automatic generation of the Medical invoice</p>
     </div>
     <div class="col-md-6" style="text-align: center;">
-      <p><img src="img/accept.webp" alt="right_symbol_5" width="20"> Create templates with a professional.</p>
+      <p><img src="img/accept.webp" alt="accept_5" width="20"> Create templates with a professional.</p>
     </div>
   </div>
 </section>

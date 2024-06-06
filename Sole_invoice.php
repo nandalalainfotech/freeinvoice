@@ -177,26 +177,26 @@
                 <!-- First Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/solr 1.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
+                        <img src="img/Sole_Trade_Invoice_template_1.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/solr2.webp" alt="Image 2" class="img-thumbnail" loading="lazy">
+                        <img src="img/Sole_Trade_Invoice_template_2.webp" alt="Image 2" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/sol3.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
+                        <img src="img/Sole_Trade_Invoice_template_3.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
                 <br>
                 <!-- Second Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/solr4.webp" alt="Image 4" class="img-thumbnail" loading="lazy">
+                        <img src="img/Sole_Trade_Invoice_template_4.webp" alt="Image 4" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/solr5.webp" alt="Image 5" class="img-thumbnail" loading="lazy">
+                        <img src="img/Sole_Trade_Invoice_template_5.webp" alt="Image 5" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/solr6.webp" alt="Image 6" class="img-thumbnail" loading="lazy">
+                        <img src="img/Sole_Trade_Invoice_template_6.webp" alt="Image 6" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
             </div>

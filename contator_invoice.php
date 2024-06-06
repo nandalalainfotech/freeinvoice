@@ -173,26 +173,26 @@ border-radius: 4px;
               <!-- First Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/contract1.webp" alt="contractImages2" class="img-thumbnail" loading="lazy">
+                      <img src="img/Contractor_Invoice_templates_1.webp" alt="Contractor_Invoice_templates_1" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/contract2.webp" alt="contractImages3" class="img-thumbnail" loading="lazy">
+                      <img src="img/Contractor_Invoice_templates_2.webp" alt="Contractor_Invoice_templates_2" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/contract3.webp" alt="contractImages4" class="img-thumbnail" loading="lazy">
+                      <img src="img/Contractor_Invoice_templates_3.webp" alt="Contractor_Invoice_templates_3" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
               <br>
               <!-- Second Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/contat4.webp" alt="contractImages5" class="img-thumbnail" loading="lazy">
+                      <img src="img/Contractor_Invoice_templates_4.webp" alt="Contractor_Invoice_templates_4" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/contract5.webp" alt="contractImages6" class="img-thumbnail" loading="lazy">
+                      <img src="img/Contractor_Invoice_templates_5.webp" alt="Contractor_Invoice_templates_5" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/contract6.webp" alt="contractImages7" class="img-thumbnail" loading="lazy">
+                      <img src="img/Contractor_Invoice_templates_6.webp" alt="Contractor_Invoice_templates_6" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
           </div>
@@ -209,24 +209,24 @@ border-radius: 4px;
       <br>
       <div class="row">
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-2" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+          <p><img src="img/accept.webp" alt="accept_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-3" width="20"> Include a section for outlining any terms and conditions .
+          <p><img src="img/accept.webp" alt="accept_2" width="20"> Include a section for outlining any terms and conditions .
   
           </p>
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-5" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+          <p><img src="img/accept.webp" alt="accept_3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
         </div>
       </div>
       <br>  
       <div class="row">
         <div class=" col-md-6" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-4" width="20"> Invoice Number automatic generation of the Contractor Invoice</p>
+          <p><img src="img/accept.webp" alt="accept_4" width="20"> Invoice Number automatic generation of the Contractor Invoice</p>
         </div>
         <div class="col-md-6" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-6" width="20"> Create templates with a professional.</p>
+          <p><img src="img/accept.webp" alt="accept_5" width="20"> Create templates with a professional.</p>
         </div>
       </div>
     </section>

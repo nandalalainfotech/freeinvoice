@@ -175,13 +175,13 @@
         <div class="images">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/travel.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
+                    <img src="img/Travel_Tourism_Invoice_template_1.webp" alt="Travel_Tourism_Invoice_template_1" class="img-thumbnail" loading="lazy">
                 </div>
                 <div class="col-md-4">
-                    <img src="img/travel1.webp" alt="Image 2" class="img-thumbnail" loading="lazy">
+                    <img src="img/Travel_Tourism_Invoice_template_2.webp" alt="Travel_Tourism_Invoice_template_2" class="img-thumbnail" loading="lazy">
                 </div>
                 <div class="col-md-4">
-                    <img src="img/travel3.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
+                    <img src="img/Travel_Tourism_Invoice_template_3.webp" alt="Travel_Tourism_Invoice_template_3" class="img-thumbnail" loading="lazy">
                 </div>
                 
                 <!-- Add more columns as needed -->

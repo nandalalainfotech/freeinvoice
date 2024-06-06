@@ -159,7 +159,7 @@
     <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/Graphic-Design-Invoice-Templates.webp" class="img-thumbnail" alt="graphic_design_1">
+                <img src="img/Graphic-Design-Invoice-Templates.webp" class="img-thumbnail" alt="graphic_design">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">
@@ -179,26 +179,26 @@
                 <!-- First Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/graphic inovice.webp" alt="graphic_design_2" class="img-thumbnail" loading="lazy">
+                        <img src="img/Graphic_Design_Invoice_template1.webp" alt="Graphic_Design_Invoice_template1" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/graphic desi2.webp" alt="graphic_design_3" class="img-thumbnail" loading="lazy">
+                        <img src="img/Graphic_Design_Invoice_template_2.webp" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/graphic3.webp" alt="graphic_design_4" class="img-thumbnail" loading="lazy">
+                        <img src="img/Graphic_Design_Invoice_template3.webp" alt="Graphic_Design_Invoice_template3" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
                 <br>
                 <!-- Second Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/graphic des invoice33.webp" alt="graphic_design_5" class="img-thumbnail" loading="lazy">
+                        <img src="img/Graphic_Design_Invoice_template_4.webp" alt="Graphic_Design_Invoice_template_4" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/graphic desi 5.webp" alt="graphic_design_6" class="img-thumbnail" loading="lazy">
+                        <img src="img/Graphic_Design_Invoice_template_5.webp" alt="Graphic_Design_Invoice_template_5" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/graphic 6.webp" alt="graphic_design_7" class="img-thumbnail" loading="lazy">
+                        <img src="img/Graphic_Design_Invoice_template_6.webp" alt="Graphic_Design_Invoice_template_6" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -214,24 +214,24 @@
         <br>
         <div class="row">
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="rigt_symbol_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+            <p><img src="img/accept.webp" alt="accept_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-2" width="20"> Include a section for outlining any terms and conditions .
+            <p><img src="img/accept.webp" alt="accept-2" width="20"> Include a section for outlining any terms and conditions .
     
             </p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+            <p><img src="img/accept.webp" alt="accept-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
           </div>
         </div>
         <br>  
         <div class="row">
           <div class=" col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-4" width="20"> Invoice Number automatic generation of the Graphic Design</p>
+            <p><img src="img/accept.webp" alt="accept-4" width="20"> Invoice Number automatic generation of the Graphic Design</p>
           </div>
           <div class="col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-5" width="20"> Create templates with a professional.</p>
+            <p><img src="img/accept.webp" alt="accept-5" width="20"> Create templates with a professional.</p>
           </div>
         </div>
       </section>
