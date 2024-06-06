@@ -173,26 +173,26 @@ border-radius: 4px;
             <!-- First Row -->
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/qt1.webp" alt="Quotation 1" class="img-thumbnail" loading="lazy">
+                    <img src="img/quatations_invoice_templates(1).webp" alt="quatations_invoice_templates(1)" class="img-thumbnail" loading="lazy">
                 </div>
                 <div class="col-md-4">
-                    <img src="img/at2.webp" alt="Quotation 2" class="img-thumbnail" loading="lazy">
+                    <img src="img/quatations_invoice_templates(2).webp" alt="quatations_invoice_templates(2)" class="img-thumbnail" loading="lazy">
                 </div>
                 <div class="col-md-4">
-                    <img src="img/qt3.webp" alt="Quotation 3" class="img-thumbnail" loading="lazy">
+                    <img src="img/quatations_invoice_templates(3).webp" alt="quatations_invoice_templates(3)" class="img-thumbnail" loading="lazy">
                 </div>
             </div>
             <br>
             <!-- Second Row -->
             <div class="row">
                 <div class="col-md-4">
-                    <img src="img/qt4.webp" alt="Quotation 4" class="img-thumbnail" loading="lazy">
+                    <img src="img/quatations_invoice_templates(4).webp" alt="quatations_invoice_templates(4)" class="img-thumbnail" loading="lazy">
                 </div>
                 <div class="col-md-4">
-                    <img src="img/qt5.webp" alt="Quotation 5" class="img-thumbnail" loading="lazy">
+                    <img src="img/quatations_invoice_templates(5).webp" alt="quatations_invoice_templates(5)" class="img-thumbnail" loading="lazy">
                 </div>
                 <div class="col-md-4">
-                    <img src="img/qt6.webp" alt="Quotation 6" class="img-thumbnail" loading="lazy">
+                    <img src="img/quatations_invoice_templates(6).webp" alt="quatations_invoice_templates(6)" class="img-thumbnail" loading="lazy">
                 </div>
             </div>
         </div>

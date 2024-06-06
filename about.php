@@ -346,28 +346,28 @@ border-radius: 4px;
             </div> -->
             <div class="marquee-container">
               <div class="marquee-inner">
-                  <div class="marquee-slide"><img src="img/simpleinvoice1.webp" alt="simpleinvoice1"></div>
-                  <div class="marquee-slide"><img src="img/profa5.webp" alt="profa5"></div>
-                  <div class="marquee-slide"><img src="img/medical invoice.webp" alt="medical invoice"></div>
-                  <div class="marquee-slide"><img src="img/invoice_dsdsd_2024-05-31_page-0001.webp" alt="Image 4"></div>
-                  <div class="marquee-slide"><img src="img/invoice_saba_2024-05-31_page-0001.webp" alt="Image 5"></div>
-                  <div class="marquee-slide"><img src="img/invoice_AAAAAAA_2024-05-31 (6)_page-0001.webp" alt="Image 6"></div>
-                  <div class="marquee-slide"><img src="img/gym fitness.webp" alt="Image 7"></div>
-                  <div class="marquee-slide"><img src="img/consting.webp" alt="Image 8"></div>
-                  <div class="marquee-slide"><img src="img/graphic inovice.webp" alt="Image 9"></div>
-                  <div class="marquee-slide"><img src="img/sales&&.webp" alt="Image 10"></div>
-                  <div class="marquee-slide"><img src="img/supermarket7.webp" alt="Image 11"></div>
-                  <div class="marquee-slide"><img src="img/phography6.webp" alt="Image 12"></div>
-                  <div class="marquee-slide"><img src="img/gst2.webp" alt="Image 13"></div>
-                  <div class="marquee-slide"><img src="img/blank1.webp" alt="Image 14"></div>
-                  <div class="marquee-slide"><img src="img/tax1.webp" alt="Image 15"></div>
-                  <div class="marquee-slide"><img src="img/holy5.webp" alt="Image 16"></div>
-                  <div class="marquee-slide"><img src="img/qt5.webp" alt="Image 17"></div>
-                  <div class="marquee-slide"><img src="img/text1.webp" alt="Image 18"></div>
-                  <div class="marquee-slide"><img src="img/solr6.webp" alt="Image 19"></div>
-                  <div class="marquee-slide"><img src="img/travel3.webp" alt="Image 20"></div>
-                  <div class="marquee-slide"><img src="img/auto6.webp" alt="Image 21"></div>
-                  <div class="marquee-slide"><img src="img/contract6.webp" alt="Image 22"></div>
+                  <div class="marquee-slide"><img src="img/simpleinvoice_template_1.webp" alt="simpleinvoice_template_1"></div>
+                  <div class="marquee-slide"><img src="img/proforma_invoice_tempate_4.webp" alt="proforma_invoice_tempate_4"></div>
+                  <div class="marquee-slide"><img src="img/medical_invoice_temlate_5.webp" alt="medical_invoice_temlate_5"></div>
+                  <div class="marquee-slide"><img src="img/Teaching_Invoice_template_4.webp" alt="Teaching_Invoice_template_4"></div>
+                  <div class="marquee-slide"><img src="img/Freelancer_Invoice_templaes_3.webp" alt="Freelancer_Invoice_templaes_3"></div>
+                  <div class="marquee-slide"><img src="img/Commerical_Invoice_template_6.webp" alt="Commerical_Invoice_template_6"></div>
+                  <div class="marquee-slide"><img src="img/Gym_Fitness_Invoice_template_3" alt="Gym_Fitness_Invoice_template_3"></div>
+                  <div class="marquee-slide"><img src="img/Consulting_Invoice_template_2.webp" alt="Consulting_Invoice_template_2"></div>
+                  <div class="marquee-slide"><img src="img/Graphic_Design_Invoice_template1.webp" alt="Graphic_Design_Invoice_template1"></div>
+                  <div class="marquee-slide"><img src="img/Sales_Invoice_template_5.webp" alt="Sales_Invoice_template_5.webp"></div>
+                  <div class="marquee-slide"><img src="img/supermarket-invoice-template(5).webp" alt="supermarket-invoice-template(5)"></div>
+                  <div class="marquee-slide"><img src="img/photography-invoice-template(4).webp" alt="photography-invoice-template(4)"></div>
+                  <div class="marquee-slide"><img src="img/gst-invoice-templates(4).webp" alt="gst-invoice-templates(4)"></div>
+                  <div class="marquee-slide"><img src="img/blank-templates-invoice(1).webp" alt="blank-templates-invoice(1)"></div>
+                  <div class="marquee-slide"><img src="img/tax-templates-invoice(4).webp" alt="tax-templates-invoice(4)"></div>
+                  <div class="marquee-slide"><img src="img/hourly_invoice_templates.webp.webp" alt="hourly_invoice_templates.webp"></div>
+                  <div class="marquee-slide"><img src="img/quatations_invoice_templates(4).webp" alt="quatations_invoice_templates(4)"></div>
+                  <div class="marquee-slide"><img src="img/textilies_invoice_templates(4).webp" alt="textilies_invoice_templates(4)"></div>
+                  <div class="marquee-slide"><img src="img/Sole_Trade_Invoice_template_6.webp" alt="Sole_Trade_Invoice_template_6"></div>
+                  <div class="marquee-slide"><img src="img/Travel_Tourism_Invoice_template_1.webp" alt="Travel_Tourism_Invoice_template_1."></div>
+                  <div class="marquee-slide"><img src="img/Auto_Services_Invoice_1.webp" alt="Auto_Services_Invoice_1"></div>
+                  <div class="marquee-slide"><img src="img/Contractor_Invoice_templates_6.webp" alt="Contractor_Invoice_templates_6"></div>
               </div>
           </div>
           

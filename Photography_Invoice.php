@@ -189,13 +189,13 @@ border-radius: 4px;
                 <!-- Second Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/photograp67.webp" alt="photography 4" class="img-thumbnail" loading="lazy">
+                        <img src="img/photography-invoice-template(4).webp" alt="photography-invoice-template(4)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/ssp.webp" alt="photography 5" class="img-thumbnail" loading="lazy">
+                        <img src="img/photography-invoice-template(5).webp" alt="photography-invoice-template(5)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/s.webp" alt="photography 6" class="img-thumbnail" loading="lazy">
+                        <img src="img/photography-invoice-template(6).webp" alt="photography-invoice-template(6)" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
             </div>

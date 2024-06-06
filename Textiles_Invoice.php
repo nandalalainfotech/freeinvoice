@@ -176,26 +176,26 @@
                 <!-- First Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/text1.webp" alt="text1 " class="img-thumbnail" loading="lazy">
+                        <img src="img/textilies_invoice_templates(1).webp" alt="textilies_invoice_templates(1) " class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/text2.webp" alt="text2" class="img-thumbnail" loading="lazy">
+                        <img src="img/textilies_invoice_templates(2).webp" alt="textilies_invoice_templates(2)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/text3.webp" alt="text3" class="img-thumbnail" loading="lazy">
+                        <img src="img/textilies_invoice_templates(3).webp" alt="text3" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
                 <br>
                 <!-- Second Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/text4.webp" alt="text4" class="img-thumbnail" loading="lazy">
+                        <img src="img/textilies_invoice_templates(4).webp" alt="textilies_invoice_templates(4)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/text5.webp" alt="text5" class="img-thumbnail" loading="lazy">
+                        <img src="img/textilies_invoice_templates(5).webp" alt="textilies_invoice_templates(5)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/text6.webp" alt="text6" class="img-thumbnail" loading="lazy">
+                        <img src="img/textilies_invoice_templates(6).webp" alt="textilies_invoice_templates(6)" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
             </div>

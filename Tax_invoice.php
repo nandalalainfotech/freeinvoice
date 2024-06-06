@@ -171,26 +171,26 @@ border-radius: 4px;
               <!-- First Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/taxinvoice.webp" alt="taxinvoice1" class="img-thumbnail" loading="lazy">
+                      <img src="img/tax-templates-invoice(1).webp" alt="tax-templates-invoice(1)" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/tax1.webp" alt="taxinvoice 2" class="img-thumbnail" loading="lazy">
+                      <img src="img/tax-templates-invoice(2).webp" alt="tax-templates-invoice(2)" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/tax9.webp" alt="taxinvoice 3" class="img-thumbnail" loading="lazy">
+                      <img src="img/tax-templates-invoice(3).webp" alt="tax-templates-invoice(3)" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
               <br>
               <!-- Second Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/tax5.webp" alt="Image 4" class="img-thumbnail" loading="lazy">
+                      <img src="img/tax-templates-invoice(4).webp" alt="tax-templates-invoice(4)" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/tax6.webp" alt="Image 5" class="img-thumbnail" loading="lazy">
+                      <img src="img/tax-templates-invoice(5).webp" alt="tax-templates-invoice(5)" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/tax8.webp " alt="Image 6" class="img-thumbnail" loading="lazy">
+                      <img src="img/tax-templates-invoice(6).webp " alt="tax-templates-invoice(6)" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
           </div>

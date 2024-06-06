@@ -177,26 +177,26 @@
                 <!-- First Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/gst.webp" alt="GST-invoice2" class="img-thumbnail" loading="lazy">
+                        <img src="img/gst-invoice-templates(1).webp" alt="gst-invoice-templates(1)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/gst2.webp" alt="GST-invoice3" class="img-thumbnail" loading="lazy">
+                        <img src="img/gst-invoice-templates(2).webp" alt="gst-invoice-templates(2)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/gst3.webp" alt="GST-invoice4" class="img-thumbnail" loading="lazy">
+                        <img src="img/gst-invoice-templates(3).webp" alt="gst-invoice-templates(3)" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
                 <br>
                 <!-- Second Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/gst4.webp" alt="GST-invoice5" class="img-thumbnail" loading="lazy">
+                        <img src="img/gst-invoice-templates(4).webp" alt="gst-invoice-templates(4)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/gst5.webp" alt="GST-invoice6" class="img-thumbnail" loading="lazy">
+                        <img src="img/gst-invoice-templates(5).webp" alt="gst-invoice-templates(5)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/gst6.webp" alt="GST-invoice7" class="img-thumbnail" loading="lazy">
+                        <img src="img/gst-invoice-templates(6).webp" alt="gst-invoice-templates(6)" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
             </div>
