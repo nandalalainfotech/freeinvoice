@@ -259,7 +259,7 @@ border-radius: 4px;
               
               
                 <div class="col-md-6 col-xs-12">
-                  <img src="img/about-2.webp" class="img-thumbnail" alt="simm">
+                  <img src="img/Ignite Growth.webp" class="img-thumbnail" alt=" Ignite Growth">
                 </div>
               </div>
         </div>
@@ -278,7 +278,7 @@ border-radius: 4px;
             <div id="evolution" class="tab-pane fade in active">
               <h3>Evolution of invoices</h3>
               <p>Invoices, evolving from ancient clay tablets to digital formats.</p>
-              <img src="img/about-us img-2.webp" alt="about-us" class="mobOnly">
+              <img src="img/Evolution.webp" alt="Evolution" class="mobOnly">
             </div>
             <div id="functions" class="tab-pane fade">
               <h3 class="">Functions of invoices</h3>
@@ -346,9 +346,9 @@ border-radius: 4px;
             </div> -->
             <div class="marquee-container">
               <div class="marquee-inner">
-                  <div class="marquee-slide"><img src="img/simpleinvoice1.webp" alt="Image 1"></div>
-                  <div class="marquee-slide"><img src="img/profa5.webp" alt="Image 2"></div>
-                  <div class="marquee-slide"><img src="img/medical invoice.webp" alt="Image 3"></div>
+                  <div class="marquee-slide"><img src="img/simpleinvoice1.webp" alt="simpleinvoice1"></div>
+                  <div class="marquee-slide"><img src="img/profa5.webp" alt="profa5"></div>
+                  <div class="marquee-slide"><img src="img/medical invoice.webp" alt="medical invoice"></div>
                   <div class="marquee-slide"><img src="img/invoice_dsdsd_2024-05-31_page-0001.webp" alt="Image 4"></div>
                   <div class="marquee-slide"><img src="img/invoice_saba_2024-05-31_page-0001.webp" alt="Image 5"></div>
                   <div class="marquee-slide"><img src="img/invoice_AAAAAAA_2024-05-31 (6)_page-0001.webp" alt="Image 6"></div>
@@ -378,19 +378,19 @@ border-radius: 4px;
         <div class="container">
           <div class="custom-container">
             <div class="custom-item">
-              <img src="img/iconimages.webp" alt="invoice">
+              <img src="img/iconimages(1).webp" alt="iconimages(1)">
               <div class="custom-content">
                 <p>An invoice serves as a legally binding document that records the details of a commercial transaction. It outlines the terms and conditions of the sale, including payment terms, due dates, and any applicable taxes or fees.</p>
               </div>
             </div>
             <div class="custom-item">
-              <img src="img/iconimages-web(2).webp" alt="invoice" >
+              <img src="img/iconimages(2).webp" alt="iconimages(2)" >
               <div class="custom-content">
                 <p>Invoices serve as a formal request for payment from the buyer to the seller. They specify the total amount due, any discounts or credits applied, and instructions for payment methods and terms.</p>
               </div>
             </div>
             <div class="custom-item">
-              <img src="img/again-change.webp" alt="invoice" >
+              <img src="img/iconimages(3).webp" alt="iconimages(3)" >
               <div class="custom-content">
                 <p> Invoices provide valuable data for business planning and decision-making. Analysis of invoicing data can help businesses identify sales trends, customer preferences, and areas for improvement in pricing, product offerings.</p>
               </div>

@@ -136,7 +136,7 @@ border-radius: 4px;
                     </h1>
                   </div>
                   <div class="intro-para text-center quote">
-                    <p class="big-text"><span><img src="img/icons8-invoice-64.webp" alt="invoice" width="5%" class="car"></span>
+                    <p class="big-text"><span><img src="img/quotation_invoice_icon.webp" alt="quotation_invoice_icon" width="5%" class="car"></span>
                         Quotation invoice is preliminary agreement detailing costs before finalizing sale; includes unique number, dates, supplier-buyer info, item/service descriptions, terms, and conditions.</p>
                     
                     <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
@@ -154,8 +154,8 @@ border-radius: 4px;
   <section class="container">
   <div class="row mt-3 p-3">
     <div class="col-md-6 col-xs-12">
-      <img src="img/depositphotos_131881574-stock-photo-medical-invoice-document-form-patient.webp"
-        class="img-thumbnail" alt="Image">
+      <img src="img/quotation_invoice_images.webp"
+        class="img-thumbnail" alt="quotation_invoice_images">
     </div>
 
     <div class="col-md-6 col-xs-12 text-center">

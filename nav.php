@@ -46,7 +46,7 @@
                               <a href="Freelancer_Invoice.php">Freelancer Invoice</a>
                               <a href="Graphic_Design_Invoice.php">Graphic Design Invoice</a>
                               <a href="gst_invoice.php">GST Invoice</a>
-                              <a href="Quotation_Invoicephp">Quotation Invoice</a>
+                              <a href="Quotation_Invoice.php">Quotation Invoice</a>
                               <a href="Simple_Invoice.php">Simple Invoice</a>
                           </div>
                       </div>

@@ -138,7 +138,7 @@ border-radius: 4px;
                     <h1 class="text-dec">SIMPLE INVOICE</h1>
                   </div>
                   <div class="intro-para text-center quote">
-                    <p class="big-text"><span><img src="img/bill.webp" alt="" width="5%" class="car"></span> This is the bottom line of the invoice, which shows the total amount the customer needs to pay. It is usually bolded or highlighted to make it stand out.It is important to include this information to avoid any confusion or delays in payment. </p>
+                    <p class="big-text"><span><img src="img/bill.webp" alt="bill" width="5%" class="car"></span> This is the bottom line of the invoice, which shows the total amount the customer needs to pay. It is usually bolded or highlighted to make it stand out.It is important to include this information to avoid any confusion or delays in payment. </p>
                     
                     <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                   </div>
@@ -154,7 +154,7 @@ border-radius: 4px;
       <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/simpleimages.webp" class="img-thumbnail" alt="Image">
+                <img src="img/simpleimages.webp" class="img-thumbnail" alt="simpleimages">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">
@@ -199,24 +199,24 @@ border-radius: 4px;
     <br>
     <div class="row">
       <div class="col-md-4" style="text-align: center;">
-        <p><img src="img/accept.webp" alt="right-symbol-2" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+        <p><img src="img/accept.webp" alt="accept-2" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
       </div>
       <div class="col-md-4" style="text-align: center;">
-        <p><img src="img/accept.webp" alt="right-symbol-3" width="20"> Include a section for outlining any terms and conditions .
+        <p><img src="img/accept.webp" alt="accept-3" width="20"> Include a section for outlining any terms and conditions .
 
         </p>
       </div>
       <div class="col-md-4" style="text-align: center;">
-        <p><img src="img/accept.webp" alt="right-symbol-4" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+        <p><img src="img/accept.webp" alt="accept-4" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
       </div>
     </div>
     <br>  
     <div class="row">
       <div class=" col-md-6" style="text-align: center;">
-        <p><img src="img/accept.webp" alt="right-symbol-5" width="20"> Invoice Number automatic generation of the Simple invoice</p>
+        <p><img src="img/accept.webp" alt="accept-5" width="20"> Invoice Number automatic generation of the Simple invoice</p>
       </div>
       <div class="col-md-6" style="text-align: center;">
-        <p><img src="img/accept.webp" alt="right-symbol-6" width="20"> Create templates with a professional.</p>
+        <p><img src="img/accept.webp" alt="accept-6" width="20"> Create templates with a professional.</p>
       </div>
     </div>
   </section>

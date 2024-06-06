@@ -138,7 +138,7 @@
                                 <h1 class="text-dec">TEXTILES INVOICE</h1>
                             </div>
                             <div class="intro-para text-center quote">
-                                <p class="big-text"><span><img src="img/icons8-invoice-64.webp" alt="invoice" width="5%" class="car"></span>The invoice should include the price per unit, any discounts or special offers,The description of the goods or services supplied should be clear and detailed to avoid any confusion or queries from the customer.      
+                                <p class="big-text"><span><img src="img/textiles_invoice_icons.webp" alt="textiles_invoice_icons" width="5%" class="car"></span>The invoice should include the price per unit, any discounts or special offers,The description of the goods or services supplied should be clear and detailed to avoid any confusion or queries from the customer.      
                                 </p>
                                
                                 <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
@@ -155,7 +155,7 @@
     <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/textImages.webp" class="img-thumbnail" alt="textImages1">
+                <img src="img/textImages.webp" class="img-thumbnail" alt="textImages">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">
@@ -211,24 +211,24 @@
         <br>
         <div class="row">
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-2" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+            <p><img src="img/accept.webp" alt="accept-2" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-3" width="20"> Include a section for outlining any terms and conditions .
+            <p><img src="img/accept.webp" alt="accept-3" width="20"> Include a section for outlining any terms and conditions .
     
             </p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-4" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+            <p><img src="img/accept.webp" alt="accept-4" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
           </div>
         </div>
         <br>  
         <div class="row">
           <div class=" col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-5" width="20"> Invoice Number automatic generation of the  Textiles Invoice</p>
+            <p><img src="img/accept.webp" alt="accept-5" width="20"> Invoice Number automatic generation of the  Textiles Invoice</p>
           </div>
           <div class="col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp " alt="right-symbol-6" width="20"> Create templates with a professional.</p>
+            <p><img src="img/accept.webp " alt="accept-6" width="20"> Create templates with a professional.</p>
           </div>
         </div>
       </section>

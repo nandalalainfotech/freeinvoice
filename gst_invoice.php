@@ -139,7 +139,7 @@
                                 <h1 class="text-dec">GST INVOICE </h1>
                             </div>
                             <div class="intro-para text-center quote">
-                                <p class="big-text"><span><img src="img/icons8-invoice-64 (2).webp" alt="GST" width="5%" class="car">The invoice should clearly state any customs duty paid on the imported goods and the Integrated Goods and Services Tax (IGST) applicable on the import.
+                                <p class="big-text"><span><img src="img/Gst-icons.webp" alt="Gst-icons" width="5%" class="car">The invoice should clearly state any customs duty paid on the imported goods and the Integrated Goods and Services Tax (IGST) applicable on the import.
 
                                 </p>
                                
@@ -157,7 +157,7 @@
     <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/Image-GST-invoice-1024x512.webp" class="img-thumbnail" alt="GST-invoice_1">
+                <img src="img/Image-GST-invoice.webp" class="img-thumbnail" alt="Image-GST-invoice">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">
@@ -212,24 +212,24 @@
         <br>
         <div class="row">
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-2" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+            <p><img src="img/accept.webp" alt="accept-2" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-2" width="20"> Include a section for outlining any terms and conditions .
+            <p><img src="img/accept.webp" alt="accept-2" width="20"> Include a section for outlining any terms and conditions .
     
             </p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+            <p><img src="img/accept.webp" alt="accept-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
           </div>
         </div>
         <br>  
         <div class="row">
           <div class=" col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-4" width="20"> Invoice Number automatic generation of the GST Invoice</p>
+            <p><img src="img/accept.webp" alt="accept-4" width="20"> Invoice Number automatic generation of the GST Invoice</p>
           </div>
           <div class="col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-5" width="20"> Create templates with a professional.</p>
+            <p><img src="img/accept.webp" alt="accept-5" width="20"> Create templates with a professional.</p>
           </div>
         </div>
       </section>

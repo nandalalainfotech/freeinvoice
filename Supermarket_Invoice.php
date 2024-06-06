@@ -140,7 +140,7 @@
                                 <h1 class="text-dec">SUPERMARKET INVOICE </h1>
                             </div>
                             <div class="intro-para text-center quote">
-                                <p class="big-text"> <span><img src="img/icons8-invoice-64.webp" alt="supermarket" width="5%" class="car"></span>Accurate Tracking of Purchases This section details each item bought by the customer, including the product name, quantity, price per unit, and total price.
+                                <p class="big-text"> <span><img src="img/supermarket_invoice_icon.webp" alt="supermarket_invoice_icon" width="5%" class="car"></span>Accurate Tracking of Purchases This section details each item bought by the customer, including the product name, quantity, price per unit, and total price.
 
                                 </p>
                                
@@ -158,7 +158,7 @@
     <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/market.webp" class="img-thumbnail" alt="Image">
+                <img src="img/market-images.webp" class="img-thumbnail" alt="market-images">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">
@@ -178,26 +178,26 @@
                 <!-- First Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/supermarket1.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
+                        <img src="img/supermarket-invoice-template(1).webp" alt="supermarket-invoice-template(1)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/supermarett.webp" alt="Image 2" class="img-thumbnail" loading="lazy">
+                        <img src="img/supermarket-invoice-template(2).webp" alt="supermarket-invoice-template(2)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/supermet3.webp" alt="Image 1" class="img-thumbnail" loading="lazy">
+                        <img src="img/supermarket-invoice-template(3).webp" alt="supermarket-invoice-template(3)" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
                 <br>
                 <!-- Second Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/supermarket5.webp" alt="Image 4" class="img-thumbnail" loading="lazy">
+                        <img src="img/supermarket-invoice-template(4).webp" alt="supermarket-invoice-template(4)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/super.webp" alt="Image 5" class="img-thumbnail" loading="lazy">
+                        <img src="img/supermarket-invoice-template(5).webp" alt="supermarket-invoice-template(5)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/supermet6.webp" alt="Image 6" class="img-thumbnail" loading="lazy">
+                        <img src="img/supermarket-invoice-template(6).webp" alt="supermarket-invoice-template(6)" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -213,24 +213,24 @@
         <br>
         <div class="row">
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="accept" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+            <p><img src="img/accept.webp" alt="accept-1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="accept" width="20"> Include a section for outlining any terms and conditions .
+            <p><img src="img/accept.webp" alt="accept-2" width="20"> Include a section for outlining any terms and conditions .
     
             </p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="accept" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+            <p><img src="img/accept.webp" alt="accept-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
           </div>
         </div>
         <br>  
         <div class="row">
           <div class=" col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="accept" width="20"> Invoice Number automatic generation of the Supermarket invoice</p>
+            <p><img src="img/accept.webp" alt="accept-4" width="20"> Invoice Number automatic generation of the Supermarket invoice</p>
           </div>
           <div class="col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="accept" width="20"> Create templates with a professional.</p>
+            <p><img src="img/accept.webp" alt="accept-5" width="20"> Create templates with a professional.</p>
           </div>
         </div>
       </section>

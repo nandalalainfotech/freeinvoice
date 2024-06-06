@@ -138,7 +138,7 @@
                                 <h1 class="text-dec">TRAVEL& TOURISM INVOICE </h1>
                             </div>
                             <div class="intro-para text-center quote">
-                                <p class="big-text"><span><img src="img/icons8-invoice-64.webp" alt="invoice" width="5%" class="car"></span>The invoice should clearly outline the travel itinerary, including dates, destinations, and modes of transportation,The invoice should clearly state payment deadlines and any cancellation policies to avoid last-minute changes or disputes. 
+                                <p class="big-text"><span><img src="img/Travel_Tourism_Invoice_icons.webp" alt="Travel_Tourism_Invoice_icons" width="5%" class="car"></span>The invoice should clearly outline the travel itinerary, including dates, destinations, and modes of transportation,The invoice should clearly state payment deadlines and any cancellation policies to avoid last-minute changes or disputes. 
 
                                 </p>
                                 
@@ -156,7 +156,7 @@
     <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/travel&tourism.webp" class="img-thumbnail" alt="Image">
+                <img src="img/travel&tourism.webp" class="img-thumbnail" alt="travel&tourism">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">

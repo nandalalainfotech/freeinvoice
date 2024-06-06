@@ -138,7 +138,7 @@
                                 <h1 class="text-dec">HOUSLY RATE INVOICE </h1>
                             </div>
                             <div class="intro-para text-center quote">
-                                <p class="big-text"><span><img src="img/icons8-invoice-64.webp" alt="Hously_icon" width="5%" class="car"></span>Hously Rate Invoice is a Invoice is a pricing model where services are billed based on time spent. The rate represents the cost per hour, and clients are billed accordingly, offering flexibility and transparency.
+                                <p class="big-text"><span><img src="img/Hously_icon.webp" alt="Hously_icon" width="5%" class="car"></span>Hously Rate Invoice is a Invoice is a pricing model where services are billed based on time spent. The rate represents the cost per hour, and clients are billed accordingly, offering flexibility and transparency.
 
                                 </p>
                                 
@@ -156,7 +156,7 @@
     <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/Graphic-Design-Invoice-Templates.webp" class="img-thumbnail" alt="Graphic-Design-Invoice">
+                <img src="img/Hously_images.webp" class="img-thumbnail" alt="Hously_images">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">
@@ -215,24 +215,24 @@
     <br>
     <div class="row">
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="rigt_symbol_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+          <p><img src="img/accept.webp" alt="accept_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-2" width="20"> Include a section for outlining any terms and conditions .
+          <p><img src="img/accept.webp" alt="accept-2" width="20"> Include a section for outlining any terms and conditions .
   
           </p>
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+          <p><img src="img/accept.webp" alt="accept-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
         </div>
       </div>
       <br>  
       <div class="row">
         <div class=" col-md-6" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-4" width="20"> Invoice Number automatic generation of the Hourly Rate invoice</p>
+          <p><img src="img/accept.webp" alt="accept-4" width="20"> Invoice Number automatic generation of the Hourly Rate invoice</p>
         </div>
         <div class="col-md-6" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-5" width="20"> Create templates with a professional.</p>
+          <p><img src="img/accept.webp" alt="accept-5" width="20"> Create templates with a professional.</p>
         </div>
       </div>
   </section>

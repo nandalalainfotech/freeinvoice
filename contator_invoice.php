@@ -135,7 +135,7 @@ border-radius: 4px;
                     <h1 class="text-dec">CONTRACTOR INVOICE </h1>
                   </div>
                   <div class="intro-para text-center quote">
-                    <p class="big-text"><span><img src="img/invoice (5).webp" alt="Contractor_image" width="5%" class="car"></span> Contractor Invoice is a customizable billing document used by contractors to request payment for goods and services.  </p>
+                    <p class="big-text"><span><img src="img/Contractor_icon.webp" alt="Contractor_icon" width="5%" class="car"></span> Contractor Invoice is a customizable billing document used by contractors to request payment for goods and services.  </p>
                     
                     <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                   </div>
@@ -151,7 +151,7 @@ border-radius: 4px;
       <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
-                <img src="img/contractImages.webp" class="img-thumbnail" alt="contractImages1">
+                <img src="img/contractImages.webp" class="img-thumbnail" alt="contractImages">
             </div>
 
             <div class="col-md-6 col-xs-12 text-center">

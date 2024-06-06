@@ -139,7 +139,7 @@ border-radius: 4px;
                                 <h1 class="text-dec">PHOTOGRAPHY INVOICE </h1>
                             </div>
                             <div class="intro-para text-center quote">
-                                <p class="big-text"><span><img src="img/icons8-invoice-64.webp" alt="" width="5%" class="car"> A photography invoice should include essential information such as an invoice number, date, your information, payee information, description of services, charges, and payment details. 
+                                <p class="big-text"><span><img src="img/photography_invoice_icon.webp" alt="photography_invoice_icon" width="5%" class="car"> A photography invoice should include essential information such as an invoice number, date, your information, payee information, description of services, charges, and payment details. 
 
                                 </p>
                                
@@ -157,7 +157,7 @@ border-radius: 4px;
     <div class="container">
       <div class="row m-3 p-3">
           <div class="col-md-6 col-xs-12">
-              <img src="img/photoimages.webp" class="img-thumbnail" alt="Image">
+              <img src="img/photoimages.webp" class="img-thumbnail" alt="photoimages">
           </div>
           <div class="col-md-6 col-xs-12 text-center">
               <h2 style="font-size: x-larger;" class="ele">Photography Invoice </h2>
@@ -176,13 +176,13 @@ border-radius: 4px;
                 <!-- First Row -->
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/photography.webp" alt="photography 1" class="img-thumbnail" loading="lazy">
+                        <img src="img/photography-invoice-template(1).webp" alt="photography-invoice-template(1)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/photograph1.webp" alt="photography 2" class="img-thumbnail" loading="lazy">
+                        <img src="img/photography-invoice-template(2).webp" alt="photography-invoice-template(2)" class="img-thumbnail" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/photograp2.webp" alt="photography 3" class="img-thumbnail" loading="lazy">
+                        <img src="img/photography-invoice-template(3).webp" alt="photography-invoice-template(3)" class="img-thumbnail" loading="lazy">
                     </div>
                 </div>
                 <br>
@@ -211,24 +211,24 @@ border-radius: 4px;
         <br>
         <div class="row">
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="rigt_symbol_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+            <p><img src="img/accept.webp" alt="accept_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-2" width="20"> Include a section for outlining any terms and conditions .
+            <p><img src="img/accept.webp" alt="accept-2" width="20"> Include a section for outlining any terms and conditions .
     
             </p>
           </div>
           <div class="col-md-4" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+            <p><img src="img/accept.webp" alt="accept-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
           </div>
         </div>
         <br>  
         <div class="row">
           <div class=" col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-4" width="20"> Invoice Number automatic generation of the Photography invoice</p>
+            <p><img src="img/accept.webp" alt="accept-4" width="20"> Invoice Number automatic generation of the Photography invoice</p>
           </div>
           <div class="col-md-6" style="text-align: center;">
-            <p><img src="img/accept.webp" alt="right-symbol-5" width="20"> Create templates with a professional.</p>
+            <p><img src="img/accept.webp" alt="accept-5" width="20"> Create templates with a professional.</p>
           </div>
         </div>
       </section>

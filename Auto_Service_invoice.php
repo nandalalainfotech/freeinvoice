@@ -174,26 +174,26 @@ border-radius: 4px;
               <!-- First Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/auto6.webp" alt="auto_inoice" class="img-thumbnail" loading="lazy">
+                      <img src="img/auto6.webp" alt="auto_invoice" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/auto1.webp" alt="auto_inoice1" class="img-thumbnail" loading="lazy">
+                      <img src="img/auto1.webp" alt="auto_invoice1" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/auto2.webp" alt="auto_inoice2" class="img-thumbnail" loading="lazy">
+                      <img src="img/auto2.webp" alt="auto_invoice2" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
               <br>
               <!-- Second Row -->
               <div class="row">
                   <div class="col-md-4">
-                      <img src="img/auto3.webp" alt="auto_inoice3" class="img-thumbnail" loading="lazy">
+                      <img src="img/auto3.webp" alt="auto_invoice3" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/auto4.webp" alt="auto_inoice4" class="img-thumbnail" loading="lazy">
+                      <img src="img/auto4.webp" alt="auto_invoice4" class="img-thumbnail" loading="lazy">
                   </div>
                   <div class="col-md-4">
-                      <img src="img/auto5.webp" alt="auto_inoice5" class="img-thumbnail" loading="lazy">
+                      <img src="img/auto5.webp" alt="auto_invoice5" class="img-thumbnail" loading="lazy">
                   </div>
               </div>
           </div>
@@ -209,24 +209,24 @@ border-radius: 4px;
       <br>
       <div class="row">
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-2" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
+          <p><img src="img/accept.webp" alt="accept-2" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-3" width="20"> Include a section for outlining any terms and conditions .
+          <p><img src="img/accept.webp" alt="accept-3" width="20"> Include a section for outlining any terms and conditions .
   
           </p>
         </div>
         <div class="col-md-4" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-4" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
+          <p><img src="img/accept.webp" alt="accept-4" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
         </div>
       </div>
       <br>  
       <div class="row">
         <div class=" col-md-6" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-5" width="20"> Invoice Number automatic generation of the Auto Service invoice</p>
+          <p><img src="img/accept.webp" alt="accept-5" width="20"> Invoice Number automatic generation of the Auto Service invoice</p>
         </div>
         <div class="col-md-6" style="text-align: center;">
-          <p><img src="img/accept.webp" alt="right-symbol-6" width="20"> Create templates with a professional.</p>
+          <p><img src="img/accept.webp" alt="accept-6" width="20"> Create templates with a professional.</p>
         </div>
       </div>
     </section>
