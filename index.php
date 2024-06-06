@@ -510,7 +510,7 @@ border-radius: 4px;
   
   
     <div class="col-md-6 col-xs-12">
-      <img src="img/market.webp" class="img-thumbnail" alt="market">
+      <img src="img/superMarket.webp" class="img-thumbnail" alt="superMarket">
     </div>
   </div>
   </div>
@@ -635,7 +635,7 @@ border-radius: 4px;
   <div class="container">
     <div class="row m-3 p-3">
         <div class="col-md-6 col-xs-12">
-            <img src="img/Image-GST-invoice-1024x512.webp" class="img-thumbnail" alt="GST-invoice">
+            <img src="img/Image-GST-invoice.webp" class="img-thumbnail" alt="GST-invoice">
         </div>
 
         <div class="col-md-6 col-xs-12 text-center">
