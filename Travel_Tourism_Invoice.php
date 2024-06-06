@@ -138,7 +138,7 @@
                                 <h1 class="text-dec">TRAVEL& TOURISM INVOICE </h1>
                             </div>
                             <div class="intro-para text-center quote">
-                                <p class="big-text"><span><img src="img/invoice (4).png" alt="" width="3%" class="car"></span>The invoice should clearly outline the travel itinerary, including dates, destinations, and modes of transportation,The invoice should clearly state payment deadlines and any cancellation policies to avoid last-minute changes or disputes. 
+                                <p class="big-text"><span><img src="img/icons8-invoice-64.webp" alt="invoice" width="5%" class="car"></span>The invoice should clearly outline the travel itinerary, including dates, destinations, and modes of transportation,The invoice should clearly state payment deadlines and any cancellation policies to avoid last-minute changes or disputes. 
 
                                 </p>
                                 

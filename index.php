@@ -8,252 +8,7 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<!-- <style>
-  .mouse {
-    transform: rotate(90deg);
-    background-color: black;
-  }
 
-  .price-table:hover {
-    box-shadow: 5px 5px 5px lightgrey, -5px 0px 5px lightgrey;
-  }
-
-  .modal-header {
-    background-color: #5FCF80;
-
-  }
-
-  .imghvr-fold-up {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .imghvr-fold-up figcaption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 20px;
-    opacity: 0;
-    transition: opacity 0.4s;
-  }
-
-  .imghvr-fold-up:hover figcaption {
-    opacity: 1;
-  }
-
-  .imghvr-fold-up:hover .btn {
-    display: block;
-  }
-
-  .btn {
-    display: none;
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 8px;
-  }
-
-  .btn:hover {
-    background-color: #45a049;
-  }
-
-
-  .mybutton {
-    border-radius: 0px 40px 40px 0px;
-    background-color: #5FCF80;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 10px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-
-  .mybutton span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-
-  .mybutton span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-
-  .mybutton:hover span {
-    padding-right: 25px;
-  }
-
-  .mybutton:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-  .container11{
-   width: 120vh!important;
-  left: -25vh !important;
-   
-   
-  }
-  .title-with-underline {
-	display: inline-block;
-	position: relative;
-}
-
-.title-with-underline::after {
-	content: '';
-	display: block;
-	width: 50%;
-	height: 2px;
-	background-color: wheat; /* Custom underline color */
-	position: absolute;
-	bottom: -5px;
-	left: 25%; /* Adjust to center the line */
-}
-.dropdown-title {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.dropdown-column {
-  text-decoration: none;
-  padding: 10px;
-}
-
-.dropdown-column a {
-  display: block;
-  text-decoration: none !important;
-  margin: 10px 0;
-  padding: 10px;
-  color: #000; /* Change to your preferred color */
-  border-radius: 4px;
-}
-
-.dropdown-column a:hover {
-  background-color: #f0f0f0; /* Change to your preferred hover color */
-}
-@media (max-width: 768px) {
-    .dropdown-menu { overflow-y: auto; max-height: 200px;
-    }
-    .navbar-header {
-      float: none;
-    }
-    .navbar-toggle {
-      display: block;
-    }
-    .navbar-collapse {
-      border-top: 1px solid transparent;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-collapse.collapse {
-      display: none!important;
-    }
-    .navbar-nav {
-      float: none!important;
-      margin: 7.5px -15px;
-    }
-    .navbar-nav>li {
-      float: none;
-    }
-    .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    .navbar-collapse.collapse.in {
-      display: block!important;
-    }
-    .collapsing {
-      overflow: hidden!important;
-    }
-    .container11 {
-      width: 50% !important;
-      text-align: right;
-    }
-    .dropdown-menu .dropdown-title {
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-    .dropdown-column {
-      margin-bottom: 10px;
-      text-align: center;
-    }
-    .dropdown-column a {
-      display: block;
-      margin-bottom: 5px;
-      color: #333;
-      text-decoration: none;
-    }
-  }
-  body.lightbox-open {
-      overflow: hidden;
-  }
-  .gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.lightbox {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 999;
-  text-align: center;
-}
-.lightbox-img {
-    max-width: 80%;
-    max-height: 80%;
-    margin-top: 6%;
-}
-.close {
-    color: #fff;
-    font-size: 2em;
-    position: absolute;
-    top: 15%;
-    right: 35%;
-    cursor: pointer;
-}
-.dropdown-title {
-text-align: center;
-margin: 20px 0;
-}
-.dropdown-column {
-text-decoration: none;
-padding: 10px;
-}
-.dropdown-column a {
-display: block;
-text-decoration: none !important;
-margin: 10px 0;
-padding: 10px;
-color: #000; /* Change to your preferred color */
-border-radius: 4px;
-}
-
-  
-</style> -->
 <html lang="en">
 
 <head>
@@ -440,7 +195,68 @@ border-radius: 4px;
 
 
   <!--Navigation bar-->
-  <?php include('nav.php'); ?>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle button111" id="toggleNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php">
+                <img class="img11" src="img/axAsset 8 (1).webp" alt="nandalala-logo">
+            </a>
+        </div>
+        <div class="navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.php">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Invoice Templates <span class="caret"></span></a>
+                    <ul class="dropdown-menu container11">
+                        <div class="row">
+                            <h2 class="dropdown-title">Invoice Template</h2>
+                            <div class="col-md-3 dropdown-column">
+                                <a href="Proforma_Invoice.php">Proforma Invoice</a>
+                                <a href="Commercial_Invoice.php">Commercial Invoice</a>
+                                <a href="sale_invoice.php">Sales Invoice</a>
+                                <a href="Blank_Invoice.php">Blank Invoice</a>
+                                <a href="Textiles_Invoice.php">Textiles Invoice</a>
+                                <a href="Auto_Service_invoice.php">Auto Service Invoice</a>
+                            </div>
+                            <div class="col-md-3 dropdown-column">
+                                <a href="medical_invoice.php">Medical Invoice</a>
+                                <a href="Gym_Fitness_Invoice.php">Gym & Fitness Invoice</a>
+                                <a href="Supermarket_Invoice.php">Supermarket Invoice</a>
+                                <a href="Tax_invoice.php">Tax Invoice</a>
+                                <a href="Sole_invoice.php">Sole Trader</a>
+                                <a href="contator_invoice.php">Contractor Invoice</a>
+                            </div>
+                            <div class="col-md-3 dropdown-column">
+                                <a href="Teaching_Invoice.php">Teaching Invoice</a>
+                                <a href="Consulting_Invoice .php">Consulting Invoice</a>
+                                <a href="Photography_Invoice.php">Photography Invoice</a>
+                                <a href="Hourly_Rate_Invoice.php">Hourly Rate Invoice</a>
+                                <a href="Travel_Tourism_Invoice.php">Travel & Tourism Invoice</a>
+                            </div>
+                            <div class="col-md-3 dropdown-column">
+                                <a href="Freelancer_Invoice.php">Freelancer Invoice</a>
+                                <a href="Graphic_Design_Invoice.php">Graphic Design Invoice</a>
+                                <a href="gst_invoice.php">GST Invoice</a>
+                                <a href="Quotation_Invoice.php">Quotation Invoice</a>
+                                <a href="Simple_Invoice.php">Simple Invoice</a>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="contant_us.php">Contact Us</a></li>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="https://app.invoicefree.in/login" data-toggle="modal" target="_blank">Log In</a></li>
+                <li class="btn-trial"><a href="https://app.invoicefree.in/register" data-toggle="modal" target="_blank">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
   <!-- <div class="tp-bannertimer" style=""></div> -->
   <!--/ Navigation bar-->
 
@@ -495,7 +311,7 @@ border-radius: 4px;
     <br><br>
     <div class="row">
 
-      <div class="col-md-6 col-xs-12 text-center1">
+      <div class="col-md-6 col-xs-12 text-center">
         <h2 style="font-size:x-larger;" class="ele">Consulting Invoice</h2>
         <p> the consulting services provided and associated charges, invoices promote transparency and ensure that both
           parties are in agreement regarding payment expectations.
@@ -534,7 +350,7 @@ border-radius: 4px;
     <br><br>
     <div class="row">
 
-      <div class="col-md-6 col-xs-12 text-center1">
+      <div class="col-md-6 col-xs-12 text-center">
         <h2 style="font-size:x-larger;" class="ele">Proforma Invoice</h2>
         <p> A proforma invoice is a preliminary bill of sale issued by a seller to a buyer before the completion of
           a transaction. It outlines the details of the goods or services to be provided, including descriptions,

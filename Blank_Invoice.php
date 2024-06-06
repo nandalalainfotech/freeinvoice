@@ -129,7 +129,7 @@ border-radius: 4px;
 <body>
   <?php include('nav.php'); ?>
     <div class="row">
-        <div class="banner">
+        <div class="banner1 ">
             <div class="bg-color">
                 <div class="container bg">
                     <div class="row">
