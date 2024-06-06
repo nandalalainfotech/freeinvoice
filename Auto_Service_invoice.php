@@ -124,69 +124,7 @@ border-radius: 4px;
 }
 </style>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle button111" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              <img class="img11" src="img/axAsset 8 (1).webp" alt="nandalala-logo">
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">Home</a></li>
-              
-              <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Invoice Templates <span class="caret"></span></a>
-                  <ul class="dropdown-menu container11">
-                      <div class="row">
-                          <h2 class="dropdown-title">Invoice Template</h2>
-                          <div class="col-md-3 dropdown-column">
-                              <a href="Proforma_Invoice.html">Proforma Invoice</a>
-                              <a href="Commercial_Invoice.html">Commercial Invoice</a>
-                              <a href="sale_invoice.html">Sales Invoice</a>
-                              <a href="Blank_Invoice.html">Blank Invoice</a>
-                              <a href="Textiles_Invoice.html">Textiles Invoice</a>
-                              <a href="Auto_Service_invoice.html">Auto Service Invoice</a>
-                          </div>
-                          <div class="col-md-3 dropdown-column">
-                              <a href="medical_invoice.html">Medical Invoice</a>
-                              <a href="Gym_Fitness_Invoice.html">Gym & Fitness Invoice</a>
-                              <a href="Supermarket_Invoice.html">Supermarket Invoice</a>
-                              <a href="Tax_invoice.html">Tax Invoice</a>
-                              <a href="Sole_invoice.html">Sole Trader</a>
-                              <a href="contator_invoice.html">Contractor Invoice</a>
-                          </div>
-                          <div class="col-md-3 dropdown-column">
-                              <a href="Teaching_Invoice.html">Teaching Invoice</a>
-                              <a href="Consulting_Invoice .html">Consulting Invoice</a>
-                              <a href="Photography_Invoice.html">Photography Invoice</a>
-                              <a href="Hourly_Rate_Invoice.html">Hourly Rate Invoice</a>
-                              <a href="Travel_Tourism_Invoice.html">Travel & Tourism Invoice</a>
-                          </div>
-                          <div class="col-md-3 dropdown-column">
-                              <a href="Freelancer_Invoice.html">Freelancer Invoice</a>
-                              <a href="Graphic_Design_Invoice.html">Graphic Design Invoice</a>
-                              <a href="gst_invoice.html">GST Invoice</a>
-                              <a href="Quotation_Invoice.html">Quotation Invoice</a>
-                              <a href="Simple_Invoice.html">Simple Invoice</a>
-                          </div>
-                      </div>
-                  </ul>
-              </li>
-              <li><a href="#faq">FAQ</a></li>
-              <li><a href="contant_us.html">Contact Us</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="https://app.invoicefree.in/login" data-toggle="modal" target="_blank">Log In</a></li>
-              <li class="btn-trial"><a href="https://app.invoicefree.in/register" data-toggle="modal" target="_blank">Sign Up</a></li>
-          </ul>
-      </div>
-    </div>
-  </nav>
+<?php include('nav.php'); ?>
       <div class="row">
         <div class="banner1">
           <div class="bg-color">
@@ -292,54 +230,7 @@ border-radius: 4px;
         </div>
       </div>
     </section>
-    <footer id="footer" class=" foot footer">
-      <div class="container top1 text-center">
-  
-        <h3 class="text">Send Your First Free Invoice</h3>
-  
-        <form class="mc-trial row" action="#" method="get">
-          <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
-            <div class=" controls">
-              <input name="username" placeholder="Enter Your FullName" class="form-control" type="text">
-            </div>
-          </div>
-          <!-- End email input -->
-          <div class="form-group col-md-3 col-sm-4">
-            <div class=" controls">
-              <input name="comment" placeholder="Enter Your Email" class="form-control" type="text">
-            </div>
-          </div>
-          <!-- End email input -->
-          <div class="col-md-2 col-sm-4">
-            <p>
-              <button class="button1" name="submit" type="submit" class="btn btn-block btn-submit"><a
-                  href="https://invoicefree.in/register" data-toggle="modal">
-                  Get Started!</a></i></button>
-            </p>
-          </div>
-        </form>
-        <!-- End newsletter-form -->
-        <ul class="social-links">
-          <!-- <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li> -->
-          <li><a href="https://www.facebook.com/profile.php?id=61555301096609609" target="_blank"
-              aria-label="Visit our Facebook Profile"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a>
-          </li>
-          <!-- <li><a href=""><i class="fa fa-google-plus fa-fw"></i></a></li> -->
-          <li><a href="https://www.youtube.com/watch?v=l3bmI7NdPfE" target="_blank"
-              aria-label="Watch our YouTube Video"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/invoicefree-nandalala-91ab122a7/" target="_blank"
-              aria-label="Connect with us on LinkedIn"><i class="fa fa-linkedin fa-fw"></i></a></li>
-        </ul>
-        <div style="color: black;">
-          <p class="all_rights"> &copy;2024 NandalalaInfotech All rights reserved </p>
-          <div class="credits">
-            <p class="powered">Powered by <a href="https://nandalalainfotech.com/" target="_blank"><img
-                  style="width: 15%;" src="img/nandalala.green.svg" alt="nandalala-logo"></a></p>
-          </div>
-        </div>
-  
-      </div>
-    </footer> 
+    <?php include('footer.php'); ?>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
