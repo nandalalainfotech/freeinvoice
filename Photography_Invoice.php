@@ -154,7 +154,7 @@ border-radius: 4px;
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container con1">
       <div class="row m-3 p-3">
           <div class="col-md-6 col-xs-12">
               <img src="img/photoimages.webp" class="img-thumbnail" alt="photoimages">

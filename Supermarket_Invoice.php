@@ -155,7 +155,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container con">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
                 <img src="img/market-images.webp" class="img-thumbnail" alt="market-images">

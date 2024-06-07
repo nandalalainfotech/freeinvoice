@@ -129,7 +129,7 @@
 <body>
 <?php include('nav.php'); ?>
     <div class="row">
-        <div class="banner">
+        <div class="banner1">
             <div class="bg-color">
                 <div class="container bg">
                     <div class="row">
@@ -153,6 +153,7 @@
             </div>
         </div>
     </div>
+    <br>
     <div class="container">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">

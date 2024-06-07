@@ -1418,6 +1418,12 @@ Responsive media queries
     .cont{
         margin-top: 8% !important;
     }
+    .con{
+        margin-top: -30% !important;
+       }
+       .con1{
+        margin-top: -30% !important;
+       }
     .mobOnly{
         width: 100%;
        }
@@ -1663,6 +1669,12 @@ margin-top: -10px !important;
 .cont{
     margin-top: 8% !important;
 }
+.con{
+    margin-top: -30% !important;
+   }
+   .con1{
+    margin-top: -30% !important;
+   }
 .mobOnly{
     width: 100%;
    }
@@ -1931,6 +1943,9 @@ margin-top: -10px !important;
    .cont{
     margin-top: 20% !important;
 
+   }
+   .con{
+    margin-top: -20% !important;
    }
    .mobOnly{
     width: 100%;

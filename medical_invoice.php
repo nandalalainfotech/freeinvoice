@@ -168,8 +168,8 @@ border-radius: 4px;
         </div>
       </div>
     
-  <section class="container">
-  <div class="row mt-3 p-3">
+  <section class="container con1">
+  <div class="row " >
     <div class="col-md-6 col-xs-12">
       <img src="img/medical-invoice.webp"
         class="img-thumbnail" alt="medical-invoice">

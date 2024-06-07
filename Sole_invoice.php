@@ -134,7 +134,7 @@
                     <div class="row">
                         <div class="banner-text text-center">
                             <div class="text-border">
-                                <h1 class="text-dec">SOLE INVOICE </h1>
+                                <h1 class="text-dec">SOLE TRADE INVOICE </h1>
                             </div>
                             <div class="intro-para text-center quote">
                                 <p class="big-text"><span><img src="img/sole_invoice_icons.webp" alt="sole_invoice_icons" width="4%" class="car"></span>The invoice should be transparent about payment terms, including any deposits or partial payments required upfront, to maintain a clear and trusting relationship with the client. 
@@ -152,7 +152,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container con">
         <div class="row m-3 p-3">
             <div class="col-md-6 col-xs-12">
                 <img src="img/soletrade.webp" class="img-thumbnail" alt="soletrade">

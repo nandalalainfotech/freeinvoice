@@ -126,7 +126,7 @@ border-radius: 4px;
 <body>
   <?php include('nav.php'); ?>
       <div class="row">
-        <div class="banner">
+        <div class="banner1">
           <div class="bg-color">
             <div class="container bg">
               <div class="row">
@@ -150,11 +150,11 @@ border-radius: 4px;
           </div>
         </div>
       </div>
-    
-  <section class="container">
-  <div class="row mt-3 p-3">
+    <br>
+  <section class="container con1">
+  <div class="row  ">
     <div class="col-md-6 col-xs-12">
-      <img src="img/quotation_invoice_images.webp"
+      <img src="img/quotation_invoice.webp"
         class="img-thumbnail" alt="quotation_invoice_images">
     </div>
 
