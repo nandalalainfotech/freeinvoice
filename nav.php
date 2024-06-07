@@ -8,12 +8,13 @@
 <style>
     
     .dropdown-column a{
-        color: #5FCF80;
+        color:#2C4E80;
         margin-left: 10px !important;
     }
     .dropdown-column a:hover {
     text-decoration: underline !important;
-    color: #5FCF80 !important;
+    color:#2C4E80 !important;
+   
     }
 
   
