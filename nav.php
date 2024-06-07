@@ -1,3 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+</head>
+<style>
+    .dropdown-column a{
+        color: #5FCF80;
+    }
+    .dropdown-column a:hover {
+    text-decoration: underline !important;
+    color: #5FCF80 !important;
+}
+</style>
+<body>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -13,14 +30,13 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
               <li><a href="index.php">Home</a></li>
-              
               <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Invoice Templates <span class="caret"></span></a>
                   <ul class="dropdown-menu container11">
                       <div class="row">
                           <h2 class="dropdown-title">Invoice Template</h2>
                           <div class="col-md-3 dropdown-column">
-                              <a href="Proforma_Invoice.php" >Proforma Invoice</a>
+                              <a href="Proforma_Invoice.php"  >Proforma Invoice</a>
                               <a href="Commercial_Invoice.php">Commercial Invoice</a>
                               <a href="sale_invoice.php">Sales Invoice</a>
                               <a href="Blank_Invoice.php">Blank Invoice</a>
@@ -61,4 +77,6 @@
       </div>
     </div>
   </nav>
+</body>
+</html>
   

@@ -2064,7 +2064,8 @@ margin-top: -10px !important;
 @media (min-width: 981px) and (max-width: 1200px) {
     .container11{
         width: 120vh!important;
-       left: -25vh !important;
+       left: -20vh !important;
+      
         
     }       
     .feature {
@@ -2128,11 +2129,10 @@ margin-top: -10px !important;
 }
    
 }
-
-@media (min-width: 1201px) and (max-width: 1450px) {
+@media (min-width: 1201px) and (max-width: 1300px) {
     .container11{
         width: 120vh!important;
-       left: -25vh !important;
+       left: -20vh !important;
         
     }       
     .free_inv_gen {
@@ -2180,10 +2180,62 @@ margin-top: -10px !important;
 .what {
     margin-left: 200px;
 }
-@media (min-width: 1451px) and (max-width: 1550px) {
+
+@media (min-width: 1301px) and (max-width: 1450px) {
     .container11{
         width: 120vh!important;
-       left: -25vh !important;
+       left: -17vh !important;
+        
+    }       
+    .free_inv_gen {
+        background-color: #fffbfb;
+        margin-left: 8px !important;
+        margin-right: 120px;
+        width: 100%;
+    }
+    .footer h3 {
+        font-weight: 900;
+        letter-spacing: 0.05em;
+        margin: 0 0 40px;
+        font-size: 24px;
+    }
+    .h3, h3 {
+        font-size: 20px;
+    }
+
+    .container-fluid {
+        margin-top: 10px !important;
+        overflow: hidden;
+    }
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+    .cont1{
+        margin-top: 8% !important;
+    
+       }
+       .img11{
+        width: 100px !important;
+    }
+
+}
+
+
+.fv {
+    margin-left: 40%;
+}
+
+.faq {
+    text-align: center;
+}
+
+.what {
+    margin-left: 200px;
+}
+@media (min-width: 1450px) and (max-width: 1551px) {
+    .container11{
+        width: 120vh!important;
+       left: -19vh !important;
         
     }       
     .container-fluid {
@@ -2211,7 +2263,71 @@ margin-top: -10px !important;
         width: 100px;
     }
 }
+@media (min-width: 1551px) and (max-width: 2001px) {
+    .container11{
+        width: 120vh!important;
+       left: -19vh !important;
+        
+    }     
+    .container-fluid {
+        margin-top: 30px !important;
+        overflow: hidden;
+    }
+    .feature_cnt {
+        margin-top: -40px !important;
+    }
+    .text {
+        font-weight: 900 !important;
+        text-align: center !important;
+    }
+    .front{
+        font-size: 17px ;
+    }
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+    .cont1{
+        margin-top: 8% !important;
+    
+       }
+       .img11{
+        width: 100px;
+    }
 
+
+}
+@media (min-width: 2001px) and (max-width: 2559px) {
+    .container11{
+        width: 100vh!important;
+       left: -10vh !important;
+        
+    }   
+    .container-fluid {
+        margin-top: 30px !important;
+        overflow: hidden;
+    }
+    .feature_cnt {
+        margin-top: -40px !important;
+    }
+    .text {
+        font-weight: 900 !important;
+        text-align: center !important;
+    }
+    .front{
+        font-size: 17px ;
+    }
+    body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+    .cont1{
+        margin-top: 8% !important;
+    
+       }
+       .img11{
+        width: 100px;
+    }
+
+}
 @media (min-width: 992px) {
     .container1-fluid-faq {
         margin-top: -90px;
@@ -2243,10 +2359,11 @@ margin-top: -10px !important;
 }
 @media (min-width: 2560px) and (max-width: 3550px) {
     .container11{
-        width: 120vh!important;
-       left: -25vh !important;
+        width: 70vh!important;
+       left: -10vh !important;
         
     }
+    
     body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
     } 
