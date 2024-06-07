@@ -163,7 +163,7 @@ border-radius: 4px;
                     <h1 class="text-dec">Proforma Invoice</h1>
                   </div>
                   <div class="intro-para text-center quote">
-                    <p class="big-text"><span><img src="img/invoice_3366329.webp" alt="invoice1" width="4%" class="car"></span> A proforma invoice provides detailed information about the goods or services being sold, including descriptions, quantities, and prices. </p>
+                    <p class="big-text"><span><img src="img/profama_invoice_icons.webp" alt="profama_invoice_icons" width="4%" class="car"></span> A proforma invoice provides detailed information about the goods or services being sold, including descriptions, quantities, and prices. </p>
                    
                     <a href=" https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                   </div>
@@ -232,7 +232,7 @@ border-radius: 4px;
 
     <br><br>
       <section class="container">
-        <h3 style="text-align: center;">Proforma Invoice Templates</h3>
+        <h3 style="text-align: center;">Key Features of Proforma Invoice</h3>
         <br>
         <div class="row">
           <div class="col-md-4" style="text-align: center;">

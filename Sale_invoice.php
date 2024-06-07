@@ -141,7 +141,7 @@
                                 <h1 class="text-dec">SALES INVOICE </h1>
                             </div>
                             <div class="intro-para text-center quote">
-                                <p class="big-text"><span><img src="img/icons8-invoice-64.webp" alt="icons-invoice" width="5%" class="car"></span>A sales invoice is a crucial document in business transactions, summarizing the goods or services provided and payment details for record-keeping and financial management purposes. 
+                                <p class="big-text"><span><img src="img/sales_invoice_icon.webp" alt="sales_invoice_icon" width="5%" class="car"></span>A sales invoice is a crucial document in business transactions, summarizing the goods or services provided and payment details for record-keeping and financial management purposes. 
 
                                 </p>
                                 
@@ -214,7 +214,7 @@
   <br>
   
   <section class="container">
-    <h3 style="text-align: center;">Sales Invoice Templates</h3>
+    <h3 style="text-align: center;">Key Features of Sales Invoice </h3>
     <br>
     <div class="row">
       <div class="col-md-4" style="text-align: center;">

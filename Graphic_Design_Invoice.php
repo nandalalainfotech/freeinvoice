@@ -141,7 +141,7 @@
                                 <h1 class="text-dec">Graphic Design Invoice </h1>
                             </div>
                             <div class="intro-para text-center quote">
-                                <p class="big-text"><span><img src="img/invoice_3366329.webp" alt="graphic_design" width="4%" class="car"></span>The Consultant Invoice Template streamlines  requests, records client and consultant details, and outlines  terms, downloadable in various formats.
+                                <p class="big-text"><span><img src="img/graphic_design_invoice_icons - Copy.webp" alt="graphic_design_invoice_icons - Copy" width="4%" class="car"></span>The Consultant Invoice Template streamlines  requests, records client and consultant details, and outlines  terms, downloadable in various formats.
 
                                 </p>
                                
@@ -210,7 +210,7 @@
         </div>
       </div>
       <section class="container">
-        <h3 style="text-align: center;">Graphic Design Templates</h3>
+        <h3 style="text-align: center;">Key Features of Graphic Design </h3>
         <br>
         <div class="row">
           <div class="col-md-4" style="text-align: center;">
