@@ -2151,6 +2151,7 @@ margin-top: -10px !important;
     .contheight{
         height: 50vh !important;
     }   
+    
     .free_inv_gen {
         background-color: #fffbfb;
         margin-left: 8px !important;
@@ -2297,6 +2298,9 @@ margin-top: -10px !important;
     .contheight{
         height: 50vh !important;
     } 
+    .bigView {
+        margin-top: 120px;
+    }
     .container-fluid {
         margin-top: 30px !important;
         overflow: hidden;
@@ -2333,6 +2337,9 @@ margin-top: -10px !important;
     }   
     .contheight{
         height: 50vh !important;
+    }
+    .bigView {
+        margin-top: 120px;
     }
     .container-fluid {
         margin-top: 30px !important;
@@ -2398,6 +2405,9 @@ margin-top: -10px !important;
     }
     .contheight{
         height: 50vh !important;
+    }
+    .bigView {
+        margin-top: 120px;
     }
     
     body {

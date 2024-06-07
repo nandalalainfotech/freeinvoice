@@ -259,7 +259,7 @@ border-radius: 4px;
               
               
                 <div class="col-md-6 col-xs-12">
-                  <img src="img/Ignite Growth.webp" class="img-thumbnail" alt=" Ignite Growth">
+                  <img src="img/Ignite Growth.webp" class="img-thumbnail bigView" alt=" Ignite Growth">
                 </div>
               </div>
         </div>
