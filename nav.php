@@ -6,13 +6,17 @@
     <title>navbar</title>
 </head>
 <style>
+    
     .dropdown-column a{
         color: #5FCF80;
+        margin-left: 10px !important;
     }
     .dropdown-column a:hover {
     text-decoration: underline !important;
     color: #5FCF80 !important;
-}
+    }
+
+  
 </style>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -29,7 +33,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.php">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Invoice Templates <span class="caret"></span></a>
                   <ul class="dropdown-menu container11">

@@ -165,6 +165,7 @@ Navigation bar
     margin-top: 20px;
 }
 
+
 /***********************************
 Banner
 ************************************/
@@ -2012,7 +2013,13 @@ margin-top: -10px !important;
         font-size: 20px;
     }
 
-  
+    .container11{
+        width: 120vh!important;
+       left: -20vh !important;
+       margin-top: 0.9vh !important;
+      
+        
+    }  
     .service-box,
     .feature-info,
     .orga-stru {
@@ -2065,9 +2072,14 @@ margin-top: -10px !important;
     .container11{
         width: 120vh!important;
        left: -20vh !important;
+       margin-top: 0.9vh !important;
       
         
     }       
+
+    .contheight{
+        height: 50vh !important;
+    }
     .feature {
         /* margin-left: 35% !important; */
         color: #3b673b !important;
@@ -2133,8 +2145,12 @@ margin-top: -10px !important;
     .container11{
         width: 120vh!important;
        left: -20vh !important;
+       margin-top: 0.9vh !important;
         
-    }       
+    }    
+    .contheight{
+        height: 50vh !important;
+    }   
     .free_inv_gen {
         background-color: #fffbfb;
         margin-left: 8px !important;
@@ -2185,8 +2201,12 @@ margin-top: -10px !important;
     .container11{
         width: 120vh!important;
        left: -17vh !important;
+       margin-top: 0.9vh !important;
         
-    }       
+    }   
+    .contheight{
+        height: 50vh !important;
+    }    
     .free_inv_gen {
         background-color: #fffbfb;
         margin-left: 8px !important;
@@ -2236,8 +2256,12 @@ margin-top: -10px !important;
     .container11{
         width: 120vh!important;
        left: -19vh !important;
+       margin-top: 0.9vh !important;
         
     }       
+    .contheight{
+        height: 50vh !important;
+    }
     .container-fluid {
         margin-top: 30px !important;
         overflow: hidden;
@@ -2267,8 +2291,12 @@ margin-top: -10px !important;
     .container11{
         width: 120vh!important;
        left: -19vh !important;
+       margin-top: 0.9vh !important;
         
-    }     
+    }    
+    .contheight{
+        height: 50vh !important;
+    } 
     .container-fluid {
         margin-top: 30px !important;
         overflow: hidden;
@@ -2296,12 +2324,16 @@ margin-top: -10px !important;
 
 
 }
-@media (min-width: 2001px) and (max-width: 2559px) {
+@media (min-width: 2002px) and (max-width: 2559px) {
     .container11{
         width: 100vh!important;
        left: -10vh !important;
+       margin-top: 0.9vh !important;
         
     }   
+    .contheight{
+        height: 50vh !important;
+    }
     .container-fluid {
         margin-top: 30px !important;
         overflow: hidden;
@@ -2357,11 +2389,15 @@ margin-top: -10px !important;
     width: 100px;
 }
 }
-@media (min-width: 2560px) and (max-width: 3550px) {
+@media (min-width: 2550px) and (max-width: 3550px) {
     .container11{
         width: 70vh!important;
        left: -10vh !important;
+       margin-top: 0.9vh !important;
         
+    }
+    .contheight{
+        height: 50vh !important;
     }
     
     body {

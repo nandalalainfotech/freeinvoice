@@ -246,7 +246,7 @@ border-radius: 4px;
         <div class="container">
             <div class="row">
     
-              <div class="col-md-6 col-xs-12 text-center" style="display: flex; justify-content: center; align-items: center; height: 50vh;">
+              <div class="col-md-6 col-xs-12 text-center contheight" style="display: flex; justify-content: center; align-items: center;">
                 <div style="text-align: center;">
                     <h2 style="font-size: x-larger;" class="ele">Effortless Invoicing: Ignite Growth! </h2>
                     <p> To provide innovative solutions that make invoicing easy and efficient. Backed by a team of experts, we're committed to delivering top-notch services and support to our clients.
