@@ -10,6 +10,7 @@
     .dropdown-column a{
         color:#2C4E80;
         margin-left: 10px !important;
+       font-weight: 900 !important;
     }
     .dropdown-column a:hover {
     text-decoration: underline !important;

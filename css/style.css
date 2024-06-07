@@ -123,6 +123,7 @@ Navigation bar
     background: none !important;
     color: #2C4E80 !important;
     outline: none;
+    
 }
 
 .btn-trial a {
@@ -2017,6 +2018,7 @@ margin-top: -10px !important;
         width: 120vh!important;
        left: -20vh !important;
        margin-top: 0.9vh !important;
+     
       
         
     }  
@@ -2073,6 +2075,7 @@ margin-top: -10px !important;
         width: 120vh!important;
        left: -20vh !important;
        margin-top: 0.9vh !important;
+       border-radius: 4px !important;
       
         
     }       
@@ -2146,6 +2149,7 @@ margin-top: -10px !important;
         width: 120vh!important;
        left: -20vh !important;
        margin-top: 0.9vh !important;
+       border-radius: 4px !important;
         
     }    
     .contheight{
@@ -2203,6 +2207,7 @@ margin-top: -10px !important;
         width: 120vh!important;
        left: -17vh !important;
        margin-top: 0.9vh !important;
+       border-radius: 4px !important;
         
     }   
     .contheight{
@@ -2258,6 +2263,7 @@ margin-top: -10px !important;
         width: 120vh!important;
        left: -19vh !important;
        margin-top: 0.9vh !important;
+       border-radius: 4px !important;
         
     }       
     .contheight{
@@ -2293,6 +2299,7 @@ margin-top: -10px !important;
         width: 120vh!important;
        left: -19vh !important;
        margin-top: 0.9vh !important;
+       border-radius: 4px !important;
         
     }    
     .contheight{
@@ -2333,6 +2340,7 @@ margin-top: -10px !important;
         width: 100vh!important;
        left: -10vh !important;
        margin-top: 0.9vh !important;
+       border-radius: 4px !important;
         
     }   
     .contheight{
@@ -2401,6 +2409,7 @@ margin-top: -10px !important;
         width: 70vh!important;
        left: -10vh !important;
        margin-top: 0.9vh !important;
+       border-radius: 4px !important;
         
     }
     .contheight{
