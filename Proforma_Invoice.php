@@ -80,7 +80,7 @@
       text-decoration: none;
     }
     .img-thumbnail{
-      width: 50% !important;
+      width: 100% !important;
     }
     
   }
