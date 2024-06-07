@@ -230,7 +230,7 @@ border-radius: 4px;
 <br>
 
 <section class="container">
-  <h3 style="text-align: center;">Medical Invoice Templates</h3>
+  <h3 style="text-align: center;">Key Features of Medical Invoice </h3>
   <br>
   <div class="row">
     <div class="col-md-4" style="text-align: center;">

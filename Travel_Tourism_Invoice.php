@@ -197,7 +197,7 @@
 
 <br>
 <section class="container">
-    <h3 style="text-align: center;">Travel&Tourism Invoice Templates</h3>
+    <h3 style="text-align: center;">Key Features of Travel&Tourism Invoice</h3>
     <br>
     <div class="row">
       <div class="col-md-4" style="text-align: center;">

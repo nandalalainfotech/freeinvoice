@@ -195,7 +195,7 @@ border-radius: 4px;
     
 </div>
 <section class="container">
-    <h3 style="text-align: center;">Simple Invoice Templates</h3>
+    <h3 style="text-align: center;">Key Features of Simple Invoice </h3>
     <br>
     <div class="row">
       <div class="col-md-4" style="text-align: center;">
