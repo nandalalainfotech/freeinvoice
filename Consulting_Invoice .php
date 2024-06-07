@@ -22,73 +22,107 @@
     content="Professional services rendered: Consultation on marketing strategy for client's business growth." />
 </head>
 <style>
-    body.lightbox-open {
-        overflow: hidden;
-    }   
-
-     .gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-.lightbox {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 999;
-    text-align: center;
-}
-
- 
-.lightbox-img {
-      max-width: 80%;
-      max-height: 80%;
-      margin-top: 6%;
-  }
-  
-  .close {
-      color: #fff;
-      font-size: 2em;
-      position: absolute;
-      top: 15%;
-      right: 35%;
-      cursor: pointer;
-  }
+  @media (max-width: 768px) {
+    .dropdown-menu { overflow-y: auto; max-height: 200px;
+    }
+    .navbar-header {
+      float: none;
+    }
+    .navbar-toggle {
+      display: block;
+    }
+    .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+      display: none!important;
+    }
+    .navbar-nav {
+      float: none!important;
+      margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+      float: none;
+    }
+    .navbar-nav>li>a {
+      padding-top: 9px !important;
+      padding-bottom: 5px !important;
+    }
+    .navbar-collapse.collapse.in {
+      display: block!important;
+    }
+    .collapsing {
+      overflow: hidden!important;
+    }
     .container11 {
-        width: 120vh !important;
-        left: -25vh !important;
-
-
+      width: 50% !important;
+      text-align: right;
     }
-
-    .dropdown-title {
-        text-align: center;
-        margin: 20px 0;
+    .dropdown-menu .dropdown-title {
+      margin-bottom: 10px;
+      font-weight: bold;
     }
-
     .dropdown-column {
-        text-decoration: none;
-        padding: 10px;
+      margin-bottom: 10px;
+      text-align: center;
     }
-
     .dropdown-column a {
-        display: block;
-        text-decoration: none !important;
-        margin: 10px 0;
-        padding: 10px;
-        color: #000;
-        /* Change to your preferred color */
-        border-radius: 4px;
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+      text-decoration: none;
     }
-    .dropdown-column a:hover {
+  }
+  body.lightbox-open {
+      overflow: hidden;
+  }
+  .gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  text-align: center;
+}
+.lightbox-img {
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 6%;
+}
+.close {
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: 15%;
+    right: 35%;
+    cursor: pointer;
+}
+.dropdown-title {
+text-align: center;
+margin: 20px 0;
+}
+.dropdown-column {
+text-decoration: none;
+padding: 10px;
+}
+.dropdown-column a {
+display: block;
+text-decoration: none !important;
+margin: 10px 0;
+padding: 10px;
+color: #000; /* Change to your preferred color */
+border-radius: 4px;
+}
+.dropdown-column a:hover {
     text-decoration: underline !important;
     color: green;
 }

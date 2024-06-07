@@ -1184,6 +1184,21 @@ Responsive media queries
         cursor: pointer;
     }
     
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 30% !important;
+    }
+  
+    .close {
+        color: #fff;
+        font-size: 1em !important;
+        position: absolute;
+        top: 20%;
+        right: 3% !important;
+        cursor: pointer;
+    }
+    
   
 .foot {
     /* margin-top:-15%; */
@@ -1664,6 +1679,22 @@ margin-top: -10px !important;
 .mobOnly{
     width: 100%;
    }
+   .lightbox-img {
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 30% !important;
+}
+
+.close {
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: 15%;
+    right: 1% !important;
+    cursor: pointer;
+}
+
+
 }
 
 
@@ -1904,7 +1935,7 @@ margin-top: -10px !important;
     
     .close {
         color: #fff;
-        font-size: 2em;
+        font-size: 2rem !important;
         position: absolute;
         top: 25% !important;
         right: 4% !important;
@@ -2140,6 +2171,22 @@ margin-top: -10px !important;
    .img11{
     width: 100px !important;
 }
+.lightbox-img {
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 10% !important;
+}
+
+.close {
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: 15%;
+    right: 28% !important;
+    cursor: pointer;
+}
+
+
    
 }
 @media (min-width: 1201px) and (max-width: 1300px) {
@@ -2184,6 +2231,7 @@ margin-top: -10px !important;
        .img11{
         width: 100px !important;
     }
+    
 
 }
 
@@ -2199,7 +2247,20 @@ margin-top: -10px !important;
 .what {
     margin-left: 200px;
 }
-
+.lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 5%;
+    }
+    .close {
+        color: #fff;
+        font-size: 4em !important;
+        position: absolute;
+        top: 15%;
+        right: 30%;
+        cursor: pointer;
+    }
+  
 @media (min-width: 1301px) and (max-width: 1450px) {
     .container11{
         width: 120vh!important;
@@ -2432,6 +2493,19 @@ margin-top: -10px !important;
     }
     .img11{
         width: 100px;
+    }
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 5%;
+    }
+    .close {
+        color: #fff;
+        font-size: 4em !important;
+        position: absolute;
+        top: 15%;
+        right: 30%;
+        cursor: pointer;
     }
   
     
