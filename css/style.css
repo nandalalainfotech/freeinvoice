@@ -1149,6 +1149,11 @@ Responsive media queries
     right: 35%;
     cursor: pointer;
 }
+.custom-item img {
+    width: 100%; /* Set image width to 100% to occupy full width */
+    height: 370px !important;
+    max-width: 100%; /* Set max-width to ensure image doesn't exceed container width */
+  }
 
 
 }
@@ -1430,6 +1435,9 @@ Responsive media queries
        .small-text {
         font-size: 15px;
     }
+    .spacebot{
+        margin-top: -18% !important;
+       }
 }
 
 @media screen and (min-width: 326px) and (max-width: 420px) {
@@ -1674,6 +1682,9 @@ margin-top: -10px !important;
    }
    .con1{
     margin-top: -30% !important;
+   }
+   .spacebot{
+    margin-top: -20% !important;
    }
 .mobOnly{
     width: 100%;
@@ -1950,7 +1961,9 @@ margin-top: -10px !important;
    .mobOnly{
     width: 100%;
    }
-    
+   .spacebot{
+    margin-top: -25% !important;
+   }
 }
 
 @media (min-width: 451px) and (max-width: 768px) {
@@ -2187,6 +2200,9 @@ margin-top: -10px !important;
     right: 28% !important;
     cursor: pointer;
 }
+.text1 {
+    text-align: center !important;
+}
 
 
    
@@ -2232,6 +2248,9 @@ margin-top: -10px !important;
        }
        .img11{
         width: 100px !important;
+    }
+    .text1 {
+        text-align: center !important;
     }
     
 
@@ -2304,6 +2323,9 @@ margin-top: -10px !important;
        .img11{
         width: 100px !important;
     }
+    .text1 {
+        text-align: center !important;
+    }
 
 }
 
@@ -2353,6 +2375,9 @@ margin-top: -10px !important;
        }
        .img11{
         width: 100px;
+    }
+    .text1 {
+        text-align: center !important;
     }
 }
 @media (min-width: 1551px) and (max-width: 2001px) {
@@ -2406,6 +2431,16 @@ margin-top: -10px !important;
         right: 30%;
         cursor: pointer;
     }
+.banner-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh !important;
+    }
+    .text1 {
+        text-align: center !important;
+    }
 
 }
 @media (min-width: 2002px) and (max-width: 2559px) {
@@ -2458,6 +2493,16 @@ margin-top: -10px !important;
        }
        .img11{
         width: 100px;
+    }
+    .banner-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh !important;
+    }
+    .text1 {
+        text-align: center !important;
     }
 
 }
@@ -2533,6 +2578,16 @@ margin-top: -10px !important;
         top: 15%;
         right: 30%;
         cursor: pointer;
+    }
+    .banner-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh !important;
+    }
+    .text1 {
+        text-align: center !important;
     }
   
     
