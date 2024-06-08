@@ -229,7 +229,7 @@ border-radius: 4px;
           <div class=" col-md-6 col-sm-12">
             <p><img src="img/accept.svg" alt="accept-4" width="20"> Invoice Number automatic generation of the Gym&Fitness invoice</p>
           </div>
-          <div class="col-md-6 col-sm-12" style="text-align: center;">
+          <div class="col-md-6 col-sm-12" >
             <p><img src="img/accept.svg" alt="accept-5" width="20"> Create templates with a professional.</p>
           </div>
         </div>

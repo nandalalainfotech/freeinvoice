@@ -234,7 +234,7 @@ border-radius: 4px;
         <br>
         <div class="row text1">
           <div class="col-md-4 col-sm-12" >
-            <img src="img/accept.webp" alt="accept_1" width="20"> <span class="id1">Provide options for customization, allowing users to add their  name, logo, and contact information easily.</span>
+          <p><img src="img/accept.webp" alt="accept_1" width="20">Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
           </div>
           <div class="col-md-4 col-sm-12" >
             <p><img src="img/accept.webp" alt="accept_2" width="20"> Include a section for outlining any terms and conditions .
