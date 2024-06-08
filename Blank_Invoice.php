@@ -199,11 +199,11 @@ border-radius: 4px;
     <section class="container">
       <h3 style="text-align: center;">Key Features of Blank Invoice </h3>
       <br>
-      <div class="row">
-        <div class="col-md-4" style="text-align: center;">
+      <div class="row text1">
+        <div class="col-md-4">
           <p><img src="img/accept.webp" alt="accept-1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
         </div>
-        <div class="col-md-4" style="text-align: center;">
+        <div class="col-md-4" >
           <p><img src="img/accept.webp" alt="accept-2" width="20"> Include a section for outlining any terms and conditions .
   
           </p>
@@ -213,11 +213,11 @@ border-radius: 4px;
         </div>
       </div>
       <br>  
-      <div class="row">
-        <div class=" col-md-6" style="text-align: center;">
+      <div class="row text1">
+        <div class=" col-md-6">
           <p><img src="img/accept.webp" alt="accept-4" width="20"> Invoice Number automatic generation of the Blank invoice</p>
         </div>
-        <div class="col-md-6" style="text-align: center;">
+        <div class="col-md-6" >
           <p><img src="img/accept.webp" alt="accept-5" width="20"> Create templates with a professional.</p>
         </div>
       </div>

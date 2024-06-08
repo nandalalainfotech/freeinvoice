@@ -216,21 +216,21 @@
   <section class="container">
     <h3 style="text-align: center;">Key Features of Sales Invoice </h3>
     <br>
-    <div class="row">
-      <div class="col-md-4" style="text-align: center;">
+    <div class="row text1">
+      <div class="col-md-4" >
         <p><img src="img/accept.webp" alt="accept_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
       </div>
-      <div class="col-md-4" style="text-align: center;">
+      <div class="col-md-4" >
         <p><img src="img/accept.webp" alt="accept_2" width="20"> Include a section for outlining any terms and conditions .
 
         </p>
       </div>
-      <div class="col-md-4" style="text-align: center;">
+      <div class="col-md-4" >
         <p><img src="img/accept.webp" alt="accept_3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
       </div>
     </div>
     <br>  
-    <div class="row">
+    <div class="row text1">
       <div class=" col-md-6" style="text-align: center;">
         <p><img src="img/accept.webp" alt="accept_4" width="20"> Invoice Number automatic generation of the Sales invoice</p>
       </div>

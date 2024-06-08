@@ -30,7 +30,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="index.html">
               <img class="img11" src="img/axAsset 8 (1).webp" alt="nandalala-logo">
           </a>
         </div>
