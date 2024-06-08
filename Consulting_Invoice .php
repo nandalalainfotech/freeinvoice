@@ -212,24 +212,24 @@ border-radius: 4px;
         <h3 style="text-align: center;">Key Features of Consulting Invoice </h3>
         <br>
         <div class="row text1" >
-          <div class="col-md-4" >
+          <div class="col-md-4 col-sm-12" >
             <p><img src="img/accept.webp" alt="accept-1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
           </div>
-          <div class="col-md-4" >
+          <div class="col-md-4 col-sm-12" >
             <p><img src="img/accept.webp" alt="accept-2" width="20"> Include a section for outlining any terms and conditions .
     
             </p>
           </div>
-          <div class="col-md-4" >
+          <div class="col-md-4 col-sm-12" >
             <p><img src="img/accept.webp" alt="accept-3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
           </div>
         </div>
         <br>  
         <div class="row text1">
-          <div class=" col-md-6" >
+          <div class=" col-md-6 col-sm-12" >
             <p><img src="img/accept.webp" alt="accept-4" width="20"> Invoice Number automatic generation of the Consulting invoice</p>
           </div>
-          <div class="col-md-6" style="text-align: center;">
+          <div class="col-md-6 col-sm-12" style="text-align: center;">
             <p><img src="img/accept.webp" alt="accept-5" width="20"> Create templates with a professional.</p>
           </div>
         </div>

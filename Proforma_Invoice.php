@@ -241,7 +241,7 @@ border-radius: 4px;
     
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-12">
             <p><img src="img/accept.webp" alt="accept_3" width="20">  If applicable, allow for the inclusion of multiple tax rates</p>
           </div>
         </div>

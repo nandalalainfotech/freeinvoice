@@ -210,10 +210,10 @@ border-radius: 4px;
         <h3 style="text-align: center;">Key Features of Photography Invoice </h3>
         <br>
         <div class="row text1">
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-12">
             <p><img src="img/accept.webp" alt="accept_1" width="20"> Provide options for customization, allowing users to add their  name, logo, and contact information easily.</p>
           </div>
-          <div class="col-md-4" >
+          <div class="col-md-4 " >
             <p><img src="img/accept.webp" alt="accept-2" width="20"> Include a section for outlining any terms and conditions .
     
             </p>
