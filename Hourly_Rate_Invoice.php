@@ -228,7 +228,7 @@
         </div>
       </div>
       <br>  
-      <div class="row">
+      <div class="row text1">
         <div class=" col-md-6 col-sm-12" >
           <p><img src="img/accept.webp" alt="accept-4" width="20"> Invoice Number automatic generation of the Hourly Rate invoice</p>
         </div>
