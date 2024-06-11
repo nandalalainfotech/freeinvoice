@@ -1197,6 +1197,9 @@ Responsive media queries
 }
 .front{
     font-size: 16px;
+    text-align: justify;
+    width: 90%;
+    margin-left:15px;
 }
     .text-dec {
         font-size: 30px;
@@ -1453,7 +1456,18 @@ Responsive media queries
         border: 1px solid transparent;
         border-radius: 4px;
     }
-
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
     .text-dec {
         font-size: 30px;
         padding: 10px 20px;
@@ -1961,16 +1975,40 @@ margin-top: -10px !important;
    .mobOnly{
     width: 100%;
    }
-   .spacebot{
+   /* .spacebot{
     margin-top: -25% !important;
-   }
+   } */
 }
 
 @media (min-width: 451px) and (max-width: 768px) {
     .ser-text {
         font-size: 20px;
     }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
 
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
     .service-box,
     .feature-info {
         margin-bottom: 30px;
@@ -2057,6 +2095,18 @@ margin-top: -10px !important;
     .ser-text {
         font-size: 20px;
     }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
 
     .container11{
         width: 120vh!important;
@@ -2123,6 +2173,18 @@ margin-top: -10px !important;
       
         
     }       
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
 
     .contheight{
         height: 50vh !important;
@@ -2175,6 +2237,10 @@ margin-top: -10px !important;
     }
  .front{
     font-size: 13.5px;
+    font-size: 16px;
+    text-align: justify;
+    width: 90%;
+    margin-left:15px;
  }
  body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -2218,6 +2284,18 @@ margin-top: -10px !important;
     .contheight{
         height: 50vh !important;
     }   
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
     
     .free_inv_gen {
         background-color: #fffbfb;
@@ -2284,7 +2362,7 @@ margin-top: -10px !important;
   
 @media (min-width: 1301px) and (max-width: 1450px) {
     .container11{
-        width: 120vh!important;
+        width: 10vh!important;
        left: -17vh !important;
        margin-top: 0.9vh !important;
        border-radius: 4px !important;
@@ -2326,6 +2404,18 @@ margin-top: -10px !important;
     .text1 {
         text-align: center !important;
     }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
 
 }
 
@@ -2363,8 +2453,17 @@ margin-top: -10px !important;
         font-weight: 900 !important;
         text-align: center !important;
     }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
     .front{
         font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
     }
     body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -2405,8 +2504,17 @@ margin-top: -10px !important;
         font-weight: 900 !important;
         text-align: center !important;
     }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
     .front{
         font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
     }
     body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -2475,8 +2583,17 @@ margin-top: -10px !important;
         font-weight: 900 !important;
         text-align: center !important;
     }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
     .front{
         font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
     }
     body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -2530,6 +2647,18 @@ margin-top: -10px !important;
        margin-top: 0.9vh !important;
        border-radius: 4px !important;
         
+    }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
     }
     .contheight{
         height: 50vh !important;
