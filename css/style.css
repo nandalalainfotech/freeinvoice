@@ -1740,6 +1740,21 @@ margin-top: -10px !important;
     .car{
         width: 5% !important;
     }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+
+   
+   
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
 
     .icon-free {
         margin-left: 60px !important;
@@ -1990,18 +2005,8 @@ margin-top: -10px !important;
         margin-left:15px
     }
 
-    .fronts{
-        text-align: center;
-        width: 90%;
-        margin-left:15px
-    }
-    .front{
-        font-size: 17px ;
-        font-size: 16px;
-        text-align: justify;
-        width: 90%;
-        margin-left:15px;
-    }
+   
+   
     .front{
         font-size: 17px ;
         font-size: 16px;
@@ -2172,7 +2177,13 @@ margin-top: -10px !important;
        border-radius: 4px !important;
       
         
-    }       
+    } 
+    .ele{
+        margin-top: -30px !important;
+    }      
+    .sizes{
+        font-size: 17px !important;
+    }
     .fronts{
         text-align: center;
         width: 90%;
@@ -2362,7 +2373,7 @@ margin-top: -10px !important;
   
 @media (min-width: 1301px) and (max-width: 1450px) {
     .container11{
-        width: 10vh!important;
+        width: 120vh!important;
        left: -17vh !important;
        margin-top: 0.9vh !important;
        border-radius: 4px !important;
@@ -2545,7 +2556,7 @@ margin-top: -10px !important;
     }
 
 }
-@media (min-width: 2002px) and (max-width: 2559px) {
+/* @media (min-width: 2002px) and (max-width: 2559px) {
     .container11{
         width: 100vh!important;
        left: -10vh !important;
@@ -2596,7 +2607,73 @@ margin-top: -10px !important;
         margin-left:15px;
     }
     body {
-        overflow-x: hidden; /* Hide horizontal scrollbar */
+        overflow-x: hidden; 
+    }
+    .cont1{
+        margin-top: 8% !important;
+    
+       }
+       .img11{
+        width: 100px;
+    }
+   
+    .text1 {
+        text-align: center !important;
+    }
+
+} */
+@media(min-width:2002px) and (max-width:2159px ){
+    .container11{
+        width: 100vh!important;
+       left: -10vh !important;
+       margin-top: 0.9vh !important;
+       border-radius: 4px !important;
+        
+    }   
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 5%;
+    }
+    .close {
+        color: #fff;
+        font-size: 4em !important;
+        position: absolute;
+        top: 15%;
+        right: 30%;
+        cursor: pointer;
+    }
+    .contheight{
+        height: 50vh !important;
+    }
+    .bigView {
+        margin-top: 120px;
+    }
+    .container-fluid {
+        margin-top: 30px !important;
+        overflow: hidden;
+    }
+    .feature_cnt {
+        margin-top: -40px !important;
+    }
+    .text {
+        font-weight: 900 !important;
+        text-align: center !important;
+    }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
+    body {
+        overflow-x: hidden; 
     }
     .cont1{
         margin-top: 8% !important;
@@ -2611,6 +2688,271 @@ margin-top: -10px !important;
     }
 
 }
+@media(min-width:2160px) and (max-width:2260px ){
+    .container11{
+        width:80vh!important;
+       left: -10vh !important;
+       margin-top: 0.9vh !important;
+       border-radius: 4px !important;
+        
+    }   
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 5%;
+    }
+    .close {
+        color: #fff;
+        font-size: 4em !important;
+        position: absolute;
+        top: 15%;
+        right: 30%;
+        cursor: pointer;
+    }
+    .contheight{
+        height: 50vh !important;
+    }
+    .bigView {
+        margin-top: 120px;
+    }
+    .container-fluid {
+        margin-top: 30px !important;
+        overflow: hidden;
+    }
+    .feature_cnt {
+        margin-top: -40px !important;
+    }
+    .text {
+        font-weight: 900 !important;
+        text-align: center !important;
+    }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
+    body {
+        overflow-x: hidden; 
+    }
+    .cont1{
+        margin-top: 8% !important;
+    
+       }
+       .img11{
+        width: 100px;
+    }
+   
+    .text1 {
+        text-align: center !important;
+    }
+
+}
+@media(min-width:2261px) and (max-width:2360px ){
+    .container11{
+        width: 80vh!important;
+       left: -10vh !important;
+       margin-top: 0.9vh !important;
+       border-radius: 4px !important;
+        
+    }   
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 5%;
+    }
+    .close {
+        color: #fff;
+        font-size: 4em !important;
+        position: absolute;
+        top: 15%;
+        right: 30%;
+        cursor: pointer;
+    }
+    .contheight{
+        height: 50vh !important;
+    }
+    .bigView {
+        margin-top: 120px;
+    }
+    .container-fluid {
+        margin-top: 30px !important;
+        overflow: hidden;
+    }
+    .feature_cnt {
+        margin-top: -40px !important;
+    }
+    .text {
+        font-weight: 900 !important;
+        text-align: center !important;
+    }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
+    body {
+        overflow-x: hidden; 
+    }
+    .cont1{
+        margin-top: 8% !important;
+    
+       }
+       .img11{
+        width: 100px;
+    }
+   
+    .text1 {
+        text-align: center !important;
+    }
+
+}
+@media(min-width:2361px) and (max-width:2460px ){
+    .container11{
+        width: 80vh!important;
+       left: -10vh !important;
+       margin-top: 0.9vh !important;
+       border-radius: 4px !important;
+        
+    }   
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 5%;
+    }
+    .close {
+        color: #fff;
+        font-size: 4em !important;
+        position: absolute;
+        top: 15%;
+        right: 30%;
+        cursor: pointer;
+    }
+    .contheight{
+        height: 50vh !important;
+    }
+    .bigView {
+        margin-top: 120px;
+    }
+    .container-fluid {
+        margin-top: 30px !important;
+        overflow: hidden;
+    }
+    .feature_cnt {
+        margin-top: -40px !important;
+    }
+    .text {
+        font-weight: 900 !important;
+        text-align: center !important;
+    }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
+    body {
+        overflow-x: hidden; 
+    }
+    .cont1{
+        margin-top: 8% !important;
+    
+       }
+       .img11{
+        width: 100px;
+    }
+   
+    .text1 {
+        text-align: center !important;
+    }
+
+}
+@media(min-width:2461px) and (max-width:2550px ){
+    .container11{
+        width: 80vh!important;
+       left: -10vh !important;
+       margin-top: 0.9vh !important;
+       border-radius: 4px !important;
+        
+    }   
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        margin-top: 5%;
+    }
+    .close {
+        color: #fff;
+        font-size: 4em !important;
+        position: absolute;
+        top: 15%;
+        right: 30%;
+        cursor: pointer;
+    }
+    .contheight{
+        height: 50vh !important;
+    }
+    .bigView {
+        margin-top: 120px;
+    }
+    .container-fluid {
+        margin-top: 30px !important;
+        overflow: hidden;
+    }
+    .feature_cnt {
+        margin-top: -40px !important;
+    }
+    .text {
+        font-weight: 900 !important;
+        text-align: center !important;
+    }
+    .fronts{
+        text-align: center;
+        width: 90%;
+        margin-left:15px
+    }
+    .front{
+        font-size: 17px ;
+        font-size: 16px;
+        text-align: justify;
+        width: 90%;
+        margin-left:15px;
+    }
+    body {
+        overflow-x: hidden; 
+    }
+    .cont1{
+        margin-top: 8% !important;
+    
+       }
+       .img11{
+        width: 100px;
+    }
+   
+    .text1 {
+        text-align: center !important;
+    }
+
+}
+
 @media (min-width: 992px) {
     .container1-fluid-faq {
         margin-top: -90px;
@@ -2642,7 +2984,7 @@ margin-top: -10px !important;
 }
 @media (min-width: 2550px) and (max-width: 3550px) {
     .container11{
-        width: 70vh!important;
+        width: 80vh!important;
        left: -10vh !important;
        margin-top: 0.9vh !important;
        border-radius: 4px !important;
