@@ -137,7 +137,7 @@ border-radius: 4px;
                   <div class="intro-para text-center quote">
                     <p class="big-text"><span><img src="img/Contractor_icon.webp" alt="Contractor_icon" width="5%" class="car"></span> Contractor Invoice is a customizable billing document used by contractors to request payment for goods and services.  </p>
                     
-                    <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
+                    <a href="https://invoicefree.in/contractor-invoice.html" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                   </div>
     
     

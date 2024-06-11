@@ -141,7 +141,7 @@ border-radius: 4px;
                   <div class="intro-para text-center quote">
                     <p class="big-text"><span><img src="img/invoice (1).webp" alt="invoice1" width="5%" class="car"></span> Generate invoices with clear terms, detailed expense breakdowns, and retention clauses for transparency and professionalism.</p>
 
-                    <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
+                    <a href="https://invoicefree.in/freelancer-invoice.html" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                   </div>
     
     

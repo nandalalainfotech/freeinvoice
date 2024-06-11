@@ -156,7 +156,7 @@ border-radius: 4px;
                   <div class="intro-para text-center quote">
                     <p class="big-text"> <span><img src="img/invoice (2).webp" alt="" width="4%" class="car"></span>Medical invoices are vital for ensuring timely payment, reducing liability by accurately documenting services, and streamlining accounting. Compliance with legal requirements enhances trust with patients, fostering transparency in billing.</p>
                    
-                    <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
+                    <a href="https://invoicefree.in/medical-invoice.html" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                   </div>
     
     

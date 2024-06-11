@@ -145,7 +145,7 @@
 
                                 </p>
                                
-                                <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
+                                <a href="https://invoicefree.in/graphicdesign-invoice.html" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                             </div>
 
 

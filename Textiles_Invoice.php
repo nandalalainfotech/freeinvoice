@@ -141,7 +141,7 @@
                                 <p class="big-text"><span><img src="img/textiles_invoice_icons.webp" alt="textiles_invoice_icons" width="5%" class="car"></span>The invoice should include the price per unit, any discounts or special offers,The description of the goods or services supplied should be clear and detailed to avoid any confusion or queries from the customer.      
                                 </p>
                                
-                                <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
+                                <a href="https://invoicefree.in/textiles-invoice.html" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                             </div>
 
 

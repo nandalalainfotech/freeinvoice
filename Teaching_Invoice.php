@@ -139,7 +139,7 @@ border-radius: 4px;
                   <div class="intro-para text-center quote">
                     <p class="big-text"><span><img src="img/icons8-teaching-64.webp" alt="teaching-icons" class="car"></span> A Teaching invoice provides detailed information about the goods or services being sold, including descriptions, quantities, and prices. </p>
                   
-                    <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
+                    <a href="https://invoicefree.in/teaching-invoice.html" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                   </div>
     
     

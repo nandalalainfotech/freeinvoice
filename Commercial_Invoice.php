@@ -145,7 +145,7 @@ border-radius: 4px;
 
                                 </p>
                                
-                                <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
+                                <a href="https://invoicefree.in/commercial-invoice.html" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                             </div>
 
 
