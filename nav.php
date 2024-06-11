@@ -60,7 +60,7 @@
                           </div>
                           <div class="col-md-3 dropdown-column">
                               <a href="Teaching_Invoice.php">Teaching Invoice</a>
-                              <a href="Consulting_Invoice .php">Consulting Invoice</a>
+                              <a href="Consulting_Invoice.php">Consulting Invoice</a>
                               <a href="Photography_Invoice.php">Photography Invoice</a>
                               <a href="Hourly_Rate_Invoice.php">Hourly Rate Invoice</a>
                               <a href="Travel_Tourism_Invoice.php">Travel & Tourism Invoice</a>
