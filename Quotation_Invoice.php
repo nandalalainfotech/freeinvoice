@@ -139,7 +139,7 @@ border-radius: 4px;
                     <p class="big-text"><span><img src="img/quotation_invoice_icon.webp" alt="quotation_invoice_icon" width="5%" class="car"></span>
                         Quotation invoice is preliminary agreement detailing costs before finalizing sale; includes unique number, dates, supplier-buyer info, item/service descriptions, terms, and conditions.</p>
                     
-                    <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
+                    <a href="https://invoicefree.in/quotation-invoice.html" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                   </div>
     
     

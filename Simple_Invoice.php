@@ -140,7 +140,7 @@ border-radius: 4px;
                   <div class="intro-para text-center quote">
                     <p class="big-text"><span><img src="img/bill.webp" alt="bill" width="5%" class="car"></span> This is the bottom line of the invoice, which shows the total amount the customer needs to pay. It is usually bolded or highlighted to make it stand out.It is important to include this information to avoid any confusion or delays in payment. </p>
                     
-                    <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
+                    <a href="https://invoicefree.in/simple-invoice.html" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
                   </div>
     
     
