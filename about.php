@@ -70,9 +70,9 @@
       color: #333;
       text-decoration: none;
     }
-    .banner-text {
-        height: 30vh; /* 30% of the viewport height for screens <= 768px */
-    }
+    /* .banner-text {
+        height: 30vh; 
+    } */
 
   }
   body.lightbox-open {
@@ -123,13 +123,7 @@ padding: 10px;
 color: #000; /* Change to your preferred color */
 border-radius: 4px;
 }
-.banner-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Vertically center the content */
-    align-items: center; /* Horizontally center the content */
-    height: 50vh; /* Adjust as needed */
-}
+
 .custom-container {
   display: flex;
   flex-wrap: wrap;
@@ -183,7 +177,7 @@ border-radius: 4px;
 
 .marquee-slide {
     flex: 0 0 auto;
-    width: 25%; /* Adjust slide width for larger screens */
+    
     padding: 20px;
     background-color: #f0f0f0;
     margin-right: 10px;
@@ -197,12 +191,15 @@ border-radius: 4px;
   min-height: 410px;
     position: relative;
 }
-
+.get-quote{
+  background-color: #5fcf80;
+}
+.text-dec {
+    font-weight: bolder;
+}
 /* Responsive styles */
 @media (max-width: 768px) {
-    .marquee-slide {
-        width: 100%; /* Adjust slide width for smaller screens */
-    }
+    
 }
 
 /* Animation keyframes */
@@ -217,31 +214,28 @@ border-radius: 4px;
 
 <body>
   <?php include('nav.php'); ?>
-      <div class="row">
-        <div class="banner1">
-          <div class="bg-color">
-            <div class="container bg">
-              <div class="row">
-                <div class="banner-text text-center">
-                  <div class="text-border">
-                    <h1 class="text-dec">ABOUT US </h1>
-                    <!-- <p class="small-text">Create GST Invoice or Professional Invoice with Free Online Invoice Maker. </p> -->
-                     <p class="small-text">Invoices are vital for financial tracking, ensuring accuracy in accounting and facilitating  </p>
-                  </div>
-                  <div class="intro-para text-center quote">
-                    <!-- <p class="big-text"><span><img src="img/bill.png" alt="" width="5%"></span>  -->
-                    
-                    <!-- <a href="https://invoicefree.in/" class="btn get-quote">Create Your Free Invoice</a> -->
-                  </div>
-    
-    
-                  </a>
-                </div>
+  <div class="row">
+    <div class="banner1">
+      <div class="bg-color">
+        <div class="container bg">
+          <div class="row">
+            <div class="banner-text text-center">
+              <div class="text-border">
+                <p class="text-dec">ABOUT US</p>
               </div>
+              <div class="intro-para text-center quote">
+                <p class="big-text"><span><img src="img/invoice.webp" alt="invoice" width="3%" class="car"></span> FreeInvoice offers easy, customizable invoice solutions to streamline your billing process, ensuring quick payments and professional documentation. </p>
+                <a href="https://invoicefree.in/" class="btn get-quote"  target="_blank">Create Your Free Invoice</a>
+              </div>
+
+
+              </a>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
       <section>
         <div class="container spacebot">
             <div class="row">
@@ -352,7 +346,7 @@ border-radius: 4px;
                   <div class="marquee-slide"><img src="img/Teaching_Invoice_template_4.webp" alt="Teaching_Invoice_template_4"></div>
                   <div class="marquee-slide"><img src="img/Freelancer_Invoice_templaes_3.webp" alt="Freelancer_Invoice_templaes_3"></div>
                   <div class="marquee-slide"><img src="img/Commerical_Invoice_template_6.webp" alt="Commerical_Invoice_template_6"></div>
-                  <div class="marquee-slide"><img src="img/Gym_Fitness_Invoice_template_3" alt="Gym_Fitness_Invoice_template_3"></div>
+                  <div class="marquee-slide"><img src="img/Gym_Fitness_Invoice_template_3.webp" alt="Gym_Fitness_Invoice_template_3"></div>
                   <div class="marquee-slide"><img src="img/Consulting_Invoice_template_2.webp" alt="Consulting_Invoice_template_2"></div>
                   <div class="marquee-slide"><img src="img/Graphic_Design_Invoice_template1.webp" alt="Graphic_Design_Invoice_template1"></div>
                   <div class="marquee-slide"><img src="img/Sales_Invoice_template_5.webp" alt="Sales_Invoice_template_5.webp"></div>
