@@ -162,7 +162,7 @@
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Gst Invoice </h2>
-                <p>A GST invoice is a document issued by a seller to a buyer that includes essential details such as the unique invoice number, date of issuance, supplier and recipient information (name, address, and GSTIN), and a detailed description of the goods or services provided. This description includes quantities, unit prices, total value, and applicable HSN or SAC codes. The invoice specifies the taxable value, the applicable GST rates (CGST, SGST/UTGST, IGST), and the total tax amount. It also shows the total invoice value, including GST.
+                <p style="text-align: justify;">A GST invoice is a document issued by a seller to a buyer that includes essential details such as the unique invoice number, date of issuance, supplier and recipient information (name, address, and GSTIN), and a detailed description of the goods or services provided. This description includes quantities, unit prices, total value, and applicable HSN or SAC codes. The invoice specifies the taxable value, the applicable GST rates (CGST, SGST/UTGST, IGST), and the total tax amount. It also shows the total invoice value, including GST.
                 </p>
                 <button> <a href="https://invoicefree.in/gst-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

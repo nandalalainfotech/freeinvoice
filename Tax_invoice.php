@@ -156,7 +156,7 @@ border-radius: 4px;
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Tax Invoice </h2>
-                <p>A tax invoice is a document issued by a seller to a buyer, detailing the sale of goods or services and including the applicable taxes. It typically includes information such as the seller's and buyer's names, addresses, invoice number, date, descriptions of the goods or services provided, quantities, prices, and the total amount due including taxes. Tax invoices are crucial for accounting and tax compliance purposes, providing evidence of taxable transactions and enabling the claiming of input tax credits or deductions. They serve as legal records of transactions and are required by tax authorities for audit purposes.
+                <p style="text-align: justify;">A tax invoice is a document issued by a seller to a buyer, detailing the sale of goods or services and including the applicable taxes. It typically includes information such as the seller's and buyer's names, addresses, invoice number, date, descriptions of the goods or services provided, quantities, prices, and the total amount due including taxes. Tax invoices are crucial for accounting and tax compliance purposes, providing evidence of taxable transactions and enabling the claiming of input tax credits or deductions. They serve as legal records of transactions and are required by tax authorities for audit purposes.
                 </p>
                 <button> <a href="https://invoicefree.in/"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

@@ -162,7 +162,7 @@
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Hourly Rate Invoice </h2>
-                <p>Hourly rate invoices ensure accurate billing by documenting the actual hours worked on a project or task. Hourly rate invoices offer flexibility for both freelancers and clients, By detailing the hours worked and the corresponding charges, hourly rate invoices promote transparency and accountability in client invoicing. It streamline the payment process by providing clients with a clear breakdown of charges and payment instructions.
+                <p style="text-align: justify;">Hourly rate invoices ensure accurate billing by documenting the actual hours worked on a project or task. Hourly rate invoices offer flexibility for both freelancers and clients, By detailing the hours worked and the corresponding charges, hourly rate invoices promote transparency and accountability in client invoicing. It streamline the payment process by providing clients with a clear breakdown of charges and payment instructions.
                 </p>
                 <button> <a href="https://invoicefree.in/hourlyrate-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

@@ -243,7 +243,7 @@ border-radius: 4px;
               <div class="col-md-6 col-xs-12 text-center contheight" style="display: flex; justify-content: center; align-items: center;">
                 <div style="text-align: center;">
                     <h2 style="font-size: x-larger;" class="ele">Effortless Invoicing: Ignite Growth! </h2>
-                    <p> To provide innovative solutions that make invoicing easy and efficient. Backed by a team of experts, we're committed to delivering top-notch services and support to our clients.
+                    <p style="text-align: justify;"> To provide innovative solutions that make invoicing easy and efficient. Backed by a team of experts, we're committed to delivering top-notch services and support to our clients.
                     </p>
                     <!-- <button> <a href="https://invoicefree.in/sales-invoice.html"
                                           style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button> -->
@@ -374,19 +374,19 @@ border-radius: 4px;
             <div class="custom-item">
               <img src="img/iconimages(1).webp" alt="iconimages(1)">
               <div class="custom-content">
-                <p>An invoice serves as a legally binding document that records the details of a commercial transaction. It outlines the terms and conditions of the sale, including payment terms, due dates, and any applicable taxes or fees.</p>
+                <p style="text-align: justify;">An invoice serves as a legally binding document that records the details of a commercial transaction. It outlines the terms and conditions of the sale, including payment terms, due dates, and any applicable taxes or fees.</p>
               </div>
             </div>
             <div class="custom-item">
               <img src="img/iconimages(2).webp" alt="iconimages(2)" >
               <div class="custom-content">
-                <p>Invoices serve as a formal request for payment from the buyer to the seller. They specify the total amount due, any discounts or credits applied, and instructions for payment methods and terms.</p>
+                <p style="text-align: justify;">Invoices serve as a formal request for payment from the buyer to the seller. They specify the total amount due, any discounts or credits applied, and instructions for payment methods and terms.</p>
               </div>
             </div>
             <div class="custom-item">
               <img src="img/iconimages(3).webp" alt="iconimages(3)" >
               <div class="custom-content">
-                <p> Invoices provide valuable data for business planning and decision-making. Analysis of invoicing data can help businesses identify sales trends, customer preferences, and areas for improvement in pricing, product offerings.</p>
+                <p style="text-align: justify;"> Invoices provide valuable data for business planning and decision-making. Analysis of invoicing data can help businesses identify sales trends, customer preferences, and areas for improvement in pricing, product offerings.</p>
               </div>
             </div>
           </div>

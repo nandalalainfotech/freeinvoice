@@ -160,7 +160,7 @@ border-radius: 4px;
 
     <div class="col-md-6 col-xs-12 text-center">
       <h2 style="font-size: x-larger;" class="ele">QUOTATION INVOICE</h2>
-      <p>A Quotation invoice, often simply called a quotation or a pro forma invoice, is a document provided by a seller to a potential buyer detailing the estimated costs of goods or services before a sale is finalized. This document includes a unique quotation number, the date of issuance, and valid until the date. It lists the supplier's and recipient's information, such as names, addresses, and contact details. The quotation specifies the items or services being offered, including detailed descriptions, quantities, unit prices, and total estimated costs. It may also outline terms and conditions, delivery schedules, payment terms, and any applicable taxes. </p>
+      <p style="text-align: justify;">A Quotation invoice, often simply called a quotation or a pro forma invoice, is a document provided by a seller to a potential buyer detailing the estimated costs of goods or services before a sale is finalized. This document includes a unique quotation number, the date of issuance, and valid until the date. It lists the supplier's and recipient's information, such as names, addresses, and contact details. The quotation specifies the items or services being offered, including detailed descriptions, quantities, unit prices, and total estimated costs. It may also outline terms and conditions, delivery schedules, payment terms, and any applicable taxes. </p>
        <button> <a href="https://invoicefree.in/quotation-invoice.html" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
 
     </div>

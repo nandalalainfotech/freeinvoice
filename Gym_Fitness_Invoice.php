@@ -163,7 +163,7 @@ border-radius: 4px;
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Gym&Fitness Invoice </h2>
-                <p>Jim & Fitness Invoice" is a billing document issued by a fitness center or personal trainer named Jim & Fitness to their clients. It includes details of services provided, such as fitness training sessions, gym memberships, or other related services. The invoice typically itemizes the fees for each service, any applicable taxes, and payment terms. It serves as a record of the financial transaction between Jim & Fitness and its clients. it's serve as a record of the services and products
+                <p style="text-align: justify;">Jim & Fitness Invoice" is a billing document issued by a fitness center or personal trainer named Jim & Fitness to their clients. It includes details of services provided, such as fitness training sessions, gym memberships, or other related services. The invoice typically itemizes the fees for each service, any applicable taxes, and payment terms. It serves as a record of the financial transaction between Jim & Fitness and its clients. it's serve as a record of the services and products
                 </p>
                 <button> <a href="https://invoicefree.in/jim-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

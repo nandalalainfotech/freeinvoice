@@ -161,7 +161,7 @@
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Travel&Tourism Invoice</h2>
-                <p>A travel and tourism invoice is a document provided by travel agencies, tour operators, or travel service providers to customers for the services related to travel arrangements and tourism experiences. These invoices detail the costs associated with various aspects of the trip, including transportation, accommodation, activities, and other related services. The invoice typically includes information such as the traveler's name, contact details, and booking reference number, as well as the travel company's name, address, and contact information.
+                <p style="text-align: justify;">A travel and tourism invoice is a document provided by travel agencies, tour operators, or travel service providers to customers for the services related to travel arrangements and tourism experiences. These invoices detail the costs associated with various aspects of the trip, including transportation, accommodation, activities, and other related services. The invoice typically includes information such as the traveler's name, contact details, and booking reference number, as well as the travel company's name, address, and contact information.
                 </p>
                 <button> <a href="https://invoicefree.in/travel-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

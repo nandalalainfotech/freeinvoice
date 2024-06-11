@@ -164,7 +164,7 @@
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Sales Invoice </h2>
-                <p> A sales invoice is a document issued by a seller to a buyer, requesting payment for goods or services provided. It includes details such as the description of items sold, quantities, prices, payment terms, and total amount due. Sales invoices serve as formal records of transactions and are essential for accounting, tax purposes, and tracking sales revenue. They provide both parties with documentation of the agreement and facilitate smooth financial transactions.
+                <p style="text-align: justify;"> A sales invoice is a document issued by a seller to a buyer, requesting payment for goods or services provided. It includes details such as the description of items sold, quantities, prices, payment terms, and total amount due. Sales invoices serve as formal records of transactions and are essential for accounting, tax purposes, and tracking sales revenue. They provide both parties with documentation of the agreement and facilitate smooth financial transactions.
                 </p>
                 <button> <a href="https://invoicefree.in/sales-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

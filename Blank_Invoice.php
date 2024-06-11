@@ -161,7 +161,7 @@ border-radius: 4px;
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Blank Invoice </h2>
-                <p>A blank invoice is a pre-designed template or form used by businesses to create invoices for goods or services provided to customers. Unlike a completed invoice that contains specific transaction details, a blank invoice is devoid of such information, allowing businesses to fill in the necessary details for each transaction. It typically includes fields for essential information such as the seller's name, address, and contact details, the buyer's information, a unique invoice number, the invoice date, and payment terms. Blank invoices may also feature sections for itemized lists of goods or services.
+                <p style="text-align: justify;">A blank invoice is a pre-designed template or form used by businesses to create invoices for goods or services provided to customers. Unlike a completed invoice that contains specific transaction details, a blank invoice is devoid of such information, allowing businesses to fill in the necessary details for each transaction. It typically includes fields for essential information such as the seller's name, address, and contact details, the buyer's information, a unique invoice number, the invoice date, and payment terms. Blank invoices may also feature sections for itemized lists of goods or services.
                 </p>
                 <button> <a href="https://invoicefree.in/blank-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

@@ -156,7 +156,7 @@ border-radius: 4px;
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Contractor Invoice</h2>
-                <p>A free restaurant invoice is a customizable billing document used by restaurants and food establishments to request payment for goods and services provided to customers. This invoice typically includes key information such as the restaurant's details, customer information, a breakdown of food and beverage items ordered, quantities, unit prices, and the total amount due.
+                <p style="text-align: justify;">A free restaurant invoice is a customizable billing document used by restaurants and food establishments to request payment for goods and services provided to customers. This invoice typically includes key information such as the restaurant's details, customer information, a breakdown of food and beverage items ordered, quantities, unit prices, and the total amount due.
 
 
                 </p>

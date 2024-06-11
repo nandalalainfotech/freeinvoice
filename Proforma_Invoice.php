@@ -184,7 +184,7 @@ border-radius: 4px;
       
           <div class="col-md-6 col-xs-12 text-center">
             <h2 style="font-size: x-larger;" class="ele"> Proforma  invoice </h2>
-            <p>A proforma invoice serves as an initial invoice sent by a seller to a buyer before the actual transaction takes place. It contains comprehensive details of the goods or services being offered, including quantities, descriptions, prices, and any applicable terms and conditions.  </p>
+            <p style="text-align: justify;"e >A proforma invoice serves as an initial invoice sent by a seller to a buyer before the actual transaction takes place. It contains comprehensive details of the goods or services being offered, including quantities, descriptions, prices, and any applicable terms and conditions.  </p>
              <button> <a href="https://invoicefree.in/proforma-invoice.html" style="color: #FFFFFF; text-decoration: none; border-radius: 10px;" >Create Invoice </a></button>
       
           </div>

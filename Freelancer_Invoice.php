@@ -160,7 +160,7 @@ border-radius: 4px;
      
         <div class="col-md-6 col-xs-12 text-center">
           <h2 style="font-size: x-larger;" class="ele"> Freelancer Invoice </h2>
-          <p> Freelancers should establish clear payment terms with clients upfront, including due dates, accepted payment
+          <p style="text-align: justify;"> Freelancers should establish clear payment terms with clients upfront, including due dates, accepted payment
             methods, and late payment penalties if applicable.
             If payment is not received by the due date, freelancers should follow up with clients politely to remind them
             of the outstanding invoice. Clear and timely communication is key to resolving payment issues and maintaining

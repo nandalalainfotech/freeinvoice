@@ -160,7 +160,7 @@ border-radius: 4px;
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Simple Invoice </h2>
-                <p>A simple invoice is a fundamental tool in the business-to-customer transaction process, providing a clear and structured summary of sales transactions. By including essential details such as item descriptions, prices, and payment terms, invoices facilitate efficient payment processing and contribute to transparent and accountable business practices.
+                <p style="text-align: justify;">A simple invoice is a fundamental tool in the business-to-customer transaction process, providing a clear and structured summary of sales transactions. By including essential details such as item descriptions, prices, and payment terms, invoices facilitate efficient payment processing and contribute to transparent and accountable business practices.
                 </p>
                 <button> <a href="https://invoicefree.in/simple-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

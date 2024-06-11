@@ -160,7 +160,7 @@
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Textiles Invoice </h2>
-                <p>A textiles invoice is a specialized document used in the textile industry to record transactions involving the sale of textile products, such as fabrics, garments, or home textiles. This type of invoice contains detailed information relevant to the textile trade, including specifics about the products being sold. It typically includes descriptions of the textile items, such as fabric type, color, pattern, and dimensions, as well as the quantity sold and unit prices. Additionally, a textiles invoice may feature details about any customization or finishing services provided.
+                <p style="text-align: justify;">A textiles invoice is a specialized document used in the textile industry to record transactions involving the sale of textile products, such as fabrics, garments, or home textiles. This type of invoice contains detailed information relevant to the textile trade, including specifics about the products being sold. It typically includes descriptions of the textile items, such as fabric type, color, pattern, and dimensions, as well as the quantity sold and unit prices. Additionally, a textiles invoice may feature details about any customization or finishing services provided.
                 </p>
                 <button> <a href="https://invoicefree.in/textiles-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

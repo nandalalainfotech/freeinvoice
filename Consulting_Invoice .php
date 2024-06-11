@@ -163,7 +163,7 @@ border-radius: 4px;
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Consulting Invoice </h2>
-                <p> the consulting services provided and associated charges, invoices promote transparency and ensure that both parties are in agreement regarding payment expectations. Consulting invoices streamline the payment process by providing clients with a clear breakdown of charges and payment instructions. This helps consultants maintain steady cash flow and financial stability. Consulting invoices serve as legal documentation of the consulting services rendered and charges incurred. They may be required for tax reporting, accounting purposes, or in the event of disputes or legal proceedings
+                <p style="text-align: justify;"> the consulting services provided and associated charges, invoices promote transparency and ensure that both parties are in agreement regarding payment expectations. Consulting invoices streamline the payment process by providing clients with a clear breakdown of charges and payment instructions. This helps consultants maintain steady cash flow and financial stability. Consulting invoices serve as legal documentation of the consulting services rendered and charges incurred. They may be required for tax reporting, accounting purposes, or in the event of disputes or legal proceedings
                 </p>
                 <button> <a href="https://invoicefree.in/consulting-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

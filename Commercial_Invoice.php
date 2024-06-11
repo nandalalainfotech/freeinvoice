@@ -164,7 +164,7 @@ border-radius: 4px;
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Commerical Invoice </h2>
-                <p> Commercial invoices are detailed documents issued in international trade, detailing goods sold and
+                <p style="text-align: justify;"> Commercial invoices are detailed documents issued in international trade, detailing goods sold and
                     aiding customs clearance. They're crucial for ensuring compliance and are used by sellers, buyers,
                     and customs authorities globally.
                 </p>

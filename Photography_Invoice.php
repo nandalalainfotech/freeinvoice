@@ -161,7 +161,7 @@ border-radius: 4px;
           </div>
           <div class="col-md-6 col-xs-12 text-center">
               <h2 style="font-size: x-larger;" class="ele">Photography Invoice </h2>
-              <p> Photography invoices streamline the payment process by providing clients with a clear breakdown of charges and payment instructions. This helps photographers maintain steady cash flow and financial stability. By detailing the services provided and associated charges, Photography invoices serve as legal documentation of the photography services rendered and charges incurred. They may be required for tax reporting, accounting purposes, or in the event of disputes or legal proceedings.
+              <p style="text-align: justify;"> Photography invoices streamline the payment process by providing clients with a clear breakdown of charges and payment instructions. This helps photographers maintain steady cash flow and financial stability. By detailing the services provided and associated charges, Photography invoices serve as legal documentation of the photography services rendered and charges incurred. They may be required for tax reporting, accounting purposes, or in the event of disputes or legal proceedings.
               </p>
               <button> <a href="https://invoicefree.in/photography-invoice.html"
                       style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

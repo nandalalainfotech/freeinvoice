@@ -160,7 +160,7 @@
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Sole Trade Invoice </h2>
-                <p>A sole trader invoice is a document issued by an individual business owner operating as a sole proprietorship to bill a customer for goods sold or services rendered. Unlike larger entities, sole traders typically manage all aspects of their business independently, including invoicing. The sole trader invoice typically includes essential details such as the seller's name, business address, contact information, and business registration details, if applicable. It also outlines the products sold or services provided, including descriptions, quantities, rates, and total amounts due
+                <p style="text-align: justify;">A sole trader invoice is a document issued by an individual business owner operating as a sole proprietorship to bill a customer for goods sold or services rendered. Unlike larger entities, sole traders typically manage all aspects of their business independently, including invoicing. The sole trader invoice typically includes essential details such as the seller's name, business address, contact information, and business registration details, if applicable. It also outlines the products sold or services provided, including descriptions, quantities, rates, and total amounts due
                 </p>
                 <button> <a href="https://invoicefree.in/sole-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

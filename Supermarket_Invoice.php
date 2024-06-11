@@ -163,7 +163,7 @@
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Supermarket Invoice </h2>
-                <p> A document issued by a supermarket to customers, itemizing purchased goods and their prices. It includes details like the date of purchase, item descriptions, quantities, prices, any applicable taxes, and the total amount due. This invoice serves as a record of the transaction and provides customers with a breakdown of their purchases for payment reference.
+                <p style="text-align: justify;"> A document issued by a supermarket to customers, itemizing purchased goods and their prices. It includes details like the date of purchase, item descriptions, quantities, prices, any applicable taxes, and the total amount due. This invoice serves as a record of the transaction and provides customers with a breakdown of their purchases for payment reference.
                 </p>
                 <button> <a href="https://invoicefree.in/super-invoice.html"
                         style="color: #FFFFFF; text-decoration: none; border-radius: 10px;">Create Invoice </a></button>

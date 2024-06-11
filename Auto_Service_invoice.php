@@ -157,7 +157,7 @@ border-radius: 4px;
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Auto Services Invoice </h2>
-                <p>A free auto service invoice is a customizable billing document used by automotive service providers to request payment for services rendered on vehicles. This invoice typically includes essential details such as the auto service provider's information, customer details, a description of the services performed parts used, labor charges, and the total amount due.
+                <p style="text-align: justify;">A free auto service invoice is a customizable billing document used by automotive service providers to request payment for services rendered on vehicles. This invoice typically includes essential details such as the auto service provider's information, customer details, a description of the services performed parts used, labor charges, and the total amount due.
 
 
                 </p>

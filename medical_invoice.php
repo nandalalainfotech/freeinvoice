@@ -177,7 +177,7 @@ border-radius: 4px;
 
     <div class="col-md-6 col-xs-12 text-center">
       <h2 style="font-size: x-larger;" class="ele"> Medical invoice </h2>
-      <p>A medical invoice is a document provided by healthcare providers to patients or their insurance companies
+      <p style="text-align: justify;">A medical invoice is a document provided by healthcare providers to patients or their insurance companies
         detailing the costs associated with medical services rendered. It serves as a formal request for payment and
         includes information such as the date of service, descriptions of medical procedures or treatments performed,
         the fees charged for each service, any applicable taxes, and the total amount owed.They serve as a record of

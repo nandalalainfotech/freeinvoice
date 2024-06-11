@@ -158,7 +158,7 @@ border-radius: 4px;
 
             <div class="col-md-6 col-xs-12 text-center">
                 <h2 style="font-size: x-larger;" class="ele">Teaching Invoice </h2>
-                <p>A teaching invoice is a document issued by a teacher or educational institution to a student or their guardian, detailing the services provided, such as tutoring sessions, classes, or educational materials, along with the associated fees and payment terms. It serves as a formal record of the transaction and helps to ensure timely payment for educational services rendered.They are essential for maintaining accurate records.
+                <p style="text-align: justify;">A teaching invoice is a document issued by a teacher or educational institution to a student or their guardian, detailing the services provided, such as tutoring sessions, classes, or educational materials, along with the associated fees and payment terms. It serves as a formal record of the transaction and helps to ensure timely payment for educational services rendered.They are essential for maintaining accurate records.
 
 
                 </p>
