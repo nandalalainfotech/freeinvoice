@@ -2431,13 +2431,7 @@ margin-top: -10px !important;
         right: 30%;
         cursor: pointer;
     }
-.banner-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 40vh !important;
-    }
+
     .text1 {
         text-align: center !important;
     }
@@ -2494,13 +2488,7 @@ margin-top: -10px !important;
        .img11{
         width: 100px;
     }
-    .banner-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 30vh !important;
-    }
+   
     .text1 {
         text-align: center !important;
     }
@@ -2579,13 +2567,7 @@ margin-top: -10px !important;
         right: 30%;
         cursor: pointer;
     }
-    .banner-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 30vh !important;
-    }
+   
     .text1 {
         text-align: center !important;
     }
