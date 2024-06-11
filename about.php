@@ -253,7 +253,7 @@ border-radius: 4px;
               
               
                 <div class="col-md-6 col-xs-12">
-                  <img src="img/Ignite Growth.webp" class="img-thumbnail bigView" alt=" Ignite Growth">
+                  <img src="img/mam_working_calculation_and_labtop.webp" class="img-thumbnail bigView" alt=" mam_working_calculation_and_labtop">
                 </div>
               </div>
         </div>
