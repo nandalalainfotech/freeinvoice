@@ -1462,6 +1462,8 @@ margin-left: 10px !important;
  
 
   <script>
+   
+
     $(document).ready(function(){
         $('#toggleNavbar').click(function(){
             $('#myNavbar').toggleClass('collapse');
@@ -1476,7 +1478,12 @@ margin-left: 10px !important;
                 $('#dropdownToggle').next('.dropdown-menu').hide();
             }
         });
+        // Add this to collapse the navbar initially in mobile view
+        if($(window).width() < 768){
+            $('#myNavbar').addClass('collapse');
+        }
     });
+
 </script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
